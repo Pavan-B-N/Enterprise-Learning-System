@@ -1,0 +1,196 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "job_roles",
+  "count": 4,
+  "data": [
+    {
+      "_id": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "role_name": "Cloud Platform Engineer",
+      "level": {
+        "$oid": "d94c0134dabd1b82f1bbe897"
+      },
+      "description": "Full-stack cloud engineer covering Azure infrastructure, security, DevOps, and development.",
+      "required_courses": [
+        {
+          "$oid": "ab7c0f3deef463fa66b51c1d"
+        },
+        {
+          "$oid": "ad83eb075ea0c64896b1fc48"
+        },
+        {
+          "$oid": "91e9ceb83b80f633bbb6dd63"
+        },
+        {
+          "$oid": "9f485a97ab08e33213e77abd"
+        },
+        {
+          "$oid": "221cfb656a3c21f1aa3de6e3"
+        }
+      ],
+      "required_skills": [
+        {
+          "$oid": "360c70f2976805c68e45e6e3"
+        },
+        {
+          "$oid": "31cf04c95f87f2e44b6fdf3f"
+        },
+        {
+          "$oid": "d9f0c290adf741442cf98075"
+        },
+        {
+          "$oid": "72fb8c07efcdd5a928d90872"
+        },
+        {
+          "$oid": "39d7b0e78bc68ae5d4a3ba46"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "1eac4571c63b164219c2aeaa"
+      },
+      "role_name": "Data Engineer",
+      "level": {
+        "$oid": "d94c0134dabd1b82f1bbe897"
+      },
+      "description": "Builds and operates batch and streaming data platforms on Azure.",
+      "required_courses": [
+        {
+          "$oid": "7b2ead0d4076b7d2d90913db"
+        },
+        {
+          "$oid": "c464392922933da89ad8ff81"
+        },
+        {
+          "$oid": "91e9ceb83b80f633bbb6dd63"
+        }
+      ],
+      "required_skills": [
+        {
+          "$oid": "c7990c1fb8c4b13e6666ff12"
+        },
+        {
+          "$oid": "3748e26cb29db5e0a43573b2"
+        },
+        {
+          "$oid": "591980e2fd547253e87272d4"
+        },
+        {
+          "$oid": "efbacbab45605ce09d891882"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "fc33c82be53d86121435aa95"
+      },
+      "role_name": "AI Engineer",
+      "level": {
+        "$oid": "d94c0134dabd1b82f1bbe897"
+      },
+      "description": "Designs, ships, and operates AI-powered applications using Azure AI.",
+      "required_courses": [
+        {
+          "$oid": "ab7c0f3deef463fa66b51c1d"
+        },
+        {
+          "$oid": "f55927eff6ac02cacd5684a8"
+        }
+      ],
+      "required_skills": [
+        {
+          "$oid": "1c8869bc8e8c159cd244fb83"
+        },
+        {
+          "$oid": "47b1b0df9b925d94d29a949d"
+        },
+        {
+          "$oid": "b6f6db550d4c95fb0703afc0"
+        },
+        {
+          "$oid": "0bd72cd3b03f445e43d29449"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d9bccd8b8a8ff69b8aeb869e"
+      },
+      "role_name": "Engineering Manager",
+      "level": {
+        "$oid": "df191bc0fbe91c44cd2be2b4"
+      },
+      "description": "Manages a team of cloud engineers; balances delivery and skill growth.",
+      "required_courses": [
+        {
+          "$oid": "ab7c0f3deef463fa66b51c1d"
+        },
+        {
+          "$oid": "d5eac68042d454232144476e"
+        }
+      ],
+      "required_skills": [
+        {
+          "$oid": "4eb141551923f35b90b3748d"
+        },
+        {
+          "$oid": "39d7b0e78bc68ae5d4a3ba46"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "certifications",
+  "count": 14,
+  "data": [
+    {
+      "_id": {
+        "$oid": "a3568f06d6fda6c9227e866d"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_name": "DP-203: Azure Data Engineering",
+      "assessment_result_id": {
+        "$oid": "706b6622ddac25f981c1a227"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "DP-203",
+      "cert_name": "Microsoft Azure Data Engineer Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-data-engineer-associate/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-data-engineer-associate/",
+      "exam_cost": 165,
+      "level": "Expert",
+      "skills": [
+        {
+          "$oid": "3748e26cb29db5e0a43573b2"
+        },
+        {
+          "$oid": "591980e2fd547253e87272d4"
+        },
+        {
+          "$oid": "efbacbab45605ce09d891882"
+        },
+        {
+          "$oid": "c7990c1fb8c4b13e6666ff12"
+        }
+      ],
+      "score": 83.3,
+      "issued_at": {
+        "$date": "2026-05-05T11:00:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-04T11:00:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "75216fd72e71c91e52eb8378"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "assessment_result_id": {
+        "$oid": "02cce9e9d0ec626329979a60"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-305",
+      "cert_name": "Microsoft Azure Solutions Architect Expert",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "exam_cost": 165,
+      "level": "Expert",
+      "skills": [
+        {
+          "$oid": "4eb141551923f35b90b3748d"
+        },
+        {
+          "$oid": "9019e72d124aee4a225f7da2"
+        },
+        {
+          "$oid": "7c4af39503f87ee421cba19e"
+        }
+      ],
+      "score": 100.0,
+      "issued_at": {
+        "$date": "2026-05-09T10:49:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-08T10:49:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d553d4ae7de7a5911429844d"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_name": "AZ-900: Azure Fundamentals",
+      "assessment_result_id": {
+        "$oid": "4ef71fe88c3e9a70e6ce64b4"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-900",
+      "cert_name": "Microsoft Azure Fundamentals",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-fundamentals/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-fundamentals/",
+      "exam_cost": 99,
+      "level": "Fundamentals",
+      "skills": [
+        {
+          "$oid": "360c70f2976805c68e45e6e3"
+        },
+        {
+          "$oid": "39d7b0e78bc68ae5d4a3ba46"
+        },
+        {
+          "$oid": "d9f1498d636c29edff5f686e"
+        }
+      ],
+      "score": 100.0,
+      "issued_at": {
+        "$date": "2026-05-13T11:06:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-12T11:06:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4ca98d81190a762e33368c04"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_name": "DP-203: Azure Data Engineering",
+      "assessment_result_id": {
+        "$oid": "2c18ba7e2725e9a3949ce013"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "DP-203",
+      "cert_name": "Microsoft Azure Data Engineer Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-data-engineer-associate/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-data-engineer-associate/",
+      "exam_cost": 165,
+      "level": "Expert",
+      "skills": [
+        {
+          "$oid": "3748e26cb29db5e0a43573b2"
+        },
+        {
+          "$oid": "591980e2fd547253e87272d4"
+        },
+        {
+          "$oid": "efbacbab45605ce09d891882"
+        },
+        {
+          "$oid": "c7990c1fb8c4b13e6666ff12"
+        }
+      ],
+      "score": 83.3,
+      "issued_at": {
+        "$date": "2026-05-09T11:01:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-08T11:01:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5152344c05f2e76b53b398c0"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "assessment_result_id": {
+        "$oid": "535e4adaabb81ae5438a9386"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-305",
+      "cert_name": "Microsoft Azure Solutions Architect Expert",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "exam_cost": 165,
+      "level": "Expert",
+      "skills": [
+        {
+          "$oid": "4eb141551923f35b90b3748d"
+        },
+        {
+          "$oid": "9019e72d124aee4a225f7da2"
+        },
+        {
+          "$oid": "7c4af39503f87ee421cba19e"
+        }
+      ],
+      "score": 100.0,
+      "issued_at": {
+        "$date": "2026-05-05T10:54:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-04T10:54:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6a3358674eae02f31df5c14c"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_name": "AZ-104: Azure Administrator",
+      "assessment_result_id": {
+        "$oid": "0b950b62ddaccb340dfd49fe"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-104",
+      "cert_name": "Microsoft Azure Administrator Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-administrator-associate/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-administrator-associate/",
+      "exam_cost": 165,
+      "level": "Associate",
+      "skills": [
+        {
+          "$oid": "31cf04c95f87f2e44b6fdf3f"
+        },
+        {
+          "$oid": "360c70f2976805c68e45e6e3"
+        },
+        {
+          "$oid": "72fb8c07efcdd5a928d90872"
+        },
+        {
+          "$oid": "7b630eaa700728a2ef46afbd"
+        }
+      ],
+      "score": 87.5,
+      "issued_at": {
+        "$date": "2026-05-09T10:51:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-08T10:51:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e8558b13c632b91106a8388a"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_name": "AZ-204: Developing Azure Solutions",
+      "assessment_result_id": {
+        "$oid": "54747e7020d8eaba1745c569"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-204",
+      "cert_name": "Microsoft Azure Developer Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-developer-associate/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-developer-associate/",
+      "exam_cost": 165,
+      "level": "Associate",
+      "skills": [
+        {
+          "$oid": "f32364b887bf0c1df3d2f1ce"
+        },
+        {
+          "$oid": "7e1282cde77f1317dadfb97f"
+        },
+        {
+          "$oid": "a1560b20e009772ec67bd962"
+        },
+        {
+          "$oid": "604edf9f0e9803f5d3ca2e61"
+        }
+      ],
+      "score": 100.0,
+      "issued_at": {
+        "$date": "2026-05-13T11:08:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-12T11:08:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "059ddd4abe52b21c8eee7570"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_name": "AZ-700: Azure Network Engineer",
+      "assessment_result_id": {
+        "$oid": "5069c4ff02f90a0e1fdcd0c1"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-700",
+      "cert_name": "Microsoft Azure Network Engineer Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-network-engineer-associate/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-network-engineer-associate/",
+      "exam_cost": 165,
+      "level": "Associate",
+      "skills": [
+        {
+          "$oid": "72fb8c07efcdd5a928d90872"
+        },
+        {
+          "$oid": "4f85072bd322904097b69324"
+        },
+        {
+          "$oid": "7b630eaa700728a2ef46afbd"
+        }
+      ],
+      "score": 83.3,
+      "issued_at": {
+        "$date": "2026-05-05T10:44:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-04T10:44:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "1eb16ff0e9ebcd9b415cac83"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_name": "AZ-500: Azure Security Technologies",
+      "assessment_result_id": {
+        "$oid": "3bea735578be540186eac5c3"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-500",
+      "cert_name": "Microsoft Azure Security Engineer Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-security-engineer-associate/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-security-engineer-associate/",
+      "exam_cost": 165,
+      "level": "Associate",
+      "skills": [
+        {
+          "$oid": "1d5bd918d53f439256d127b1"
+        },
+        {
+          "$oid": "4f85072bd322904097b69324"
+        },
+        {
+          "$oid": "31cf04c95f87f2e44b6fdf3f"
+        },
+        {
+          "$oid": "ae880da59a902bc2e0d4d7b7"
+        }
+      ],
+      "score": 83.3,
+      "issued_at": {
+        "$date": "2026-05-09T10:37:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-08T10:37:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b2d8d046914624d9ee784acc"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_name": "DP-900: Azure Data Fundamentals",
+      "assessment_result_id": {
+        "$oid": "9323e1f65ab2268113e4f588"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "DP-900",
+      "cert_name": "Microsoft Azure Data Fundamentals",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-data-fundamentals/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-data-fundamentals/",
+      "exam_cost": 99,
+      "level": "Fundamentals",
+      "skills": [
+        {
+          "$oid": "604edf9f0e9803f5d3ca2e61"
+        },
+        {
+          "$oid": "c7990c1fb8c4b13e6666ff12"
+        },
+        {
+          "$oid": "387db3a3c35bc069d159e3fc"
+        }
+      ],
+      "score": 100.0,
+      "issued_at": {
+        "$date": "2026-05-17T10:46:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-16T10:46:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4f3938bc1bcb60915f722f22"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "assessment_result_id": {
+        "$oid": "571d49a5ef2eeb00ab1796eb"
+      },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-305",
+      "cert_name": "Microsoft Azure Solutions Architect Expert",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "exam_cost": 165,
+      "level": "Expert",
+      "skills": [
+        {
+          "$oid": "4eb141551923f35b90b3748d"
+        },
+        {
+          "$oid": "9019e72d124aee4a225f7da2"
+        },
+        {
+          "$oid": "7c4af39503f87ee421cba19e"
+        }
+      ],
+      "score": 87.5,
+      "issued_at": {
+        "$date": "2026-05-21T10:37:00Z"
+      },
+      "valid_until": {
+        "$date": "2028-05-20T10:37:00Z"
+      },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000cef00900" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ab7c0f3deef463fa66b51c1d" },
+      "course_name": "AZ-900: Azure Fundamentals",
+      "assessment_result_id": { "$oid": "a11ce00000000000a5500900" },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-900",
+      "cert_name": "Microsoft Certified: Azure Fundamentals",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "exam_cost": 99,
+      "level": "Fundamentals",
+      "skills": [
+        { "$oid": "39d7b0e78bc68ae5d4a3ba46" },
+        { "$oid": "d9f1498d636c29edff5f686e" },
+        { "$oid": "bdd50f84c9f950a10d3b9688" }
+      ],
+      "score": 87.5,
+      "issued_at": { "$date": "2026-05-22T14:32:00Z" },
+      "valid_until": { "$date": "2028-05-21T14:32:00Z" },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000cef00104" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ad83eb075ea0c64896b1fc48" },
+      "course_name": "AZ-104: Azure Administrator",
+      "assessment_result_id": { "$oid": "a11ce00000000000a5500104" },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-104",
+      "cert_name": "Microsoft Certified: Azure Administrator Associate",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+      "exam_cost": 165,
+      "level": "Associate",
+      "skills": [
+        { "$oid": "31cf04c95f87f2e44b6fdf3f" },
+        { "$oid": "360c70f2976805c68e45e6e3" },
+        { "$oid": "5bad8545c27f5dfa67daa2de" },
+        { "$oid": "72fb8c07efcdd5a928d90872" }
+      ],
+      "score": 90.0,
+      "issued_at": { "$date": "2026-06-01T15:48:00Z" },
+      "valid_until": { "$date": "2027-06-01T15:48:00Z" },
+      "is_current": true,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000cef00305" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "d5eac68042d454232144476e" },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "assessment_result_id": { "$oid": "a11ce00000000000a5500305" },
+      "vendor": "Microsoft",
+      "cert_code": "AZ-305",
+      "cert_name": "Microsoft Azure Solutions Architect Expert",
+      "cert_exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "cert_page": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-azure-solutions-architect-expert/",
+      "exam_cost": 165,
+      "level": "Expert",
+      "skills": [
+        { "$oid": "4eb141551923f35b90b3748d" },
+        { "$oid": "9019e72d124aee4a225f7da2" },
+        { "$oid": "7c4af39503f87ee421cba19e" }
+      ],
+      "score": 70.0,
+      "issued_at": { "$date": "2026-06-08T11:22:00Z" },
+      "valid_until": { "$date": "2027-06-08T11:22:00Z" },
+      "is_current": true,
+      "schema_version": 1
+    }
+  ]
+}

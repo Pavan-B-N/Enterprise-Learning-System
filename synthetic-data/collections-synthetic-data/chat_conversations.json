@@ -1,0 +1,407 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "chat_conversations",
+  "count": 20,
+  "data": [
+    {
+      "_id": {
+        "$oid": "22d4b08b45e665c513407fec"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "title": "AZ-204 prep plan",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c80995ad8b1cd2a40f1ede3c"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "title": "Shared responsibility recap",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "662e2fb7a7a99350690c9e84"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "title": "AZ-204 prep plan",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "21d4d5715b49db64cef228bb"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "title": "Shared responsibility recap",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4bf8240ec21d738b97efdf47"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "title": "Cosmos DB vs Azure SQL",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "13f27a135b96fb40575d76e5"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "title": "Study schedule advice",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f2cbd950ae803e62b48b675a"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "title": "Cosmos DB vs Azure SQL",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "54109d68a248f977f0f39200"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "title": "Study schedule advice",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "063fbfdf56f3bac8130b2ee9"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "title": "Shared responsibility recap",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d8bc5ffbeeb0caac2b37eb4f"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "title": "Cosmos DB vs Azure SQL",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "18652730c848d51676cd6856"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "title": "Study schedule advice",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "312550a56cd7ded8c3ae7ba0"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "title": "AZ-204 prep plan",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "436277bba83a244e5e573cd4"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "title": "AZ-204 prep plan",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "18cccd4e5c5c428b6aff9fbe"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "title": "Shared responsibility recap",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a6bec5dee625026d59866409"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "title": "Shared responsibility recap",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "ce206f313e4b166dfb85ec71"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "title": "Cosmos DB vs Azure SQL",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c09702794042a604df5a215d"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "title": "AZ-204 prep plan",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6bbf704d885ca6429854a577"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "title": "Shared responsibility recap",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "080fd99d4514a38657f28de8"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "title": "Study schedule advice",
+      "created_at": {
+        "$date": "2026-05-22T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9cba146a40f708f01e48d07c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "title": "AZ-204 prep plan",
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "last_message_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "message_count": 4,
+      "schema_version": 1
+    }
+  ]
+}

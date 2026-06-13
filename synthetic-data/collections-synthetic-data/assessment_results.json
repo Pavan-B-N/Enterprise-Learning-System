@@ -1,0 +1,2673 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "assessment_results",
+  "count": 28,
+  "data": [
+    {
+      "_id": {
+        "$oid": "706b6622ddac25f981c1a227"
+      },
+      "schedule_id": {
+        "$oid": "67ec0be4f6b46635e11e19a1"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "a939777f947e5b93dd217713"
+          },
+          "topic_name": "Data Lake Gen2 Layout",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "34964e127223ee17d9fdb0f3"
+          },
+          "topic_name": "Partitioning and File Formats",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c0d782f1638bea7891fcbe9d"
+          },
+          "topic_name": "Synapse Pipelines",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "b79c21afa34b65bbcff9a0b2"
+          },
+          "topic_name": "Spark Notebooks",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "a1bd35a99bbfaf13cc4253b8"
+          },
+          "topic_name": "Event Hubs and Stream Analytics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "5acd4be4622bb5731eacc588"
+          },
+          "topic_name": "Change Data Capture",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 60,
+      "submitted_at": {
+        "$date": "2026-05-05T11:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "02cce9e9d0ec626329979a60"
+      },
+      "schedule_id": {
+        "$oid": "2744c36d3b24b4cbf6cf8e17"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "score_percentage": 100.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 8,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "3f750960fe794b0ba16e2e37"
+          },
+          "topic_name": "Tenant and Subscription Design",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "9836bb4d6bb5a8ceeb17fded"
+          },
+          "topic_name": "Landing Zone Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "e12ae71f4f86c3de2950546a"
+          },
+          "topic_name": "Choosing the Right Database",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "2ed780f6aa9979e3dbdb715d"
+          },
+          "topic_name": "Data Migration Strategies",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "28a0fc7cb966cb43f5280e75"
+          },
+          "topic_name": "Microservices vs Monolith",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "096e5c3cd09f651f2b202eda"
+          },
+          "topic_name": "Event-Driven Designs",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "fa3c7f6c0ad26e04bf54eee4"
+          },
+          "topic_name": "High Availability Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "16aefb692d7047e1f01f6afb"
+          },
+          "topic_name": "Cost Modelling",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 49,
+      "submitted_at": {
+        "$date": "2026-05-09T10:49:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4ef71fe88c3e9a70e6ce64b4"
+      },
+      "schedule_id": {
+        "$oid": "3c6aa133ac1677775301f0b2"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "score_percentage": 100.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 6,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "00cdf4bfe3c14c85dba6fd50"
+          },
+          "topic_name": "IaaS, PaaS, and SaaS",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "b0dfb59342e202595101daa5"
+          },
+          "topic_name": "Shared Responsibility Model",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "195d60f1be22aa5d6a306c7e"
+          },
+          "topic_name": "Regions and Availability Zones",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "1f2101dede022287e82a384a"
+          },
+          "topic_name": "Resource Groups and Subscriptions",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "add42bf7220447ec5c23897b"
+          },
+          "topic_name": "Azure Policy and RBAC",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "8cdd6e60956af209b8413ddd"
+          },
+          "topic_name": "Cost Management Tools",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        },
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        },
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        },
+        {
+          "$oid": "add42bf7220447ec5c23897b"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 66,
+      "submitted_at": {
+        "$date": "2026-05-13T11:06:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f0579f5730571c1eb8728d1a"
+      },
+      "schedule_id": {
+        "$oid": "67b8e3286452c3015584c958"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "score_percentage": 33.3,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Foundation Building",
+      "correct_count": 2,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "b2fef1f68803dd2a0d48e6e9"
+          },
+          "topic_name": "Choosing Cognitive Services",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c6bc109bc92e690d720f4884"
+          },
+          "topic_name": "Responsible AI Considerations",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "be1a871d9c66873de2e83365"
+          },
+          "topic_name": "Deploying Models",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "0094e50339b05da210aeeef4"
+          },
+          "topic_name": "Prompt Engineering Patterns",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "63768a76afef3d9b92be7859"
+          },
+          "topic_name": "Azure AI Search Indexes",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "b05c0e2957af86c0637b5743"
+          },
+          "topic_name": "Skillsets and Enrichment",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        },
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 61,
+      "submitted_at": {
+        "$date": "2026-05-05T11:01:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a234a278091a77761c296a52"
+      },
+      "schedule_id": {
+        "$oid": "5baf4ff7231b53e6206f53f2"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "a939777f947e5b93dd217713"
+          },
+          "topic_name": "Data Lake Gen2 Layout",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "34964e127223ee17d9fdb0f3"
+          },
+          "topic_name": "Partitioning and File Formats",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c0d782f1638bea7891fcbe9d"
+          },
+          "topic_name": "Synapse Pipelines",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "b79c21afa34b65bbcff9a0b2"
+          },
+          "topic_name": "Spark Notebooks",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "a1bd35a99bbfaf13cc4253b8"
+          },
+          "topic_name": "Event Hubs and Stream Analytics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "5acd4be4622bb5731eacc588"
+          },
+          "topic_name": "Change Data Capture",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 41,
+      "submitted_at": {
+        "$date": "2026-05-09T10:41:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "67578babe8573f6a4e63b574"
+      },
+      "schedule_id": {
+        "$oid": "328b39263d873753a0bbdc58"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "score_percentage": 33.3,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Foundation Building",
+      "correct_count": 2,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "00cdf4bfe3c14c85dba6fd50"
+          },
+          "topic_name": "IaaS, PaaS, and SaaS",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "b0dfb59342e202595101daa5"
+          },
+          "topic_name": "Shared Responsibility Model",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "195d60f1be22aa5d6a306c7e"
+          },
+          "topic_name": "Regions and Availability Zones",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "1f2101dede022287e82a384a"
+          },
+          "topic_name": "Resource Groups and Subscriptions",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "add42bf7220447ec5c23897b"
+          },
+          "topic_name": "Azure Policy and RBAC",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "8cdd6e60956af209b8413ddd"
+          },
+          "topic_name": "Cost Management Tools",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        },
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        },
+        {
+          "$oid": "add42bf7220447ec5c23897b"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 62,
+      "submitted_at": {
+        "$date": "2026-05-05T11:02:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "69a8d08414c5b2e3d7984361"
+      },
+      "schedule_id": {
+        "$oid": "d06ea28330d3962df4f45a00"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "score_percentage": 66.7,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Almost Ready",
+      "correct_count": 4,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "7383d93dcfb684fa1a4827d0"
+          },
+          "topic_name": "Branching Strategies",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "d1d52a1bdfc8c42fa2cce27d"
+          },
+          "topic_name": "YAML Pipelines",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "c2afcf201e59cdbafa9fa60f"
+          },
+          "topic_name": "Bicep Fundamentals",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "2631df7256dd5a24325b813b"
+          },
+          "topic_name": "Terraform on Azure",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "a4f5b4b446b8b8083e3e4da9"
+          },
+          "topic_name": "Blue/Green and Canary",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "f1e7900d81b1bdbdf85eac82"
+          },
+          "topic_name": "Feature Flags and Rollback",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "2631df7256dd5a24325b813b"
+        },
+        {
+          "$oid": "a4f5b4b446b8b8083e3e4da9"
+        },
+        {
+          "$oid": "f1e7900d81b1bdbdf85eac82"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 38,
+      "submitted_at": {
+        "$date": "2026-05-05T10:38:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3f8353730d1c865c418a715b"
+      },
+      "schedule_id": {
+        "$oid": "6e13a643f027562e321e7282"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "27dbfb592a5c731642fe99c8"
+          },
+          "topic_name": "Conditional Access Policies",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "f6d61973ab48163f46e3c3f6"
+          },
+          "topic_name": "Privileged Identity Management",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "d64becd01ee19285e46f8692"
+          },
+          "topic_name": "Network Security Groups",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "7eaf57640bbd7cf7d74b1a93"
+          },
+          "topic_name": "Azure Firewall and DDoS",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "a38f7b14dfdd150cf17afa06"
+          },
+          "topic_name": "Key Vault and Secrets",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "66f7c8a452f0cbdb5ec80f9c"
+          },
+          "topic_name": "Defender for Cloud Recommendations",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "a38f7b14dfdd150cf17afa06"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        },
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        },
+        {
+          "$oid": "7eaf57640bbd7cf7d74b1a93"
+        },
+        {
+          "$oid": "66f7c8a452f0cbdb5ec80f9c"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 48,
+      "submitted_at": {
+        "$date": "2026-05-09T10:48:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "24a02ed4b68fe8ff204d3c30"
+      },
+      "schedule_id": {
+        "$oid": "0f85c37efc01c1f679b6b75e"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "score_percentage": 50.0,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Foundation Building",
+      "correct_count": 4,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "ec7c8abc45a1adeb0eb95509"
+          },
+          "topic_name": "Relational vs Non-relational Data",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "f69e96107111dc2317a9d6b3"
+          },
+          "topic_name": "Data Workloads (OLTP / OLAP)",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "7f565712c28216b404b8afd3"
+          },
+          "topic_name": "Azure SQL Family",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "149920d8be2ea2da2d9bb5b3"
+          },
+          "topic_name": "Managed PostgreSQL and MySQL",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "9e1e0c13c76634b04a648745"
+          },
+          "topic_name": "Cosmos DB Overview",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "565f64f90b2adcfb70e2249b"
+          },
+          "topic_name": "Azure Table and Blob Storage",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "dc7cf10c7f60d7366c342a9f"
+          },
+          "topic_name": "Synapse Analytics Basics",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "19dd1c920f51ef840e602bb8"
+          },
+          "topic_name": "Power BI Integration",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        },
+        {
+          "$oid": "7f565712c28216b404b8afd3"
+        },
+        {
+          "$oid": "dc7cf10c7f60d7366c342a9f"
+        },
+        {
+          "$oid": "19dd1c920f51ef840e602bb8"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "149920d8be2ea2da2d9bb5b3"
+        },
+        {
+          "$oid": "9e1e0c13c76634b04a648745"
+        },
+        {
+          "$oid": "565f64f90b2adcfb70e2249b"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 53,
+      "submitted_at": {
+        "$date": "2026-05-13T10:53:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f3027643f8b6a83389da676f"
+      },
+      "schedule_id": {
+        "$oid": "a0cc571c6aaac213e55a4afd"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "score_percentage": 75.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Almost Ready",
+      "correct_count": 6,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "f0b7c25f3990ed7f5598c350"
+          },
+          "topic_name": "Microsoft Entra Basics",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "f25cc5861e79d62f34c611d6"
+          },
+          "topic_name": "RBAC Assignments",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "22ef72280f78470b88e2a011"
+          },
+          "topic_name": "Storage Account Tiers",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "7fe0737e7763918546023577"
+          },
+          "topic_name": "VM Lifecycle Management",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "6fa2c650ed85a3160395058b"
+          },
+          "topic_name": "Virtual Networks and Subnets",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "3ef0f79374af23b202d7f282"
+          },
+          "topic_name": "Load Balancers and DNS",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "81676bf40ef287c271dd09e9"
+          },
+          "topic_name": "Azure Monitor Metrics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "006caca67ccde4fccbf0f62c"
+          },
+          "topic_name": "Log Analytics Workspaces",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        },
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 69,
+      "submitted_at": {
+        "$date": "2026-05-17T11:09:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0cf62dc4a7ef3979d42d134d"
+      },
+      "schedule_id": {
+        "$oid": "90548ec9f3e3ea7d779f43e3"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "score_percentage": 62.5,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Foundation Building",
+      "correct_count": 5,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "f0b7c25f3990ed7f5598c350"
+          },
+          "topic_name": "Microsoft Entra Basics",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "f25cc5861e79d62f34c611d6"
+          },
+          "topic_name": "RBAC Assignments",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "22ef72280f78470b88e2a011"
+          },
+          "topic_name": "Storage Account Tiers",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "7fe0737e7763918546023577"
+          },
+          "topic_name": "VM Lifecycle Management",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "6fa2c650ed85a3160395058b"
+          },
+          "topic_name": "Virtual Networks and Subnets",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "3ef0f79374af23b202d7f282"
+          },
+          "topic_name": "Load Balancers and DNS",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "81676bf40ef287c271dd09e9"
+          },
+          "topic_name": "Azure Monitor Metrics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "006caca67ccde4fccbf0f62c"
+          },
+          "topic_name": "Log Analytics Workspaces",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 46,
+      "submitted_at": {
+        "$date": "2026-05-05T10:46:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2c18ba7e2725e9a3949ce013"
+      },
+      "schedule_id": {
+        "$oid": "85b78894b204ac23057a43ba"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "a939777f947e5b93dd217713"
+          },
+          "topic_name": "Data Lake Gen2 Layout",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "34964e127223ee17d9fdb0f3"
+          },
+          "topic_name": "Partitioning and File Formats",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c0d782f1638bea7891fcbe9d"
+          },
+          "topic_name": "Synapse Pipelines",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "b79c21afa34b65bbcff9a0b2"
+          },
+          "topic_name": "Spark Notebooks",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "a1bd35a99bbfaf13cc4253b8"
+          },
+          "topic_name": "Event Hubs and Stream Analytics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "5acd4be4622bb5731eacc588"
+          },
+          "topic_name": "Change Data Capture",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 61,
+      "submitted_at": {
+        "$date": "2026-05-09T11:01:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "535e4adaabb81ae5438a9386"
+      },
+      "schedule_id": {
+        "$oid": "78041ecad9475e74c25ef98c"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "score_percentage": 100.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 8,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "3f750960fe794b0ba16e2e37"
+          },
+          "topic_name": "Tenant and Subscription Design",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "9836bb4d6bb5a8ceeb17fded"
+          },
+          "topic_name": "Landing Zone Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "e12ae71f4f86c3de2950546a"
+          },
+          "topic_name": "Choosing the Right Database",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "2ed780f6aa9979e3dbdb715d"
+          },
+          "topic_name": "Data Migration Strategies",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "28a0fc7cb966cb43f5280e75"
+          },
+          "topic_name": "Microservices vs Monolith",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "096e5c3cd09f651f2b202eda"
+          },
+          "topic_name": "Event-Driven Designs",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "fa3c7f6c0ad26e04bf54eee4"
+          },
+          "topic_name": "High Availability Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "16aefb692d7047e1f01f6afb"
+          },
+          "topic_name": "Cost Modelling",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 54,
+      "submitted_at": {
+        "$date": "2026-05-05T10:54:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0b950b62ddaccb340dfd49fe"
+      },
+      "schedule_id": {
+        "$oid": "6aa99ac6a1340c1ec81ad908"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "score_percentage": 87.5,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 7,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "f0b7c25f3990ed7f5598c350"
+          },
+          "topic_name": "Microsoft Entra Basics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "f25cc5861e79d62f34c611d6"
+          },
+          "topic_name": "RBAC Assignments",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "22ef72280f78470b88e2a011"
+          },
+          "topic_name": "Storage Account Tiers",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "7fe0737e7763918546023577"
+          },
+          "topic_name": "VM Lifecycle Management",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "6fa2c650ed85a3160395058b"
+          },
+          "topic_name": "Virtual Networks and Subnets",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "3ef0f79374af23b202d7f282"
+          },
+          "topic_name": "Load Balancers and DNS",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "81676bf40ef287c271dd09e9"
+          },
+          "topic_name": "Azure Monitor Metrics",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "006caca67ccde4fccbf0f62c"
+          },
+          "topic_name": "Log Analytics Workspaces",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 51,
+      "submitted_at": {
+        "$date": "2026-05-09T10:51:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "54747e7020d8eaba1745c569"
+      },
+      "schedule_id": {
+        "$oid": "e1d66954b010bfb65e236ebd"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "score_percentage": 100.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 6,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "a00fd5b75c347e4d0f553abf"
+          },
+          "topic_name": "App Service Web Apps",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "3c2a0c356ee74101e07bcae6"
+          },
+          "topic_name": "Azure Functions Triggers",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "813149c22417ea81f0fc95f2"
+          },
+          "topic_name": "Blob Storage SDKs",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "ebdd2f35e8a531ba6e6c125e"
+          },
+          "topic_name": "Cosmos DB Querying",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "206ae9bf6201e157f75ee1fd"
+          },
+          "topic_name": "Service Bus and Event Grid",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c352550be8d13ee774a9610a"
+          },
+          "topic_name": "API Management Basics",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        },
+        {
+          "$oid": "206ae9bf6201e157f75ee1fd"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 68,
+      "submitted_at": {
+        "$date": "2026-05-13T11:08:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "8ca0a1b7d63ddb416ba0df47"
+      },
+      "schedule_id": {
+        "$oid": "d1560363812569264185b410"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "b2fef1f68803dd2a0d48e6e9"
+          },
+          "topic_name": "Choosing Cognitive Services",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c6bc109bc92e690d720f4884"
+          },
+          "topic_name": "Responsible AI Considerations",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "be1a871d9c66873de2e83365"
+          },
+          "topic_name": "Deploying Models",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "0094e50339b05da210aeeef4"
+          },
+          "topic_name": "Prompt Engineering Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "63768a76afef3d9b92be7859"
+          },
+          "topic_name": "Azure AI Search Indexes",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "b05c0e2957af86c0637b5743"
+          },
+          "topic_name": "Skillsets and Enrichment",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 41,
+      "submitted_at": {
+        "$date": "2026-05-05T10:41:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a8d90c006d4eb0919463f808"
+      },
+      "schedule_id": {
+        "$oid": "0693966f5ad42b11fb672efc"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "score_percentage": 16.7,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Foundation Building",
+      "correct_count": 1,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "7383d93dcfb684fa1a4827d0"
+          },
+          "topic_name": "Branching Strategies",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "d1d52a1bdfc8c42fa2cce27d"
+          },
+          "topic_name": "YAML Pipelines",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c2afcf201e59cdbafa9fa60f"
+          },
+          "topic_name": "Bicep Fundamentals",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "2631df7256dd5a24325b813b"
+          },
+          "topic_name": "Terraform on Azure",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "a4f5b4b446b8b8083e3e4da9"
+          },
+          "topic_name": "Blue/Green and Canary",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "f1e7900d81b1bdbdf85eac82"
+          },
+          "topic_name": "Feature Flags and Rollback",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        },
+        {
+          "$oid": "2631df7256dd5a24325b813b"
+        },
+        {
+          "$oid": "a4f5b4b446b8b8083e3e4da9"
+        },
+        {
+          "$oid": "f1e7900d81b1bdbdf85eac82"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 66,
+      "submitted_at": {
+        "$date": "2026-05-05T11:06:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "958e34e306dcf596892b354d"
+      },
+      "schedule_id": {
+        "$oid": "827a5d865a990ca4d52337d9"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "score_percentage": 50.0,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "Foundation Building",
+      "correct_count": 3,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "a00fd5b75c347e4d0f553abf"
+          },
+          "topic_name": "App Service Web Apps",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "3c2a0c356ee74101e07bcae6"
+          },
+          "topic_name": "Azure Functions Triggers",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "813149c22417ea81f0fc95f2"
+          },
+          "topic_name": "Blob Storage SDKs",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "ebdd2f35e8a531ba6e6c125e"
+          },
+          "topic_name": "Cosmos DB Querying",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "206ae9bf6201e157f75ee1fd"
+          },
+          "topic_name": "Service Bus and Event Grid",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "c352550be8d13ee774a9610a"
+          },
+          "topic_name": "API Management Basics",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        },
+        {
+          "$oid": "206ae9bf6201e157f75ee1fd"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 43,
+      "submitted_at": {
+        "$date": "2026-05-09T10:43:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5069c4ff02f90a0e1fdcd0c1"
+      },
+      "schedule_id": {
+        "$oid": "52eafcdcc1a9e2478f8e6c67"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "c2716ab8260c51a521362181"
+          },
+          "topic_name": "VNet Peering and Hub-Spoke",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "0551f381ec39a60a822b563f"
+          },
+          "topic_name": "Private Endpoints",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "5a7169c11a50dbee7aeb21fb"
+          },
+          "topic_name": "VPN Gateway",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "48143e7137bd36a0812c8542"
+          },
+          "topic_name": "ExpressRoute Basics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "bbea280a0afb220372b31362"
+          },
+          "topic_name": "Application Gateway",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "dc116b1c438db49196687b29"
+          },
+          "topic_name": "Front Door and CDN",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "5a7169c11a50dbee7aeb21fb"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        },
+        {
+          "$oid": "0551f381ec39a60a822b563f"
+        },
+        {
+          "$oid": "48143e7137bd36a0812c8542"
+        },
+        {
+          "$oid": "bbea280a0afb220372b31362"
+        },
+        {
+          "$oid": "dc116b1c438db49196687b29"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 44,
+      "submitted_at": {
+        "$date": "2026-05-05T10:44:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3bea735578be540186eac5c3"
+      },
+      "schedule_id": {
+        "$oid": "47f7e73c159b7ca7f4a7e542"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "score_percentage": 83.3,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 5,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "27dbfb592a5c731642fe99c8"
+          },
+          "topic_name": "Conditional Access Policies",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "f6d61973ab48163f46e3c3f6"
+          },
+          "topic_name": "Privileged Identity Management",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "d64becd01ee19285e46f8692"
+          },
+          "topic_name": "Network Security Groups",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "7eaf57640bbd7cf7d74b1a93"
+          },
+          "topic_name": "Azure Firewall and DDoS",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "a38f7b14dfdd150cf17afa06"
+          },
+          "topic_name": "Key Vault and Secrets",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "66f7c8a452f0cbdb5ec80f9c"
+          },
+          "topic_name": "Defender for Cloud Recommendations",
+          "total": 1,
+          "correct": 0
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "66f7c8a452f0cbdb5ec80f9c"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        },
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        },
+        {
+          "$oid": "7eaf57640bbd7cf7d74b1a93"
+        },
+        {
+          "$oid": "a38f7b14dfdd150cf17afa06"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 37,
+      "submitted_at": {
+        "$date": "2026-05-09T10:37:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c151834e2a2afcf38e656bfc"
+      },
+      "schedule_id": {
+        "$oid": "fea3fb97c25080a9e747f703"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "score_percentage": 100.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 6,
+      "total_questions": 6,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "b2fef1f68803dd2a0d48e6e9"
+          },
+          "topic_name": "Choosing Cognitive Services",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "c6bc109bc92e690d720f4884"
+          },
+          "topic_name": "Responsible AI Considerations",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "be1a871d9c66873de2e83365"
+          },
+          "topic_name": "Deploying Models",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "0094e50339b05da210aeeef4"
+          },
+          "topic_name": "Prompt Engineering Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "63768a76afef3d9b92be7859"
+          },
+          "topic_name": "Azure AI Search Indexes",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "b05c0e2957af86c0637b5743"
+          },
+          "topic_name": "Skillsets and Enrichment",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        },
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 74,
+      "submitted_at": {
+        "$date": "2026-05-13T11:14:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9323e1f65ab2268113e4f588"
+      },
+      "schedule_id": {
+        "$oid": "c6c62f495a58c5e32fd4125c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "score_percentage": 100.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 8,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "ec7c8abc45a1adeb0eb95509"
+          },
+          "topic_name": "Relational vs Non-relational Data",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "f69e96107111dc2317a9d6b3"
+          },
+          "topic_name": "Data Workloads (OLTP / OLAP)",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "7f565712c28216b404b8afd3"
+          },
+          "topic_name": "Azure SQL Family",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "149920d8be2ea2da2d9bb5b3"
+          },
+          "topic_name": "Managed PostgreSQL and MySQL",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "9e1e0c13c76634b04a648745"
+          },
+          "topic_name": "Cosmos DB Overview",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "565f64f90b2adcfb70e2249b"
+          },
+          "topic_name": "Azure Table and Blob Storage",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "dc7cf10c7f60d7366c342a9f"
+          },
+          "topic_name": "Synapse Analytics Basics",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "19dd1c920f51ef840e602bb8"
+          },
+          "topic_name": "Power BI Integration",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        },
+        {
+          "$oid": "7f565712c28216b404b8afd3"
+        },
+        {
+          "$oid": "149920d8be2ea2da2d9bb5b3"
+        },
+        {
+          "$oid": "9e1e0c13c76634b04a648745"
+        },
+        {
+          "$oid": "565f64f90b2adcfb70e2249b"
+        },
+        {
+          "$oid": "dc7cf10c7f60d7366c342a9f"
+        },
+        {
+          "$oid": "19dd1c920f51ef840e602bb8"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 46,
+      "submitted_at": {
+        "$date": "2026-05-17T10:46:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "571d49a5ef2eeb00ab1796eb"
+      },
+      "schedule_id": {
+        "$oid": "f9696ece4cdbf221e2025ae2"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "score_percentage": 87.5,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 7,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        {
+          "topic_id": {
+            "$oid": "3f750960fe794b0ba16e2e37"
+          },
+          "topic_name": "Tenant and Subscription Design",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "9836bb4d6bb5a8ceeb17fded"
+          },
+          "topic_name": "Landing Zone Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "e12ae71f4f86c3de2950546a"
+          },
+          "topic_name": "Choosing the Right Database",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "2ed780f6aa9979e3dbdb715d"
+          },
+          "topic_name": "Data Migration Strategies",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "28a0fc7cb966cb43f5280e75"
+          },
+          "topic_name": "Microservices vs Monolith",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "096e5c3cd09f651f2b202eda"
+          },
+          "topic_name": "Event-Driven Designs",
+          "total": 1,
+          "correct": 0
+        },
+        {
+          "topic_id": {
+            "$oid": "fa3c7f6c0ad26e04bf54eee4"
+          },
+          "topic_name": "High Availability Patterns",
+          "total": 1,
+          "correct": 1
+        },
+        {
+          "topic_id": {
+            "$oid": "16aefb692d7047e1f01f6afb"
+          },
+          "topic_name": "Cost Modelling",
+          "total": 1,
+          "correct": 1
+        }
+      ],
+      "weak_topic_ids": [
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "proctor": {
+        "blocked": false,
+        "violations": [],
+        "summary": {}
+      },
+      "time_spent_minutes": 37,
+      "submitted_at": {
+        "$date": "2026-05-21T10:37:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a5500900" },
+      "schedule_id": { "$oid": "a11ce00000000000a55ed900" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ab7c0f3deef463fa66b51c1d" },
+      "score_percentage": 87.5,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 7,
+      "total_questions": 8,
+      "per_topic_breakdown": [
+        { "topic_id": { "$oid": "00cdf4bfe3c14c85dba6fd50" }, "topic_name": "IaaS, PaaS, and SaaS", "total": 2, "correct": 2 },
+        { "topic_id": { "$oid": "b0dfb59342e202595101daa5" }, "topic_name": "Shared Responsibility Model", "total": 2, "correct": 2 },
+        { "topic_id": { "$oid": "195d60f1be22aa5d6a306c7e" }, "topic_name": "Regions and Availability Zones", "total": 2, "correct": 1 },
+        { "topic_id": { "$oid": "1f2101dede022287e82a384a" }, "topic_name": "Resource Groups and Subscriptions", "total": 2, "correct": 2 }
+      ],
+      "weak_topic_ids": [ { "$oid": "195d60f1be22aa5d6a306c7e" } ],
+      "strong_topic_ids": [
+        { "$oid": "00cdf4bfe3c14c85dba6fd50" },
+        { "$oid": "b0dfb59342e202595101daa5" },
+        { "$oid": "1f2101dede022287e82a384a" }
+      ],
+      "proctor": { "blocked": false, "violations": [], "summary": {} },
+      "time_spent_minutes": 32,
+      "submitted_at": { "$date": "2026-05-22T14:32:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a5500104" },
+      "schedule_id": { "$oid": "a11ce00000000000a55ed104" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ad83eb075ea0c64896b1fc48" },
+      "score_percentage": 90.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Ready",
+      "correct_count": 9,
+      "total_questions": 10,
+      "per_topic_breakdown": [
+        { "topic_id": { "$oid": "f0b7c25f3990ed7f5598c350" }, "topic_name": "Microsoft Entra Basics", "total": 3, "correct": 3 },
+        { "topic_id": { "$oid": "f25cc5861e79d62f34c611d6" }, "topic_name": "RBAC Assignments", "total": 3, "correct": 3 },
+        { "topic_id": { "$oid": "22ef72280f78470b88e2a011" }, "topic_name": "Storage Account Tiers", "total": 2, "correct": 1 },
+        { "topic_id": { "$oid": "7fe0737e7763918546023577" }, "topic_name": "VM Lifecycle Management", "total": 2, "correct": 2 }
+      ],
+      "weak_topic_ids": [ { "$oid": "22ef72280f78470b88e2a011" } ],
+      "strong_topic_ids": [
+        { "$oid": "f0b7c25f3990ed7f5598c350" },
+        { "$oid": "f25cc5861e79d62f34c611d6" },
+        { "$oid": "7fe0737e7763918546023577" }
+      ],
+      "proctor": { "blocked": false, "violations": [], "summary": {} },
+      "time_spent_minutes": 48,
+      "submitted_at": { "$date": "2026-06-01T15:48:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a5500305" },
+      "schedule_id": { "$oid": "a11ce00000000000a55ed305" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "d5eac68042d454232144476e" },
+      "score_percentage": 70.0,
+      "pass_threshold": 70,
+      "passed": true,
+      "readiness_level": "Almost Ready",
+      "correct_count": 7,
+      "total_questions": 10,
+      "per_topic_breakdown": [
+        { "topic_id": { "$oid": "3f750960fe794b0ba16e2e37" }, "topic_name": "Tenant and Subscription Design", "total": 3, "correct": 2 },
+        { "topic_id": { "$oid": "9836bb4d6bb5a8ceeb17fded" }, "topic_name": "Landing Zone Patterns", "total": 3, "correct": 3 },
+        { "topic_id": { "$oid": "e12ae71f4f86c3de2950546a" }, "topic_name": "Choosing the Right Database", "total": 2, "correct": 1 },
+        { "topic_id": { "$oid": "2ed780f6aa9979e3dbdb715d" }, "topic_name": "Data Migration Strategies", "total": 2, "correct": 1 }
+      ],
+      "weak_topic_ids": [
+        { "$oid": "e12ae71f4f86c3de2950546a" },
+        { "$oid": "2ed780f6aa9979e3dbdb715d" }
+      ],
+      "strong_topic_ids": [
+        { "$oid": "9836bb4d6bb5a8ceeb17fded" }
+      ],
+      "proctor": { "blocked": false, "violations": [], "summary": {} },
+      "time_spent_minutes": 52,
+      "submitted_at": { "$date": "2026-06-08T11:22:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a5500204" },
+      "schedule_id": { "$oid": "a11ce00000000000a55ed204" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "91e9ceb83b80f633bbb6dd63" },
+      "score_percentage": 50.0,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "NotReady",
+      "correct_count": 5,
+      "total_questions": 10,
+      "per_topic_breakdown": [
+        { "topic_id": { "$oid": "a00fd5b75c347e4d0f553abf" }, "topic_name": "App Service Web Apps", "total": 3, "correct": 2 },
+        { "topic_id": { "$oid": "3c2a0c356ee74101e07bcae6" }, "topic_name": "Azure Functions Triggers", "total": 3, "correct": 1 },
+        { "topic_id": { "$oid": "813149c22417ea81f0fc95f2" }, "topic_name": "Blob Storage SDKs", "total": 2, "correct": 1 },
+        { "topic_id": { "$oid": "ebdd2f35e8a531ba6e6c125e" }, "topic_name": "Cosmos DB Querying", "total": 2, "correct": 1 }
+      ],
+      "weak_topic_ids": [
+        { "$oid": "3c2a0c356ee74101e07bcae6" },
+        { "$oid": "813149c22417ea81f0fc95f2" },
+        { "$oid": "ebdd2f35e8a531ba6e6c125e" }
+      ],
+      "strong_topic_ids": [
+        { "$oid": "a00fd5b75c347e4d0f553abf" }
+      ],
+      "proctor": { "blocked": false, "violations": [], "summary": {} },
+      "time_spent_minutes": 75,
+      "submitted_at": { "$date": "2026-06-09T14:15:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a5500990" },
+      "schedule_id": { "$oid": "a11ce00000000000a55ed990" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "7b2ead0d4076b7d2d90913db" },
+      "score_percentage": 0.0,
+      "pass_threshold": 70,
+      "passed": false,
+      "readiness_level": "NotReady",
+      "correct_count": 0,
+      "total_questions": 8,
+      "per_topic_breakdown": [],
+      "weak_topic_ids": [],
+      "strong_topic_ids": [],
+      "proctor": {
+        "blocked": true,
+        "violations": [
+          { "type": "tab_switch", "at_seconds": 42, "question_index": 1, "duration_ms": 3200 },
+          { "type": "window_blur", "at_seconds": 58, "question_index": 1, "duration_ms": 5100 },
+          { "type": "tab_switch", "at_seconds": 124, "question_index": 2, "duration_ms": 2800 },
+          { "type": "multiple_faces", "at_seconds": 380, "question_index": 4, "duration_ms": 8200 },
+          { "type": "no_face", "at_seconds": 605, "question_index": 5, "duration_ms": 12000 }
+        ],
+        "summary": {
+          "tab_switch": 2,
+          "window_blur": 1,
+          "multiple_faces": 1,
+          "no_face": 1,
+          "blocked_reason": "Integrity policy threshold exceeded (5 violations across 4 questions)"
+        }
+      },
+      "time_spent_minutes": 11,
+      "submitted_at": { "$date": "2026-06-10T19:11:00Z" },
+      "schema_version": 1
+    }
+  ]
+}

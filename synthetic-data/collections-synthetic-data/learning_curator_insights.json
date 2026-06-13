@@ -1,0 +1,767 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "learning_curator_insights",
+  "count": 10,
+  "data": [
+    {
+      "_id": {
+        "$oid": "00f7c0c8fe50a7c504bf9a82"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "0f0e06b3aac4235c3548047b286dcace7b85896951a853f8d353281449c3db13",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "d5eac68042d454232144476e"
+          },
+          "title": "AZ-305: Azure Solutions Architect",
+          "cert_code": "AZ-305",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-305 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_305.md",
+              "title": "AZ-305 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Solutions Architect Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "221cfb656a3c21f1aa3de6e3"
+          },
+          "title": "AZ-400: Azure DevOps Solutions",
+          "cert_code": "AZ-400",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-400 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_400.md",
+              "title": "AZ-400 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft DevOps Engineer Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "f55927eff6ac02cacd5684a8"
+          },
+          "title": "AI-102: Azure AI Engineer",
+          "cert_code": "AI-102",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AI-102 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-ai_102.md",
+              "title": "AI-102 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Azure AI Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "425fb7cead11e55ccff8543c"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "1cce6de0db736856c91f895f2da3d1d264c8b76cfadc8b50a28b486a6f386144",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "91e9ceb83b80f633bbb6dd63"
+          },
+          "title": "AZ-204: Developing Azure Solutions",
+          "cert_code": "AZ-204",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-204 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_204.md",
+              "title": "AZ-204 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Developer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "9f485a97ab08e33213e77abd"
+          },
+          "title": "AZ-500: Azure Security Technologies",
+          "cert_code": "AZ-500",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-500 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_500.md",
+              "title": "AZ-500 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Security Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "a7660cb1580a794205e97aea"
+          },
+          "title": "AZ-700: Azure Network Engineer",
+          "cert_code": "AZ-700",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AZ-700 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_700.md",
+              "title": "AZ-700 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Network Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "32f4104ad394d457a659696e"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "6be99ae9162fd976ac8c5779788d03d011f644f3e1aac9916b7b06d1c5174d82",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "ab7c0f3deef463fa66b51c1d"
+          },
+          "title": "AZ-900: Azure Fundamentals",
+          "cert_code": "AZ-900",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-900 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_900.md",
+              "title": "AZ-900 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Fundamentals.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "7b2ead0d4076b7d2d90913db"
+          },
+          "title": "DP-900: Azure Data Fundamentals",
+          "cert_code": "DP-900",
+          "priority": "High",
+          "reason": "Based on your role and current progress, DP-900 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-dp_900.md",
+              "title": "DP-900 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Data Fundamentals.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "ad83eb075ea0c64896b1fc48"
+          },
+          "title": "AZ-104: Azure Administrator",
+          "cert_code": "AZ-104",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AZ-104 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_104.md",
+              "title": "AZ-104 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Administrator Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "593815d0a049dce8d6391aa0"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "3f4ab5aee119d89c2eb1cc079b956c77f6cc023802ce583cc6525d185a6283a3",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "d5eac68042d454232144476e"
+          },
+          "title": "AZ-305: Azure Solutions Architect",
+          "cert_code": "AZ-305",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-305 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_305.md",
+              "title": "AZ-305 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Solutions Architect Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "221cfb656a3c21f1aa3de6e3"
+          },
+          "title": "AZ-400: Azure DevOps Solutions",
+          "cert_code": "AZ-400",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-400 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_400.md",
+              "title": "AZ-400 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft DevOps Engineer Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "f55927eff6ac02cacd5684a8"
+          },
+          "title": "AI-102: Azure AI Engineer",
+          "cert_code": "AI-102",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AI-102 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-ai_102.md",
+              "title": "AI-102 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Azure AI Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "d4bcaec0dcf798ad6c8730c8"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "0df89aa8aeb2eba366d81bcc221ec72820cccbbf8773b17256fe5d30964f83c4",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "ab7c0f3deef463fa66b51c1d"
+          },
+          "title": "AZ-900: Azure Fundamentals",
+          "cert_code": "AZ-900",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-900 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_900.md",
+              "title": "AZ-900 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Fundamentals.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "7b2ead0d4076b7d2d90913db"
+          },
+          "title": "DP-900: Azure Data Fundamentals",
+          "cert_code": "DP-900",
+          "priority": "High",
+          "reason": "Based on your role and current progress, DP-900 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-dp_900.md",
+              "title": "DP-900 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Data Fundamentals.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "ad83eb075ea0c64896b1fc48"
+          },
+          "title": "AZ-104: Azure Administrator",
+          "cert_code": "AZ-104",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AZ-104 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_104.md",
+              "title": "AZ-104 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Administrator Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "9c06eb56cbfe60fce5f7d0da"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "d14ad2816538f91353bb668cc53267432ec97f9bc5ad282d9e1e5446409ba412",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "91e9ceb83b80f633bbb6dd63"
+          },
+          "title": "AZ-204: Developing Azure Solutions",
+          "cert_code": "AZ-204",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-204 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_204.md",
+              "title": "AZ-204 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Developer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "9f485a97ab08e33213e77abd"
+          },
+          "title": "AZ-500: Azure Security Technologies",
+          "cert_code": "AZ-500",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-500 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_500.md",
+              "title": "AZ-500 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Security Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "a7660cb1580a794205e97aea"
+          },
+          "title": "AZ-700: Azure Network Engineer",
+          "cert_code": "AZ-700",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AZ-700 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_700.md",
+              "title": "AZ-700 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Network Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "e824393426c09eab5b9e08ab"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "b18f44ad457881031c67d5ae517941552fda3d2db4b994c0059dd3c9a5ab7748",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "d5eac68042d454232144476e"
+          },
+          "title": "AZ-305: Azure Solutions Architect",
+          "cert_code": "AZ-305",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-305 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_305.md",
+              "title": "AZ-305 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Solutions Architect Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "221cfb656a3c21f1aa3de6e3"
+          },
+          "title": "AZ-400: Azure DevOps Solutions",
+          "cert_code": "AZ-400",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-400 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_400.md",
+              "title": "AZ-400 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft DevOps Engineer Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "f55927eff6ac02cacd5684a8"
+          },
+          "title": "AI-102: Azure AI Engineer",
+          "cert_code": "AI-102",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AI-102 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-ai_102.md",
+              "title": "AI-102 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Azure AI Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "0bfa93321dfce7518e6b6c80"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "af987de9209eabd3508ac4b99e8f86c8aca3155f73b329786d7157784a390aff",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "91e9ceb83b80f633bbb6dd63"
+          },
+          "title": "AZ-204: Developing Azure Solutions",
+          "cert_code": "AZ-204",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-204 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_204.md",
+              "title": "AZ-204 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Developer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "9f485a97ab08e33213e77abd"
+          },
+          "title": "AZ-500: Azure Security Technologies",
+          "cert_code": "AZ-500",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-500 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_500.md",
+              "title": "AZ-500 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Security Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "a7660cb1580a794205e97aea"
+          },
+          "title": "AZ-700: Azure Network Engineer",
+          "cert_code": "AZ-700",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AZ-700 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_700.md",
+              "title": "AZ-700 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Network Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "ed6deea575ba9d6f096ef04e"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "004f1aed5d08c479b1aaccd325eb83bcb173b0307d1132b14df6383caa94cf8b",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "91e9ceb83b80f633bbb6dd63"
+          },
+          "title": "AZ-204: Developing Azure Solutions",
+          "cert_code": "AZ-204",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-204 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_204.md",
+              "title": "AZ-204 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Developer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "9f485a97ab08e33213e77abd"
+          },
+          "title": "AZ-500: Azure Security Technologies",
+          "cert_code": "AZ-500",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-500 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_500.md",
+              "title": "AZ-500 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Security Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "a7660cb1580a794205e97aea"
+          },
+          "title": "AZ-700: Azure Network Engineer",
+          "cert_code": "AZ-700",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AZ-700 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_700.md",
+              "title": "AZ-700 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Network Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    },
+    {
+      "_id": {
+        "$oid": "e9732e4b4f357e86d9cecca6"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "1e783184c12bf8538a821632651a220d7055f7984182b38aa285e58a9d0a891e",
+      "schema_version": 1,
+      "recommendations": [
+        {
+          "course_id": {
+            "$oid": "d5eac68042d454232144476e"
+          },
+          "title": "AZ-305: Azure Solutions Architect",
+          "cert_code": "AZ-305",
+          "priority": "Highest",
+          "reason": "Based on your role and current progress, AZ-305 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_305.md",
+              "title": "AZ-305 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft Azure Solutions Architect Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "221cfb656a3c21f1aa3de6e3"
+          },
+          "title": "AZ-400: Azure DevOps Solutions",
+          "cert_code": "AZ-400",
+          "priority": "High",
+          "reason": "Based on your role and current progress, AZ-400 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-az_400.md",
+              "title": "AZ-400 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Microsoft DevOps Engineer Expert.",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "course_id": {
+            "$oid": "f55927eff6ac02cacd5684a8"
+          },
+          "title": "AI-102: Azure AI Engineer",
+          "cert_code": "AI-102",
+          "priority": "Medium",
+          "reason": "Based on your role and current progress, AI-102 is a strong next step.",
+          "citations": [
+            {
+              "source_type": "grounding_doc",
+              "source_id": "course-guidance/doc-guidance/DOC-ai_102.md",
+              "title": "AI-102 certification guide",
+              "url": null,
+              "snippet": "Recommended next step toward Azure AI Engineer Associate.",
+              "score": 0.88
+            }
+          ]
+        }
+      ],
+      "rationale_summary": "Recommendations are grounded in approved certification guides and your role's required courses."
+    }
+  ]
+}

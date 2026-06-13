@@ -1,0 +1,347 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "work_signals",
+  "count": 10,
+  "data": [
+    {
+      "_id": {
+        "$oid": "864c4016ab4e406232eb1b42"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "meeting_hours": 11,
+      "focus_hours": 8,
+      "collaboration_hours": 5,
+      "peak_focus_window": "14:00-16:00",
+      "interruption_density": "High",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Evening",
+      "study_hours_per_week": 6,
+      "timezone": "America/Los_Angeles",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "490e9ecb54103a76d5aa07d9"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "meeting_hours": 11,
+      "focus_hours": 10,
+      "collaboration_hours": 6,
+      "peak_focus_window": "09:00-11:00",
+      "interruption_density": "High",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Morning",
+      "study_hours_per_week": 7,
+      "timezone": "America/New_York",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "73a9e3a22f1e2e0e9af87699"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "meeting_hours": 10,
+      "focus_hours": 9,
+      "collaboration_hours": 6,
+      "peak_focus_window": "14:00-16:00",
+      "interruption_density": "Low",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Morning",
+      "study_hours_per_week": 8,
+      "timezone": "Asia/Dubai",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "ca13eadde7f130f4ccd7ab51"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "meeting_hours": 7,
+      "focus_hours": 14,
+      "collaboration_hours": 8,
+      "peak_focus_window": "08:00-10:00",
+      "interruption_density": "Medium",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Morning",
+      "study_hours_per_week": 5,
+      "timezone": "America/Chicago",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "fa4790b87f71cc52e003899e"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "meeting_hours": 10,
+      "focus_hours": 14,
+      "collaboration_hours": 8,
+      "peak_focus_window": "10:00-12:00",
+      "interruption_density": "High",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Morning",
+      "study_hours_per_week": 7,
+      "timezone": "Europe/Madrid",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b42929ce41499a418582e5be"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "meeting_hours": 9,
+      "focus_hours": 11,
+      "collaboration_hours": 7,
+      "peak_focus_window": "20:00-22:00",
+      "interruption_density": "Medium",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Evening",
+      "study_hours_per_week": 6,
+      "timezone": "Asia/Kolkata",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "828d41bc7db568fa57afe522"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "meeting_hours": 8,
+      "focus_hours": 12,
+      "collaboration_hours": 5,
+      "peak_focus_window": "13:00-15:00",
+      "interruption_density": "Medium",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Afternoon",
+      "study_hours_per_week": 7,
+      "timezone": "Asia/Shanghai",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "3c18db215667ab23532c66be"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "meeting_hours": 13,
+      "focus_hours": 7,
+      "collaboration_hours": 9,
+      "peak_focus_window": "19:00-21:00",
+      "interruption_density": "High",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Evening",
+      "study_hours_per_week": 5,
+      "timezone": "Europe/London",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d4da91a3985cfbf449206c7f"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "meeting_hours": 12,
+      "focus_hours": 9,
+      "collaboration_hours": 6,
+      "peak_focus_window": "09:00-11:00",
+      "interruption_density": "High",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Morning",
+      "study_hours_per_week": 6,
+      "timezone": "Africa/Cairo",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "77cff00ca7025ec1e3e00388"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "meeting_hours": 6,
+      "focus_hours": 16,
+      "collaboration_hours": 7,
+      "peak_focus_window": "08:00-10:00",
+      "interruption_density": "Low",
+      "total_work_hours": 40,
+      "preferred_learning_slot": "Morning",
+      "study_hours_per_week": 9,
+      "timezone": "Asia/Tokyo",
+      "signals_source": "synthetic",
+      "signals_refreshed_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    }
+  ]
+}

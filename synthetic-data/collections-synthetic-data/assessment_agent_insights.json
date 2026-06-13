@@ -1,0 +1,472 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "assessment_agent_insights",
+  "count": 10,
+  "data": [
+    {
+      "_id": {
+        "$oid": "05c96198c7c6925321d5c1d2"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "865b42d06e74c3f6f69b954e3acf905f3b827ffec2b660afd551d047a265d3a1",
+      "schema_version": 1,
+      "overall_readiness": "Ready",
+      "readiness_score": 100.0,
+      "weak_topics": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        },
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        },
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        },
+        {
+          "$oid": "add42bf7220447ec5c23897b"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "recommended_next_step": "Schedule the certification exam — readiness is solid."
+    },
+    {
+      "_id": {
+        "$oid": "7dc3ce4473f6fe5165e781dd"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "81aad9d689348574bd8174fc8e03c30d0688d468dc1bcd8a48dc5f680ece1a2c",
+      "schema_version": 1,
+      "overall_readiness": "Ready",
+      "readiness_score": 83.3,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "5acd4be4622bb5731eacc588"
+          },
+          "topic_name": "Change Data Capture",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        }
+      ],
+      "recommended_next_step": "Schedule the certification exam — readiness is solid."
+    },
+    {
+      "_id": {
+        "$oid": "755929d3de2790ae8912f080"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "1494263d7878f76fa76eb609eb23cd026b3daadc0dc68567d56c9736be56a73d",
+      "schema_version": 1,
+      "overall_readiness": "Foundation Building",
+      "readiness_score": 33.3,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "00cdf4bfe3c14c85dba6fd50"
+          },
+          "topic_name": "IaaS, PaaS, and SaaS",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        },
+        {
+          "topic_id": {
+            "$oid": "b0dfb59342e202595101daa5"
+          },
+          "topic_name": "Shared Responsibility Model",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        },
+        {
+          "topic_id": {
+            "$oid": "195d60f1be22aa5d6a306c7e"
+          },
+          "topic_name": "Regions and Availability Zones",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        },
+        {
+          "topic_id": {
+            "$oid": "add42bf7220447ec5c23897b"
+          },
+          "topic_name": "Azure Policy and RBAC",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "recommended_next_step": "Spend 1-2 weeks reinforcing weak topics before re-attempting."
+    },
+    {
+      "_id": {
+        "$oid": "81ac6a0719c276d6cc5c6e75"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "60e32d06e4988ce32c98b82a3a39040a5e45f2b9dfc342e661c43fc6bc3a8357",
+      "schema_version": 1,
+      "overall_readiness": "Almost Ready",
+      "readiness_score": 75.0,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "f0b7c25f3990ed7f5598c350"
+          },
+          "topic_name": "Microsoft Entra Basics",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        },
+        {
+          "topic_id": {
+            "$oid": "006caca67ccde4fccbf0f62c"
+          },
+          "topic_name": "Log Analytics Workspaces",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        },
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        }
+      ],
+      "recommended_next_step": "Schedule a practice assessment for the weakest topic."
+    },
+    {
+      "_id": {
+        "$oid": "81d2433d5b34d126491f5259"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "946526e05b92f0070cf844d5bf6efaf26b19e8f83f4ee33334194e98196942e8",
+      "schema_version": 1,
+      "overall_readiness": "Not Ready",
+      "readiness_score": 0,
+      "weak_topics": [],
+      "strong_topic_ids": [],
+      "recommended_next_step": "Continue your current study plan."
+    },
+    {
+      "_id": {
+        "$oid": "5860a4e295aac28435358e1c"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "4b09a579254ffde1c647eac17af61fbd4b7329b9be0c026497f4fae698c36536",
+      "schema_version": 1,
+      "overall_readiness": "Ready",
+      "readiness_score": 83.3,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "c0d782f1638bea7891fcbe9d"
+          },
+          "topic_name": "Synapse Pipelines",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "recommended_next_step": "Schedule the certification exam — readiness is solid."
+    },
+    {
+      "_id": {
+        "$oid": "2190bb579e387f2d7eb0486d"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "7ad674fb836247098248df54502f09d7800487d3e9550151db1501c08d35ee4f",
+      "schema_version": 1,
+      "overall_readiness": "Ready",
+      "readiness_score": 100.0,
+      "weak_topics": [],
+      "strong_topic_ids": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        },
+        {
+          "$oid": "206ae9bf6201e157f75ee1fd"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "recommended_next_step": "Schedule the certification exam — readiness is solid."
+    },
+    {
+      "_id": {
+        "$oid": "785ba2d225cb6c9e8defcf7a"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "21b3e36d0d8710d6854c139d1295e18e35b22eb1b375efd6b23234cf711b0970",
+      "schema_version": 1,
+      "overall_readiness": "Ready",
+      "readiness_score": 83.3,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "b05c0e2957af86c0637b5743"
+          },
+          "topic_name": "Skillsets and Enrichment",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        }
+      ],
+      "recommended_next_step": "Schedule the certification exam — readiness is solid."
+    },
+    {
+      "_id": {
+        "$oid": "6197ba06ba5e10c3bd36e487"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "8d987bc3befd9b90f83f881ee823ca765d241521eb92c769fb87e8e96b98ec93",
+      "schema_version": 1,
+      "overall_readiness": "Foundation Building",
+      "readiness_score": 50.0,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "3c2a0c356ee74101e07bcae6"
+          },
+          "topic_name": "Azure Functions Triggers",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        },
+        {
+          "topic_id": {
+            "$oid": "813149c22417ea81f0fc95f2"
+          },
+          "topic_name": "Blob Storage SDKs",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        },
+        {
+          "topic_id": {
+            "$oid": "206ae9bf6201e157f75ee1fd"
+          },
+          "topic_name": "Service Bus and Event Grid",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "recommended_next_step": "Spend 1-2 weeks reinforcing weak topics before re-attempting."
+    },
+    {
+      "_id": {
+        "$oid": "eba5160970aa2032d1d95fc3"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "f459851c389fb966c8136914c352d2824889e0431bf59c0bcb404258006ba9f2",
+      "schema_version": 1,
+      "overall_readiness": "Ready",
+      "readiness_score": 87.5,
+      "weak_topics": [
+        {
+          "topic_id": {
+            "$oid": "096e5c3cd09f651f2b202eda"
+          },
+          "topic_name": "Event-Driven Designs",
+          "accuracy": 0,
+          "suggested_action": "Re-read the topic and complete a short practice quiz."
+        }
+      ],
+      "strong_topic_ids": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "recommended_next_step": "Schedule the certification exam — readiness is solid."
+    }
+  ]
+}

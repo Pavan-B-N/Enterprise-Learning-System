@@ -1,0 +1,1302 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "assessment_schedules",
+  "count": 33,
+  "data": [
+    {
+      "_id": {
+        "$oid": "67ec0be4f6b46635e11e19a1"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_name": "DP-203: Azure Data Engineering",
+      "cert_code": "DP-203",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T11:00:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T11:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2744c36d3b24b4cbf6cf8e17"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "cert_code": "AZ-305",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T10:49:00Z"
+      },
+      "score_percentage": 100.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T10:49:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3c6aa133ac1677775301f0b2"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_name": "AZ-900: Azure Fundamentals",
+      "cert_code": "AZ-900",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-10T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-10T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-13T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-13T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-13T11:06:00Z"
+      },
+      "score_percentage": 100.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-13T11:06:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "70e766bb8221dec93782f13c"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_name": "AZ-700: Azure Network Engineer",
+      "cert_code": "AZ-700",
+      "attempt_number": 1,
+      "status": "ready",
+      "question_count": 12,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-06-09T10:12:00Z"
+      },
+      "started_at": null,
+      "ends_at": null,
+      "submitted_at": null,
+      "score_percentage": null,
+      "passed": null,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "67b8e3286452c3015584c958"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_name": "AI-102: Azure AI Engineer",
+      "cert_code": "AI-102",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T11:01:00Z"
+      },
+      "score_percentage": 33.3,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T11:01:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5baf4ff7231b53e6206f53f2"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_name": "DP-203: Azure Data Engineering",
+      "cert_code": "DP-203",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T10:41:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T10:41:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "effc42ff6e9179f1e489e75f"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_name": "AZ-204: Developing Azure Solutions",
+      "cert_code": "AZ-204",
+      "attempt_number": 1,
+      "status": "in_progress",
+      "question_count": 12,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-06-09T10:12:00Z"
+      },
+      "started_at": {
+        "$date": "2026-06-11T09:40:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-06-11T11:40:00Z"
+      },
+      "submitted_at": null,
+      "score_percentage": null,
+      "passed": null,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "328b39263d873753a0bbdc58"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_name": "AZ-900: Azure Fundamentals",
+      "cert_code": "AZ-900",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T11:02:00Z"
+      },
+      "score_percentage": 33.3,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T11:02:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b147ce35538639d02dbb5d10"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_name": "AZ-700: Azure Network Engineer",
+      "cert_code": "AZ-700",
+      "attempt_number": 1,
+      "status": "ready",
+      "question_count": 12,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-06-09T10:12:00Z"
+      },
+      "started_at": null,
+      "ends_at": null,
+      "submitted_at": null,
+      "score_percentage": null,
+      "passed": null,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d06ea28330d3962df4f45a00"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_name": "AZ-400: Azure DevOps Solutions",
+      "cert_code": "AZ-400",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T10:38:00Z"
+      },
+      "score_percentage": 66.7,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T10:38:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6e13a643f027562e321e7282"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_name": "AZ-500: Azure Security Technologies",
+      "cert_code": "AZ-500",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T10:48:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T10:48:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0f85c37efc01c1f679b6b75e"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_name": "DP-900: Azure Data Fundamentals",
+      "cert_code": "DP-900",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-10T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-10T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-13T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-13T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-13T10:53:00Z"
+      },
+      "score_percentage": 50.0,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-13T10:53:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a0cc571c6aaac213e55a4afd"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_name": "AZ-104: Azure Administrator",
+      "cert_code": "AZ-104",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-14T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-14T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-17T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-17T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-17T11:09:00Z"
+      },
+      "score_percentage": 75.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-17T11:09:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "52104a73b0d5fc670ef04932"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_name": "AZ-900: Azure Fundamentals",
+      "cert_code": "AZ-900",
+      "attempt_number": 1,
+      "status": "in_progress",
+      "question_count": 12,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-06-09T10:12:00Z"
+      },
+      "started_at": {
+        "$date": "2026-06-11T09:40:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-06-11T11:40:00Z"
+      },
+      "submitted_at": null,
+      "score_percentage": null,
+      "passed": null,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3ff77c412bfd41de38a98c94"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "cert_code": "AZ-305",
+      "attempt_number": 1,
+      "status": "ready",
+      "question_count": 12,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-06-09T10:12:00Z"
+      },
+      "started_at": null,
+      "ends_at": null,
+      "submitted_at": null,
+      "score_percentage": null,
+      "passed": null,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "90548ec9f3e3ea7d779f43e3"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_name": "AZ-104: Azure Administrator",
+      "cert_code": "AZ-104",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T10:46:00Z"
+      },
+      "score_percentage": 62.5,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T10:46:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "85b78894b204ac23057a43ba"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_name": "DP-203: Azure Data Engineering",
+      "cert_code": "DP-203",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T11:01:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T11:01:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "78041ecad9475e74c25ef98c"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "cert_code": "AZ-305",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T10:54:00Z"
+      },
+      "score_percentage": 100.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T10:54:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6aa99ac6a1340c1ec81ad908"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_name": "AZ-104: Azure Administrator",
+      "cert_code": "AZ-104",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T10:51:00Z"
+      },
+      "score_percentage": 87.5,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T10:51:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e1d66954b010bfb65e236ebd"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_name": "AZ-204: Developing Azure Solutions",
+      "cert_code": "AZ-204",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-10T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-10T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-13T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-13T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-13T11:08:00Z"
+      },
+      "score_percentage": 100.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-13T11:08:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d1560363812569264185b410"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_name": "AI-102: Azure AI Engineer",
+      "cert_code": "AI-102",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T10:41:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T10:41:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0693966f5ad42b11fb672efc"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_name": "AZ-400: Azure DevOps Solutions",
+      "cert_code": "AZ-400",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T11:06:00Z"
+      },
+      "score_percentage": 16.7,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T11:06:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "827a5d865a990ca4d52337d9"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_name": "AZ-204: Developing Azure Solutions",
+      "cert_code": "AZ-204",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T10:43:00Z"
+      },
+      "score_percentage": 50.0,
+      "passed": false,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T10:43:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "52eafcdcc1a9e2478f8e6c67"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_name": "AZ-700: Azure Network Engineer",
+      "cert_code": "AZ-700",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-02T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-02T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-05T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-05T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-05T10:44:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-05T10:44:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "47f7e73c159b7ca7f4a7e542"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_name": "AZ-500: Azure Security Technologies",
+      "cert_code": "AZ-500",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-06T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-09T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-09T10:37:00Z"
+      },
+      "score_percentage": 83.3,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-09T10:37:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "fea3fb97c25080a9e747f703"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_name": "AI-102: Azure AI Engineer",
+      "cert_code": "AI-102",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 6,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-10T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-10T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-13T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-13T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-13T11:14:00Z"
+      },
+      "score_percentage": 100.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-13T11:14:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c6c62f495a58c5e32fd4125c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_name": "DP-900: Azure Data Fundamentals",
+      "cert_code": "DP-900",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-14T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-14T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-17T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-17T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-17T10:46:00Z"
+      },
+      "score_percentage": 100.0,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-17T10:46:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f9696ece4cdbf221e2025ae2"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "cert_code": "AZ-305",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 120,
+      "scheduled_at": {
+        "$date": "2026-05-18T10:00:00Z"
+      },
+      "ready_at": {
+        "$date": "2026-05-18T10:10:00Z"
+      },
+      "started_at": {
+        "$date": "2026-05-21T10:00:00Z"
+      },
+      "ends_at": {
+        "$date": "2026-05-21T12:00:00Z"
+      },
+      "submitted_at": {
+        "$date": "2026-05-21T10:37:00Z"
+      },
+      "score_percentage": 87.5,
+      "passed": true,
+      "error": null,
+      "updated_at": {
+        "$date": "2026-05-21T10:37:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a55ed900" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ab7c0f3deef463fa66b51c1d" },
+      "course_name": "AZ-900: Azure Fundamentals",
+      "cert_code": "AZ-900",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 8,
+      "duration_minutes": 60,
+      "scheduled_at": { "$date": "2026-05-20T10:00:00Z" },
+      "ready_at": { "$date": "2026-05-20T10:05:00Z" },
+      "started_at": { "$date": "2026-05-22T14:00:00Z" },
+      "ends_at": { "$date": "2026-05-22T15:00:00Z" },
+      "submitted_at": { "$date": "2026-05-22T14:32:00Z" },
+      "score_percentage": 87.5,
+      "passed": true,
+      "correct_count": 7,
+      "total_questions": 8,
+      "answers": [
+        { "index": 0, "selected_index": 0 },
+        { "index": 1, "selected_index": 0 },
+        { "index": 2, "selected_index": 3 },
+        { "index": 3, "selected_index": 2 },
+        { "index": 4, "selected_index": 1 },
+        { "index": 5, "selected_index": 0 },
+        { "index": 6, "selected_index": 1 },
+        { "index": 7, "selected_index": 0 }
+      ],
+      "per_topic_breakdown": {
+        "IaaS, PaaS, and SaaS": { "total": 2, "correct": 2 },
+        "Shared Responsibility Model": { "total": 2, "correct": 2 },
+        "Regions and Availability Zones": { "total": 2, "correct": 1 },
+        "Resource Groups and Subscriptions": { "total": 2, "correct": 2 }
+      },
+      "weak_areas": [],
+      "strong_areas": [
+        "IaaS, PaaS, and SaaS",
+        "Shared Responsibility Model",
+        "Resource Groups and Subscriptions"
+      ],
+      "proctor_violations": [],
+      "error": null,
+      "updated_at": { "$date": "2026-05-22T14:32:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a55ed104" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ad83eb075ea0c64896b1fc48" },
+      "course_name": "AZ-104: Azure Administrator",
+      "cert_code": "AZ-104",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 10,
+      "duration_minutes": 90,
+      "scheduled_at": { "$date": "2026-05-30T10:00:00Z" },
+      "ready_at": { "$date": "2026-05-30T10:05:00Z" },
+      "started_at": { "$date": "2026-06-01T15:00:00Z" },
+      "ends_at": { "$date": "2026-06-01T16:30:00Z" },
+      "submitted_at": { "$date": "2026-06-01T15:48:00Z" },
+      "score_percentage": 90.0,
+      "passed": true,
+      "correct_count": 9,
+      "total_questions": 10,
+      "answers": [
+        { "index": 0, "selected_index": 0 },
+        { "index": 1, "selected_index": 2 },
+        { "index": 2, "selected_index": 0 },
+        { "index": 3, "selected_index": 1 },
+        { "index": 4, "selected_index": 3 },
+        { "index": 5, "selected_index": 2 },
+        { "index": 6, "selected_index": 1 },
+        { "index": 7, "selected_index": 1 },
+        { "index": 8, "selected_index": 0 },
+        { "index": 9, "selected_index": 0 }
+      ],
+      "per_topic_breakdown": {
+        "Microsoft Entra Basics": { "total": 3, "correct": 3 },
+        "RBAC Assignments": { "total": 3, "correct": 3 },
+        "Storage Account Tiers": { "total": 2, "correct": 1 },
+        "VM Lifecycle Management": { "total": 2, "correct": 2 }
+      },
+      "weak_areas": [],
+      "strong_areas": [
+        "Microsoft Entra Basics",
+        "RBAC Assignments",
+        "VM Lifecycle Management"
+      ],
+      "proctor_violations": [],
+      "error": null,
+      "updated_at": { "$date": "2026-06-01T15:48:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a55ed305" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "d5eac68042d454232144476e" },
+      "course_name": "AZ-305: Azure Solutions Architect",
+      "cert_code": "AZ-305",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 10,
+      "duration_minutes": 120,
+      "scheduled_at": { "$date": "2026-06-06T10:00:00Z" },
+      "ready_at": { "$date": "2026-06-06T10:05:00Z" },
+      "started_at": { "$date": "2026-06-08T10:30:00Z" },
+      "ends_at": { "$date": "2026-06-08T12:30:00Z" },
+      "submitted_at": { "$date": "2026-06-08T11:22:00Z" },
+      "score_percentage": 70.0,
+      "passed": true,
+      "correct_count": 7,
+      "total_questions": 10,
+      "answers": [
+        { "index": 0, "selected_index": 1 },
+        { "index": 1, "selected_index": 0 },
+        { "index": 2, "selected_index": 0 },
+        { "index": 3, "selected_index": 2 },
+        { "index": 4, "selected_index": 0 },
+        { "index": 5, "selected_index": 1 },
+        { "index": 6, "selected_index": 3 },
+        { "index": 7, "selected_index": 0 },
+        { "index": 8, "selected_index": 1 },
+        { "index": 9, "selected_index": 0 }
+      ],
+      "per_topic_breakdown": {
+        "Tenant and Subscription Design": { "total": 3, "correct": 2 },
+        "Landing Zone Patterns": { "total": 3, "correct": 3 },
+        "Choosing the Right Database": { "total": 2, "correct": 1 },
+        "Data Migration Strategies": { "total": 2, "correct": 1 }
+      },
+      "weak_areas": [
+        "Choosing the Right Database",
+        "Data Migration Strategies"
+      ],
+      "strong_areas": [
+        "Landing Zone Patterns"
+      ],
+      "proctor_violations": [],
+      "error": null,
+      "updated_at": { "$date": "2026-06-08T11:22:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a55ed204" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "91e9ceb83b80f633bbb6dd63" },
+      "course_name": "AZ-204: Developing Azure Solutions",
+      "cert_code": "AZ-204",
+      "attempt_number": 1,
+      "status": "completed",
+      "question_count": 10,
+      "duration_minutes": 120,
+      "scheduled_at": { "$date": "2026-06-07T10:00:00Z" },
+      "ready_at": { "$date": "2026-06-07T10:05:00Z" },
+      "started_at": { "$date": "2026-06-09T13:00:00Z" },
+      "ends_at": { "$date": "2026-06-09T15:00:00Z" },
+      "submitted_at": { "$date": "2026-06-09T14:15:00Z" },
+      "score_percentage": 50.0,
+      "passed": false,
+      "correct_count": 5,
+      "total_questions": 10,
+      "answers": [
+        { "index": 0, "selected_index": 0 },
+        { "index": 1, "selected_index": 2 },
+        { "index": 2, "selected_index": 1 },
+        { "index": 3, "selected_index": 0 },
+        { "index": 4, "selected_index": 0 },
+        { "index": 5, "selected_index": 3 },
+        { "index": 6, "selected_index": 1 },
+        { "index": 7, "selected_index": 0 },
+        { "index": 8, "selected_index": 2 },
+        { "index": 9, "selected_index": 0 }
+      ],
+      "per_topic_breakdown": {
+        "App Service Web Apps": { "total": 3, "correct": 2 },
+        "Azure Functions Triggers": { "total": 3, "correct": 1 },
+        "Blob Storage SDKs": { "total": 2, "correct": 1 },
+        "Cosmos DB Querying": { "total": 2, "correct": 1 }
+      },
+      "weak_areas": [
+        "Azure Functions Triggers",
+        "Blob Storage SDKs",
+        "Cosmos DB Querying"
+      ],
+      "strong_areas": [],
+      "proctor_violations": [],
+      "error": null,
+      "updated_at": { "$date": "2026-06-09T14:15:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000a55ed990" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "7b2ead0d4076b7d2d90913db" },
+      "course_name": "DP-900: Azure Data Fundamentals",
+      "cert_code": "DP-900",
+      "attempt_number": 1,
+      "status": "blocked",
+      "question_count": 8,
+      "duration_minutes": 60,
+      "scheduled_at": { "$date": "2026-06-09T10:00:00Z" },
+      "ready_at": { "$date": "2026-06-09T10:05:00Z" },
+      "started_at": { "$date": "2026-06-10T19:00:00Z" },
+      "ends_at": { "$date": "2026-06-10T20:00:00Z" },
+      "submitted_at": { "$date": "2026-06-10T19:11:00Z" },
+      "score_percentage": 0.0,
+      "passed": false,
+      "correct_count": 0,
+      "total_questions": 8,
+      "answers": [],
+      "per_topic_breakdown": {},
+      "weak_areas": [],
+      "strong_areas": [],
+      "proctor_violations": [
+        { "type": "tab_switch", "at_seconds": 42, "question_index": 1, "duration_ms": 3200 },
+        { "type": "window_blur", "at_seconds": 58, "question_index": 1, "duration_ms": 5100 },
+        { "type": "tab_switch", "at_seconds": 124, "question_index": 2, "duration_ms": 2800 },
+        { "type": "multiple_faces", "at_seconds": 380, "question_index": 4, "duration_ms": 8200 },
+        { "type": "no_face", "at_seconds": 605, "question_index": 5, "duration_ms": 12000 }
+      ],
+      "error": "Attempt voided by proctor: multiple integrity violations detected",
+      "updated_at": { "$date": "2026-06-10T19:11:00Z" },
+      "schema_version": 1
+    }
+  ]
+}

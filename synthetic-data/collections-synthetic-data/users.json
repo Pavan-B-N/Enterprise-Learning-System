@@ -1,0 +1,358 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "users",
+  "count": 12,
+  "data": [
+    {
+      "_id": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "full_name": "System Admin",
+      "email": "admin@els.dev",
+      "roles": [
+        "admin"
+      ],
+      "job_role": null,
+      "reports_to": null,
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2025-12-13T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2025-12-13T10:00:00Z"
+      },
+      "created_by": null,
+      "updated_by": null
+    },
+    {
+      "_id": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "full_name": "Alice Chen",
+      "email": "manager.alice@els.dev",
+      "roles": [
+        "manager",
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "d9bccd8b8a8ff69b8aeb869e"
+      },
+      "reports_to": null,
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2025-12-23T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-05-12T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "full_name": "Priya Sharma",
+      "email": "learner01@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "full_name": "James Lee",
+      "email": "learner02@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "full_name": "Fatima Ali",
+      "email": "learner03@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "full_name": "Marcus Johnson",
+      "email": "learner04@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "1eac4571c63b164219c2aeaa"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "full_name": "Sofia Garcia",
+      "email": "learner05@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "full_name": "Raj Patel",
+      "email": "learner06@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "fc33c82be53d86121435aa95"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "full_name": "Chen Wei",
+      "email": "learner07@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "1eac4571c63b164219c2aeaa"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "full_name": "Emma Wilson",
+      "email": "learner08@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "full_name": "Omar Hassan",
+      "email": "learner09@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "fc33c82be53d86121435aa95"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "full_name": "Yuki Tanaka",
+      "email": "learner10@els.dev",
+      "roles": [
+        "learner"
+      ],
+      "job_role": {
+        "$oid": "50a23c2755f7430ab8441e1f"
+      },
+      "reports_to": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "is_active": true,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-02T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    }
+  ]
+}

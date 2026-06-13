@@ -1,0 +1,1497 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "notifications",
+  "count": 63,
+  "data": [
+    {
+      "_id": {
+        "$oid": "5b5aa2b51331c27d536b7802"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner01@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a33a51f56825569f023ab38e"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner01@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f43a88f54e81bc7c799b4dec"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner01@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "446832cf3657f71ec130bcc7"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner01@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "8bad2849de61d354701a4bea"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner02@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e9102b4d20ad947c41e08230"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner02@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "1e5996ddfc99537c158d44f3"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner02@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e50561eb05a667109b5834d5"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner02@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "610b4ee787e95fc8d4b3c49d"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner03@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "53c4604301b22b5cd6c175a6"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner03@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "08bcb89a1e3f8e22532e5898"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner03@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "885c26a8709380aaae2a8d1a"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner03@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e77b9a1d1657ee5c8bcc3128"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner04@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "456a2071a79ca012b9bbad54"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner04@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "191d7755b4f1f2150e3bec27"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner04@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "78daf0df8604a9d829081ed0"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner04@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6f9048ea0c1dc17f47842dc6"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner05@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "67b41ac17476fa6bf8e6f738"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner05@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "98720eac33716e8d0413f920"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner05@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4f3247b934e34f520d5ca0c5"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner05@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f085c9181040aae62e6605f6"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner06@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e188afdb76cdb6f0ff855199"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner06@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "536331e3cc2e1bbffff9f839"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner06@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "797149234256c9de654f422f"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner06@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f8bfeda811d700260896b00d"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner07@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "01f16e0762dce0e857d08995"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner07@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "46a80e67ef657363d74446c1"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner07@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "890534e82f0feeca7b5e325e"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner07@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "fdb819a7100d9fd74c985c5f"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner08@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2ce22ae18b782606cedf5e08"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner08@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "226ac4a7367789b626cf3d43"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner08@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "22d2bb90c39f2bd25e65f8fa"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner08@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3a908548b7e3e3a5a4c9259e"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner09@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4b14e7f9066bfe5517c8fca7"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner09@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "7c1f6351272c91b11d2a1b40"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner09@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0eb20292c8f45981ef00fe9f"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner09@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "03dba3201a2be530b3d7d156"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "info",
+      "title": "Welcome to ELS",
+      "message": "Your account has been provisioned. Explore courses to get started.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:0:learner10@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-27T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b981debd4917bfeefea971eb"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "reminder",
+      "title": "Continue your learning",
+      "message": "You have an in-progress course waiting.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:1:learner10@els.dev",
+      "read": true,
+      "read_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "created_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "847f65f2762f854d6cdac1d8"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "success",
+      "title": "Weekly streak achieved",
+      "message": "You hit your weekly study target. Keep it going!",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:2:learner10@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-02T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f8b78b7103009d2e0985364e"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "warning",
+      "title": "Catch-up needed",
+      "message": "You missed two scheduled study blocks this week.",
+      "link": null,
+      "entity": null,
+      "metadata": {},
+      "dedupe_key": "generic:3:learner10@els.dev",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-06-05T10:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "79e04fce495c49d971580e2f"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "success",
+      "title": "Certification issued: DP-203",
+      "message": "Congratulations on passing Microsoft Azure Data Engineer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "a3568f06d6fda6c9227e866d"
+        }
+      },
+      "metadata": {
+        "cert_code": "DP-203"
+      },
+      "dedupe_key": "cert_issued:certification:a3568f06d6fda6c9227e866d",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-05T11:00:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "565609228f2e76b241f697d9"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-305",
+      "message": "Congratulations on passing Microsoft Azure Solutions Architect Expert!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "75216fd72e71c91e52eb8378"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-305"
+      },
+      "dedupe_key": "cert_issued:certification:75216fd72e71c91e52eb8378",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-09T10:49:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6dde01364e31b5245b3063a7"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-900",
+      "message": "Congratulations on passing Microsoft Azure Fundamentals!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "d553d4ae7de7a5911429844d"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-900"
+      },
+      "dedupe_key": "cert_issued:certification:d553d4ae7de7a5911429844d",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-13T11:06:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9ebce5eabe3507bab11696ac"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-400",
+      "message": "Congratulations on passing Microsoft DevOps Engineer Expert!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "1c4f512b70e8991ef33e1c3a"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-400"
+      },
+      "dedupe_key": "cert_issued:certification:1c4f512b70e8991ef33e1c3a",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-05T10:38:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c80690c79a796449df97e19c"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-500",
+      "message": "Congratulations on passing Microsoft Azure Security Engineer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "b06c3030c77e5f1b5b9a52dc"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-500"
+      },
+      "dedupe_key": "cert_issued:certification:b06c3030c77e5f1b5b9a52dc",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-09T10:48:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a19859d28cf34a138a6fec73"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "success",
+      "title": "Certification issued: DP-900",
+      "message": "Congratulations on passing Microsoft Azure Data Fundamentals!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "65a74073a962e20a805bf890"
+        }
+      },
+      "metadata": {
+        "cert_code": "DP-900"
+      },
+      "dedupe_key": "cert_issued:certification:65a74073a962e20a805bf890",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-13T10:53:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "84b4f69569dbcb8b284150de"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-104",
+      "message": "Congratulations on passing Microsoft Azure Administrator Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "e443fcad5b23e57679607ebf"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-104"
+      },
+      "dedupe_key": "cert_issued:certification:e443fcad5b23e57679607ebf",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-17T11:09:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "099cfa297446903f1ab5d225"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "type": "success",
+      "title": "Certification issued: DP-203",
+      "message": "Congratulations on passing Microsoft Azure Data Engineer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "4ca98d81190a762e33368c04"
+        }
+      },
+      "metadata": {
+        "cert_code": "DP-203"
+      },
+      "dedupe_key": "cert_issued:certification:4ca98d81190a762e33368c04",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-09T11:01:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "07b75d90ac13ae6420d4ecc0"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-305",
+      "message": "Congratulations on passing Microsoft Azure Solutions Architect Expert!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "5152344c05f2e76b53b398c0"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-305"
+      },
+      "dedupe_key": "cert_issued:certification:5152344c05f2e76b53b398c0",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-05T10:54:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3c7edf1fd2dff1346725a543"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-104",
+      "message": "Congratulations on passing Microsoft Azure Administrator Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "6a3358674eae02f31df5c14c"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-104"
+      },
+      "dedupe_key": "cert_issued:certification:6a3358674eae02f31df5c14c",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-09T10:51:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "143e05de52109d47bcd15453"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-204",
+      "message": "Congratulations on passing Microsoft Azure Developer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "e8558b13c632b91106a8388a"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-204"
+      },
+      "dedupe_key": "cert_issued:certification:e8558b13c632b91106a8388a",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-13T11:08:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "8b3e50abc4b5bd2bbdae1030"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-400",
+      "message": "Congratulations on passing Microsoft DevOps Engineer Expert!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "a4888e96e1ced6d478532870"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-400"
+      },
+      "dedupe_key": "cert_issued:certification:a4888e96e1ced6d478532870",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-05T11:06:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "fcf98da3070da8ebb11e2fd7"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-204",
+      "message": "Congratulations on passing Microsoft Azure Developer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "953c61a06890d25d9374c1b6"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-204"
+      },
+      "dedupe_key": "cert_issued:certification:953c61a06890d25d9374c1b6",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-09T10:43:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "650a906f1cab9f8a1425120b"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-700",
+      "message": "Congratulations on passing Microsoft Azure Network Engineer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "059ddd4abe52b21c8eee7570"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-700"
+      },
+      "dedupe_key": "cert_issued:certification:059ddd4abe52b21c8eee7570",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-05T10:44:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9c849ce4b69a4ffacd75d86b"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-500",
+      "message": "Congratulations on passing Microsoft Azure Security Engineer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "1eb16ff0e9ebcd9b415cac83"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-500"
+      },
+      "dedupe_key": "cert_issued:certification:1eb16ff0e9ebcd9b415cac83",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-09T10:37:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "138c858331f926d93a6d5887"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "success",
+      "title": "Certification issued: AI-102",
+      "message": "Congratulations on passing Azure AI Engineer Associate!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "b5394a6d7d8ecb5beb3ae1bc"
+        }
+      },
+      "metadata": {
+        "cert_code": "AI-102"
+      },
+      "dedupe_key": "cert_issued:certification:b5394a6d7d8ecb5beb3ae1bc",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-13T11:14:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "ab42fffa02fc1acd9cb18657"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "success",
+      "title": "Certification issued: DP-900",
+      "message": "Congratulations on passing Microsoft Azure Data Fundamentals!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "b2d8d046914624d9ee784acc"
+        }
+      },
+      "metadata": {
+        "cert_code": "DP-900"
+      },
+      "dedupe_key": "cert_issued:certification:b2d8d046914624d9ee784acc",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-17T10:46:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "34273a323feaea5b5663f38f"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "type": "success",
+      "title": "Certification issued: AZ-305",
+      "message": "Congratulations on passing Microsoft Azure Solutions Architect Expert!",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": {
+          "$oid": "4f3938bc1bcb60915f722f22"
+        }
+      },
+      "metadata": {
+        "cert_code": "AZ-305"
+      },
+      "dedupe_key": "cert_issued:certification:4f3938bc1bcb60915f722f22",
+      "read": false,
+      "read_at": null,
+      "created_at": {
+        "$date": "2026-05-21T10:37:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000000a0001" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "type": "success",
+      "title": "Certification issued: AZ-104",
+      "message": "Congratulations — you earned Microsoft Certified: Azure Administrator Associate with a score of 88%.",
+      "link": "/certifications",
+      "entity": {
+        "kind": "certification",
+        "id": { "$oid": "a11ce00000000000cef00104" }
+      },
+      "metadata": {
+        "cert_code": "AZ-104",
+        "score": 88.0
+      },
+      "dedupe_key": "cert_issued:certification:a11ce00000000000cef00104",
+      "read": false,
+      "read_at": null,
+      "created_at": { "$date": "2026-06-01T15:48:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000000a0002" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "type": "reminder",
+      "title": "Keep going on AZ-500",
+      "message": "You're 65% through AZ-500: Azure Security Technologies. 20 minutes today keeps your streak alive.",
+      "link": "/courses/9f485a97ab08e33213e77abd",
+      "entity": {
+        "kind": "course",
+        "id": { "$oid": "9f485a97ab08e33213e77abd" }
+      },
+      "metadata": {
+        "cert_code": "AZ-500",
+        "percent_complete": 65.0
+      },
+      "dedupe_key": "study_reminder:course:9f485a97ab08e33213e77abd:2026-06-12",
+      "read": false,
+      "read_at": null,
+      "created_at": { "$date": "2026-06-12T08:00:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000000a0003" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "type": "info",
+      "title": "Team member earned a certification",
+      "message": "Yuki Tanaka just completed Microsoft Azure Solutions Architect Expert (AZ-305).",
+      "link": "/team",
+      "entity": {
+        "kind": "user",
+        "id": { "$oid": "486a4ac712abadc5be74e7bb" }
+      },
+      "metadata": {
+        "team_member_name": "Yuki Tanaka",
+        "cert_code": "AZ-305"
+      },
+      "dedupe_key": "team_cert_earned:user:486a4ac712abadc5be74e7bb:AZ-305",
+      "read": false,
+      "read_at": null,
+      "created_at": { "$date": "2026-05-21T10:40:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000000a0004" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "type": "warning",
+      "title": "Inactive team member",
+      "message": "Marcus Johnson has had no learning activity for 14 days. Consider a check-in.",
+      "link": "/team",
+      "entity": {
+        "kind": "user",
+        "id": { "$oid": "c4691eda956d95a1aa6f1f39" }
+      },
+      "metadata": {
+        "team_member_name": "Marcus Johnson",
+        "days_inactive": 14
+      },
+      "dedupe_key": "team_inactivity:user:c4691eda956d95a1aa6f1f39:14d",
+      "read": false,
+      "read_at": null,
+      "created_at": { "$date": "2026-06-12T07:30:00Z" },
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce00000000000000a0005" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "type": "alert",
+      "title": "Assessment voided by proctor",
+      "message": "Your DP-900 attempt on 2026-06-10 was blocked after 5 integrity violations. You can reschedule once you've reviewed the proctor policy.",
+      "link": "/assessments/history",
+      "entity": {
+        "kind": "assessment_schedule",
+        "id": { "$oid": "a11ce00000000000a55ed990" }
+      },
+      "metadata": {
+        "cert_code": "DP-900",
+        "violation_count": 5,
+        "blocked_reason": "Integrity policy threshold exceeded"
+      },
+      "dedupe_key": "proctor_blocked:assessment_schedule:a11ce00000000000a55ed990",
+      "read": false,
+      "read_at": null,
+      "created_at": { "$date": "2026-06-10T19:12:00Z" },
+      "schema_version": 1
+    }
+  ]
+}

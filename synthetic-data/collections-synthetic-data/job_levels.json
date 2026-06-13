@@ -1,0 +1,87 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "job_levels",
+  "count": 10,
+  "data": [
+    {
+      "_id": {
+        "$oid": "56310b028cbc0182e29a3fd7"
+      },
+      "level_id": "L59",
+      "level_name": "SDE",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2d0d0f08ca5d593b4b45f0be"
+      },
+      "level_id": "L60",
+      "level_name": "SDE",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5d42d47d2bfa67c494e1b9ba"
+      },
+      "level_id": "L61",
+      "level_name": "SDE II",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d94c0134dabd1b82f1bbe897"
+      },
+      "level_id": "L62",
+      "level_name": "Senior SDE",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "09a974d55f4541d586c5e17e"
+      },
+      "level_id": "L63",
+      "level_name": "Senior SDE",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "147fbca2ab65f8b5139663cb"
+      },
+      "level_id": "L64",
+      "level_name": "Principal SDE",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "df191bc0fbe91c44cd2be2b4"
+      },
+      "level_id": "L65",
+      "level_name": "Engineering Manager",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "bb47106bdc191922b157958b"
+      },
+      "level_id": "L66",
+      "level_name": "Senior EM",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e6f4abefbf6f7ae7902b6793"
+      },
+      "level_id": "L67",
+      "level_name": "Partner EM",
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2b75d79d05249d9784bed40b"
+      },
+      "level_id": "L68",
+      "level_name": "Technical Fellow",
+      "schema_version": 1
+    }
+  ]
+}

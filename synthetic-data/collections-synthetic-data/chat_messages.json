@@ -1,0 +1,1607 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "chat_messages",
+  "count": 80,
+  "data": [
+    {
+      "_id": {
+        "$oid": "17cf79364eef03d7ab29f134"
+      },
+      "conversation_id": {
+        "$oid": "22d4b08b45e665c513407fec"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "How do I prepare for AZ-204?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9a5a79e50a07f8f1787e2874"
+      },
+      "conversation_id": {
+        "$oid": "22d4b08b45e665c513407fec"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e2bd89d55b8ca36a77221b04"
+      },
+      "conversation_id": {
+        "$oid": "22d4b08b45e665c513407fec"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d35459e48537348a08e99002"
+      },
+      "conversation_id": {
+        "$oid": "22d4b08b45e665c513407fec"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a7e99d8ab293232400569b3e"
+      },
+      "conversation_id": {
+        "$oid": "c80995ad8b1cd2a40f1ede3c"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Explain shared responsibility model",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f01e3271785ea7fd30343931"
+      },
+      "conversation_id": {
+        "$oid": "c80995ad8b1cd2a40f1ede3c"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9184f2a052ec58454f2b96a0"
+      },
+      "conversation_id": {
+        "$oid": "c80995ad8b1cd2a40f1ede3c"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9ab9b62f201f99cd8d9ac742"
+      },
+      "conversation_id": {
+        "$oid": "c80995ad8b1cd2a40f1ede3c"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "302a3100d994d343762c62e7"
+      },
+      "conversation_id": {
+        "$oid": "662e2fb7a7a99350690c9e84"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "How do I prepare for AZ-204?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "20d47d7bd642a6a0bf432fd8"
+      },
+      "conversation_id": {
+        "$oid": "662e2fb7a7a99350690c9e84"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "cf918aa8ae7f969d64dd18d6"
+      },
+      "conversation_id": {
+        "$oid": "662e2fb7a7a99350690c9e84"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "594b345bdc734efda7372477"
+      },
+      "conversation_id": {
+        "$oid": "662e2fb7a7a99350690c9e84"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d085049afbfe359ed28a2a33"
+      },
+      "conversation_id": {
+        "$oid": "21d4d5715b49db64cef228bb"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Explain shared responsibility model",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "4d4b53f4045f1e2d9f0f1d05"
+      },
+      "conversation_id": {
+        "$oid": "21d4d5715b49db64cef228bb"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b5f1c5a3d8ab692667da5255"
+      },
+      "conversation_id": {
+        "$oid": "21d4d5715b49db64cef228bb"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0b5c6b6af7d01227c86c1069"
+      },
+      "conversation_id": {
+        "$oid": "21d4d5715b49db64cef228bb"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b5d50d400fda9f9169ea5474"
+      },
+      "conversation_id": {
+        "$oid": "4bf8240ec21d738b97efdf47"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Compare Cosmos DB vs Azure SQL",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2e39a7d16509640f1e4adcfd"
+      },
+      "conversation_id": {
+        "$oid": "4bf8240ec21d738b97efdf47"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "48f52ee35520489475197185"
+      },
+      "conversation_id": {
+        "$oid": "4bf8240ec21d738b97efdf47"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "74f4788bfbbd3ab14809f790"
+      },
+      "conversation_id": {
+        "$oid": "4bf8240ec21d738b97efdf47"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e2613a0179a6480056563f85"
+      },
+      "conversation_id": {
+        "$oid": "13f27a135b96fb40575d76e5"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "What's a good study schedule?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "1e01697cbd45d8f24765f451"
+      },
+      "conversation_id": {
+        "$oid": "13f27a135b96fb40575d76e5"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d0ba8a670c9193ac704fdd93"
+      },
+      "conversation_id": {
+        "$oid": "13f27a135b96fb40575d76e5"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0d8cd57dada0c336ed52bfc8"
+      },
+      "conversation_id": {
+        "$oid": "13f27a135b96fb40575d76e5"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2809004b80aafb76c0de96ac"
+      },
+      "conversation_id": {
+        "$oid": "f2cbd950ae803e62b48b675a"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Compare Cosmos DB vs Azure SQL",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "1418006572318f92637df297"
+      },
+      "conversation_id": {
+        "$oid": "f2cbd950ae803e62b48b675a"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "56641bd77d0c402ed3ae8c23"
+      },
+      "conversation_id": {
+        "$oid": "f2cbd950ae803e62b48b675a"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "94c70fa9ae05f892231b1fe3"
+      },
+      "conversation_id": {
+        "$oid": "f2cbd950ae803e62b48b675a"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9cb47a6f051830c0e6a87fe1"
+      },
+      "conversation_id": {
+        "$oid": "54109d68a248f977f0f39200"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "What's a good study schedule?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b2f5468607390a46424af2bf"
+      },
+      "conversation_id": {
+        "$oid": "54109d68a248f977f0f39200"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6f88dbd42204f2af8799639a"
+      },
+      "conversation_id": {
+        "$oid": "54109d68a248f977f0f39200"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a70330dd88b5257fb0a3206e"
+      },
+      "conversation_id": {
+        "$oid": "54109d68a248f977f0f39200"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5fed8e65b6b7cf487a5cea96"
+      },
+      "conversation_id": {
+        "$oid": "063fbfdf56f3bac8130b2ee9"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Explain shared responsibility model",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f36a7e362849878ddffadd3e"
+      },
+      "conversation_id": {
+        "$oid": "063fbfdf56f3bac8130b2ee9"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "fdfa7ce62ae6d51c4bdd62fd"
+      },
+      "conversation_id": {
+        "$oid": "063fbfdf56f3bac8130b2ee9"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6b1d0ac29f90fea01407c84c"
+      },
+      "conversation_id": {
+        "$oid": "063fbfdf56f3bac8130b2ee9"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f23605155c75acddcf4ba156"
+      },
+      "conversation_id": {
+        "$oid": "d8bc5ffbeeb0caac2b37eb4f"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Compare Cosmos DB vs Azure SQL",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "e336185a6095a844d188c343"
+      },
+      "conversation_id": {
+        "$oid": "d8bc5ffbeeb0caac2b37eb4f"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9379346c4f4feb81d3f7d41f"
+      },
+      "conversation_id": {
+        "$oid": "d8bc5ffbeeb0caac2b37eb4f"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f5252c1d9ad5a277972b66e8"
+      },
+      "conversation_id": {
+        "$oid": "d8bc5ffbeeb0caac2b37eb4f"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "87cceb56c3e8975ed2b4bcf1"
+      },
+      "conversation_id": {
+        "$oid": "18652730c848d51676cd6856"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "What's a good study schedule?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "917cdbe8eb481bafcfd0345b"
+      },
+      "conversation_id": {
+        "$oid": "18652730c848d51676cd6856"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5fa1fd23a9357f056fd8e46c"
+      },
+      "conversation_id": {
+        "$oid": "18652730c848d51676cd6856"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "64188b46f2309b8d8c1012e9"
+      },
+      "conversation_id": {
+        "$oid": "18652730c848d51676cd6856"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "387b23cb5337491b87c78b65"
+      },
+      "conversation_id": {
+        "$oid": "312550a56cd7ded8c3ae7ba0"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "How do I prepare for AZ-204?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "942a1361e33134881ed50565"
+      },
+      "conversation_id": {
+        "$oid": "312550a56cd7ded8c3ae7ba0"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3e7b5449737303216802478f"
+      },
+      "conversation_id": {
+        "$oid": "312550a56cd7ded8c3ae7ba0"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3520967946318b7deed4a5d2"
+      },
+      "conversation_id": {
+        "$oid": "312550a56cd7ded8c3ae7ba0"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0e83251336d7c3b142d5cd52"
+      },
+      "conversation_id": {
+        "$oid": "436277bba83a244e5e573cd4"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "How do I prepare for AZ-204?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f0ddf7efb468b68142e66735"
+      },
+      "conversation_id": {
+        "$oid": "436277bba83a244e5e573cd4"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "be4fa8712ed81d37a3be71ae"
+      },
+      "conversation_id": {
+        "$oid": "436277bba83a244e5e573cd4"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0a5d9ceceaa2e44217e3786a"
+      },
+      "conversation_id": {
+        "$oid": "436277bba83a244e5e573cd4"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "520a833310f010c81b335dbf"
+      },
+      "conversation_id": {
+        "$oid": "18cccd4e5c5c428b6aff9fbe"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Explain shared responsibility model",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "906d2dd10dbf68a3d9b6b621"
+      },
+      "conversation_id": {
+        "$oid": "18cccd4e5c5c428b6aff9fbe"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "915e56da9f83bd64792653b7"
+      },
+      "conversation_id": {
+        "$oid": "18cccd4e5c5c428b6aff9fbe"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "0d81e8ed84bc91736dec13b2"
+      },
+      "conversation_id": {
+        "$oid": "18cccd4e5c5c428b6aff9fbe"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "068b27d2c5f9c960b31e5670"
+      },
+      "conversation_id": {
+        "$oid": "a6bec5dee625026d59866409"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Explain shared responsibility model",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a1625ef5a947f03b3318adf9"
+      },
+      "conversation_id": {
+        "$oid": "a6bec5dee625026d59866409"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "8e8d94878b64dba2dc8798e5"
+      },
+      "conversation_id": {
+        "$oid": "a6bec5dee625026d59866409"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "23cb032b5d1d186f5e2407f9"
+      },
+      "conversation_id": {
+        "$oid": "a6bec5dee625026d59866409"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5313aaae5089a5252e4468e8"
+      },
+      "conversation_id": {
+        "$oid": "ce206f313e4b166dfb85ec71"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Compare Cosmos DB vs Azure SQL",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "18482d5f123ee4a12af36840"
+      },
+      "conversation_id": {
+        "$oid": "ce206f313e4b166dfb85ec71"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5037c07f4f4dd0e7cc738a5a"
+      },
+      "conversation_id": {
+        "$oid": "ce206f313e4b166dfb85ec71"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "af379555390ad699d658d5c2"
+      },
+      "conversation_id": {
+        "$oid": "ce206f313e4b166dfb85ec71"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c0e7cb71de43db721fa39ed3"
+      },
+      "conversation_id": {
+        "$oid": "c09702794042a604df5a215d"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "How do I prepare for AZ-204?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b809cca11a828149f3f58991"
+      },
+      "conversation_id": {
+        "$oid": "c09702794042a604df5a215d"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a8e1a8f8ad093508039373ce"
+      },
+      "conversation_id": {
+        "$oid": "c09702794042a604df5a215d"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "40374815e1bd7e77bda05fab"
+      },
+      "conversation_id": {
+        "$oid": "c09702794042a604df5a215d"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9a4257b5f9dc18ed0861cb10"
+      },
+      "conversation_id": {
+        "$oid": "6bbf704d885ca6429854a577"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "Explain shared responsibility model",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "320f5ebc6e4916c6f1223493"
+      },
+      "conversation_id": {
+        "$oid": "6bbf704d885ca6429854a577"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a2ca2d91c770eac2fcf8ffb2"
+      },
+      "conversation_id": {
+        "$oid": "6bbf704d885ca6429854a577"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5f22ed3591204191a8b4f33b"
+      },
+      "conversation_id": {
+        "$oid": "6bbf704d885ca6429854a577"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f82ab145625daebc59ce9ce7"
+      },
+      "conversation_id": {
+        "$oid": "080fd99d4514a38657f28de8"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "What's a good study schedule?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "cd490c240da0b027a2eb26de"
+      },
+      "conversation_id": {
+        "$oid": "080fd99d4514a38657f28de8"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "421a4d09f05d7669a59f3e42"
+      },
+      "conversation_id": {
+        "$oid": "080fd99d4514a38657f28de8"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "71fa6cf14bcd803bf4e235c0"
+      },
+      "conversation_id": {
+        "$oid": "080fd99d4514a38657f28de8"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-22T10:20:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f4d83c9cf0654b6f3b286ba6"
+      },
+      "conversation_id": {
+        "$oid": "9cba146a40f708f01e48d07c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 1,
+      "role": "user",
+      "content": "How do I prepare for AZ-204?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:05:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "11f5eebe3bffde97d6e65d65"
+      },
+      "conversation_id": {
+        "$oid": "9cba146a40f708f01e48d07c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 2,
+      "role": "assistant",
+      "content": "Here is a structured response with grounded references...",
+      "agent": "learning-path-curator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:10:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5bb3bfcfb8c531f2b5b9942d"
+      },
+      "conversation_id": {
+        "$oid": "9cba146a40f708f01e48d07c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 3,
+      "role": "user",
+      "content": "Can you give me a 2-week plan?",
+      "agent": null,
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:15:00Z"
+      },
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "744463eec564dd0bb73fba67"
+      },
+      "conversation_id": {
+        "$oid": "9cba146a40f708f01e48d07c"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "seq": 4,
+      "role": "assistant",
+      "content": "Here is a 2-week plan tailored to your work signals...",
+      "agent": "study-plan-generator",
+      "is_error": false,
+      "created_at": {
+        "$date": "2026-05-27T10:20:00Z"
+      },
+      "schema_version": 1
+    }
+  ]
+}

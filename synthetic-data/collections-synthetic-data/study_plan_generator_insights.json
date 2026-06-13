@@ -1,0 +1,1307 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "study_plan_generator_insights",
+  "count": 10,
+  "data": [
+    {
+      "_id": {
+        "$oid": "04884b88428a4e8e0a1d85db"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "fc52023ef5af3ed9018ca9c7f79da6fbb4fd32d4a2d69cc5d8878c2a246a4b66",
+      "schema_version": 1,
+      "timezone": "America/Los_Angeles",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 360,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "c2716ab8260c51a521362181"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "0551f381ec39a60a822b563f"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "5a7169c11a50dbee7aeb21fb"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "48143e7137bd36a0812c8542"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "27dbfb592a5c731642fe99c8"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "f6d61973ab48163f46e3c3f6"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "14:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "d64becd01ee19285e46f8692"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "a4116320807375c9aaa0e1ab"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "a1e4b806465fa9e1cb8ea5b87a6c6ba4638247b68eecc61c344e57e78cf54a2f",
+      "schema_version": 1,
+      "timezone": "America/New_York",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 420,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "a00fd5b75c347e4d0f553abf"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "3c2a0c356ee74101e07bcae6"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "813149c22417ea81f0fc95f2"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "ebdd2f35e8a531ba6e6c125e"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "7383d93dcfb684fa1a4827d0"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "d1d52a1bdfc8c42fa2cce27d"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "c2afcf201e59cdbafa9fa60f"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "d39d17c6b47feff5827d3303"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "8759927fa00c50e7693ce8aef2e0d0d6a0dcc8b9d586030d773e494bf8366357",
+      "schema_version": 1,
+      "timezone": "Asia/Dubai",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 480,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "c2716ab8260c51a521362181"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "0551f381ec39a60a822b563f"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "5a7169c11a50dbee7aeb21fb"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "48143e7137bd36a0812c8542"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "7383d93dcfb684fa1a4827d0"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "d1d52a1bdfc8c42fa2cce27d"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "14:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "c2afcf201e59cdbafa9fa60f"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "c22d753f47e950b1aa6c1dae"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "9348b96d0b8581e7bc36ed205c10fdd617cd6079b103d7313d67b60e81ab74a4",
+      "schema_version": 1,
+      "timezone": "America/Chicago",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 300,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "00cdf4bfe3c14c85dba6fd50"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "b0dfb59342e202595101daa5"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "195d60f1be22aa5d6a306c7e"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "1f2101dede022287e82a384a"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "00cdf4bfe3c14c85dba6fd50"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "b0dfb59342e202595101daa5"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "195d60f1be22aa5d6a306c7e"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "804df88d28bebc5d7e41e016"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "b0bf8fac8797384157c23b74f47ecfdd3ba562837272544555985c059675bcbf",
+      "schema_version": 1,
+      "timezone": "Europe/Madrid",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 420,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "3f750960fe794b0ba16e2e37"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "9836bb4d6bb5a8ceeb17fded"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "e12ae71f4f86c3de2950546a"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "2ed780f6aa9979e3dbdb715d"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "a00fd5b75c347e4d0f553abf"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "3c2a0c356ee74101e07bcae6"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "10:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "813149c22417ea81f0fc95f2"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "8f29023d20818e52bd4e5eae"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "9bf412ecdcffdaf950f65f814e4012b063037bca0225a6a75ba7a015816c43ce",
+      "schema_version": 1,
+      "timezone": "Asia/Kolkata",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 360,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "a00fd5b75c347e4d0f553abf"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "3c2a0c356ee74101e07bcae6"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "813149c22417ea81f0fc95f2"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "ebdd2f35e8a531ba6e6c125e"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "c2716ab8260c51a521362181"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "0551f381ec39a60a822b563f"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "20:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "5a7169c11a50dbee7aeb21fb"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "7aab003aa9eacf8b04ab92d6"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "0b18d2108fca085c6cdbe560cfc70a59bcf88aec4364ac97f1dd695e2c18939c",
+      "schema_version": 1,
+      "timezone": "Asia/Shanghai",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 420,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "27dbfb592a5c731642fe99c8"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "f6d61973ab48163f46e3c3f6"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "d64becd01ee19285e46f8692"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "7eaf57640bbd7cf7d74b1a93"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "7383d93dcfb684fa1a4827d0"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "d1d52a1bdfc8c42fa2cce27d"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Afternoon",
+              "start_local": "13:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "c2afcf201e59cdbafa9fa60f"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "512d394ca81b62e330767496"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "b7866cdbb41e96a51a4854b27151f52887c25135594f64459b4b4dc3f5d22ef4",
+      "schema_version": 1,
+      "timezone": "Europe/London",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 300,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "ec7c8abc45a1adeb0eb95509"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "f69e96107111dc2317a9d6b3"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "7f565712c28216b404b8afd3"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "149920d8be2ea2da2d9bb5b3"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "00cdf4bfe3c14c85dba6fd50"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "b0dfb59342e202595101daa5"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Evening",
+              "start_local": "19:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "195d60f1be22aa5d6a306c7e"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "a72e8dc10307c0c49c49bf62"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "2bf5399002712d177fef79abf332239f841b1208c9ce01a9f8cb2a31cc0770a9",
+      "schema_version": 1,
+      "timezone": "Africa/Cairo",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 360,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "27dbfb592a5c731642fe99c8"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "f6d61973ab48163f46e3c3f6"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "d64becd01ee19285e46f8692"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "7eaf57640bbd7cf7d74b1a93"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "3f750960fe794b0ba16e2e37"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "9836bb4d6bb5a8ceeb17fded"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "09:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "e12ae71f4f86c3de2950546a"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    },
+    {
+      "_id": {
+        "$oid": "10973bdf9c0a8914df028702"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-17T10:00:00Z"
+      },
+      "inputs_hash": "e534469ac8054d6e3d96339eae575ddb4dd8afdc2a3b39a8abc9c804f1bc554b",
+      "schema_version": 1,
+      "timezone": "Asia/Tokyo",
+      "plan_window": {
+        "start_date": "2026-06-11",
+        "end_date": "2026-06-17"
+      },
+      "weekly_total_minutes": 540,
+      "days": [
+        {
+          "day_of_week": "Mon",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "c2716ab8260c51a521362181"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Tue",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "0551f381ec39a60a822b563f"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Wed",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "5a7169c11a50dbee7aeb21fb"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Thu",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "48143e7137bd36a0812c8542"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Fri",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 45,
+              "topic_id": {
+                "$oid": "c2716ab8260c51a521362181"
+              },
+              "topic_name": "Reading",
+              "activity": "read"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sat",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "0551f381ec39a60a822b563f"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        },
+        {
+          "day_of_week": "Sun",
+          "blocks": [
+            {
+              "slot": "Morning",
+              "start_local": "08:00",
+              "duration_minutes": 90,
+              "topic_id": {
+                "$oid": "5a7169c11a50dbee7aeb21fb"
+              },
+              "topic_name": "Topic review",
+              "activity": "review"
+            }
+          ]
+        }
+      ],
+      "notes": "Plan is grounded in your work signals; adjust freely."
+    }
+  ]
+}

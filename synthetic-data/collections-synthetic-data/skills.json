@@ -1,0 +1,807 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "skills",
+  "count": 40,
+  "data": [
+    {
+      "_id": {
+        "$oid": "360c70f2976805c68e45e6e3"
+      },
+      "slug": "azure-storage",
+      "name": "Azure Storage",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "39d7b0e78bc68ae5d4a3ba46"
+      },
+      "slug": "cloud-governance",
+      "name": "Cloud Governance",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d9f1498d636c29edff5f686e"
+      },
+      "slug": "cost-optimization",
+      "name": "Cost Optimization",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "56f03d115772611a21ec8a11"
+      },
+      "slug": "kubernetes-aks",
+      "name": "Kubernetes & AKS",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "1a11f60613a8863e2c2d9f48"
+      },
+      "slug": "container-orchestration",
+      "name": "Container Orchestration",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "72fb8c07efcdd5a928d90872"
+      },
+      "slug": "virtual-networking",
+      "name": "Virtual Networking",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "5bad8545c27f5dfa67daa2de"
+      },
+      "slug": "compute-services",
+      "name": "Compute Services",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "bdd50f84c9f950a10d3b9688"
+      },
+      "slug": "resource-management",
+      "name": "Resource Management",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "31cf04c95f87f2e44b6fdf3f"
+      },
+      "slug": "identity-management",
+      "name": "Identity Management",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "5cac29ef1921be93d7010fe9"
+      },
+      "slug": "authentication-authorization",
+      "name": "Authentication & Authorization",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "4f85072bd322904097b69324"
+      },
+      "slug": "network-security",
+      "name": "Network Security",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "1d5bd918d53f439256d127b1"
+      },
+      "slug": "threat-protection",
+      "name": "Threat Protection",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "513cd7d12b20666498dae681"
+      },
+      "slug": "data-encryption",
+      "name": "Data Encryption",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "eb4ebc7ca2f4a3c319e753da"
+      },
+      "slug": "compliance-privacy",
+      "name": "Compliance & Privacy",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "ae880da59a902bc2e0d4d7b7"
+      },
+      "slug": "secret-management",
+      "name": "Secret Management",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7b630eaa700728a2ef46afbd"
+      },
+      "slug": "monitoring-observability",
+      "name": "Monitoring & Observability",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d9f0c290adf741442cf98075"
+      },
+      "slug": "ci-cd-pipelines",
+      "name": "CI/CD Pipelines",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a3b74d3379cbb719e430d9d0"
+      },
+      "slug": "infrastructure-as-code",
+      "name": "Infrastructure as Code",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "27fc224c132804bc30dfb31d"
+      },
+      "slug": "gitops",
+      "name": "GitOps",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "12576d0a44a646529ae0e9bc"
+      },
+      "slug": "site-reliability-engineering",
+      "name": "Site Reliability Engineering",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a5fd835a18946f5e6a4d6011"
+      },
+      "slug": "release-management",
+      "name": "Release Management",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f32364b887bf0c1df3d2f1ce"
+      },
+      "slug": "azure-functions",
+      "name": "Azure Functions",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7e1282cde77f1317dadfb97f"
+      },
+      "slug": "api-development",
+      "name": "API Development",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a1560b20e009772ec67bd962"
+      },
+      "slug": "event-driven-architecture",
+      "name": "Event-Driven Architecture",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "627881cbab1c8c80a8984d2d"
+      },
+      "slug": "microservices",
+      "name": "Microservices",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d511c270e340cd27e24e3ff6"
+      },
+      "slug": "serverless-computing",
+      "name": "Serverless Computing",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "5164a5d4966cece80eba7cae"
+      },
+      "slug": "application-insights",
+      "name": "Application Insights",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "604edf9f0e9803f5d3ca2e61"
+      },
+      "slug": "cosmos-db",
+      "name": "Cosmos DB",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c7990c1fb8c4b13e6666ff12"
+      },
+      "slug": "data-lake-architecture",
+      "name": "Data Lake Architecture",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "3748e26cb29db5e0a43573b2"
+      },
+      "slug": "azure-synapse-analytics",
+      "name": "Azure Synapse Analytics",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "591980e2fd547253e87272d4"
+      },
+      "slug": "stream-processing",
+      "name": "Stream Processing",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "387db3a3c35bc069d159e3fc"
+      },
+      "slug": "data-warehousing",
+      "name": "Data Warehousing",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "efbacbab45605ce09d891882"
+      },
+      "slug": "etl-pipelines",
+      "name": "ETL Pipelines",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "1c8869bc8e8c159cd244fb83"
+      },
+      "slug": "azure-openai-service",
+      "name": "Azure OpenAI Service",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "47b1b0df9b925d94d29a949d"
+      },
+      "slug": "azure-ai-search",
+      "name": "Azure AI Search",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b6f6db550d4c95fb0703afc0"
+      },
+      "slug": "cognitive-services",
+      "name": "Cognitive Services",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "0bd72cd3b03f445e43d29449"
+      },
+      "slug": "prompt-engineering",
+      "name": "Prompt Engineering",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "4eb141551923f35b90b3748d"
+      },
+      "slug": "cloud-architecture-patterns",
+      "name": "Cloud Architecture Patterns",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "9019e72d124aee4a225f7da2"
+      },
+      "slug": "solution-design",
+      "name": "Solution Design",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7c4af39503f87ee421cba19e"
+      },
+      "slug": "reliability-engineering",
+      "name": "Reliability Engineering",
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-02-11T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    }
+  ]
+}

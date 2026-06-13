@@ -1,0 +1,774 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "knowledge_sources",
+  "count": 29,
+  "data": [
+    {
+      "_id": {
+        "$oid": "e6a402d84776b19d69b0361f"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-ai_102.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AI 102",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AI-102"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-ai_102.md",
+      "content_hash": "7946a79f2e335e1eefc2fe025051701e80b98d63be2aede82a25ddefea77cd6a",
+      "byte_size": 2171,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "05448d54f5a25a51a5421f5d"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-ai_900.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AI 900",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AI-900"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-ai_900.md",
+      "content_hash": "63d8da7e2a04ad60457c0c23b0bdd209a6960493cf153893ca22b2bbea3c1b67",
+      "byte_size": 2397,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "bcf273eb0f20432e32c7d828"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_104.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 104",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-104"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_104.md",
+      "content_hash": "b5ec9794a340557cc6f4c2365935c159d8f75fb9832939e00e17d460646ad2bf",
+      "byte_size": 2818,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "22a9a5f44174354b67324fe8"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_140.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 140",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-140"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_140.md",
+      "content_hash": "87a1522d1db749c21d6404098b10294f372bd21833ddb19e218d15b5f64552d6",
+      "byte_size": 2258,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "28bde4d829ef123eba0ab210"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_204.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 204",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-204"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_204.md",
+      "content_hash": "6eb8dd2788d47dbf148b1851a9090ddd46aa27b3239a91017d928cd42c460aa1",
+      "byte_size": 2721,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "bad27c9e2205cebcb6b7ff5b"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_305.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 305",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-305"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_305.md",
+      "content_hash": "2bdeee7d1d71c949dcebdf91e10eeaff8cda5d4f52a18b1f2320cf9d4e2676ca",
+      "byte_size": 3034,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "01be79781539fb4c7de9d496"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_400.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 400",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-400"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_400.md",
+      "content_hash": "52ae0d4322385e2afa3c31efbc5839bca5c13de63a65116f0f39ff8918bfcfe9",
+      "byte_size": 2969,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d360b17fbbba77b7335e4fac"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_500.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 500",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-500"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_500.md",
+      "content_hash": "b40933455887a9d29ae49ec572aaf7069a18f4bdf057e1888f7516ca1f0b5d89",
+      "byte_size": 2217,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d68573997aeabdf51f1400a2"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_600.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 600",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-600"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_600.md",
+      "content_hash": "939bea51d353be8eec15e0dcb653d686987b585e941ed51e44b1a45e9f4eed04",
+      "byte_size": 2110,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "9de9d17c4749ae163bc88ec6"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_700.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 700",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-700"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_700.md",
+      "content_hash": "706ce7a6c87180a6a10a2c534ff2dd4e6eb650572a06565c9733521f350f0ef5",
+      "byte_size": 2220,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "5e558da5ce43610341053883"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_800.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 800",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-800"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_800.md",
+      "content_hash": "dcf4ca43cff2db4092514a88dea10e419ff966b2f3d228bf503e53b8fb63b199",
+      "byte_size": 2463,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "3f22b5c472e1422a8d80cc4a"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-az_900.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-AZ 900",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AZ-900"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-az_900.md",
+      "content_hash": "e4707117a57fd487f13aa5556a3891ac612121bb0e022d545c8e2fa03872e1b8",
+      "byte_size": 2827,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6bad8c85d1fe6a029d90a4ef"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-dp_203.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-DP 203",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "DP-203"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-dp_203.md",
+      "content_hash": "b9a46bab35e8772d5bdf938d686c822e609fc4abcc44923100f12d213f4105b5",
+      "byte_size": 2349,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "01116929eda3922fda286012"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-dp_300.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-DP 300",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "DP-300"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-dp_300.md",
+      "content_hash": "4d06dcb800c9c6ae1d1b04c6374c3b3a37caea9a0c39b821e3d8ebdd62d74e59",
+      "byte_size": 2706,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "4a0635d05efbbeaaabcc384f"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-dp_900.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-DP 900",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "DP-900"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-dp_900.md",
+      "content_hash": "2c2b283a93c4dd86da067af96687369e8ff8354932648c159029b6cfeee4dd90",
+      "byte_size": 2143,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "76ba94b6b48f6bc28c875822"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-ms_700.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-MS 700",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "MS-700"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-ms_700.md",
+      "content_hash": "1f92aa4113023c8c9f16b597ca9ddd0c5a89873d93714980c493ac1db34a0586",
+      "byte_size": 2269,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "4a8dea9b2ab8f3ee995bd5b6"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-pl_400.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-PL 400",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "PL-400"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-pl_400.md",
+      "content_hash": "988b8be5b772677c887c9d553fa3b9880af395ad310af7e5234110083e44209c",
+      "byte_size": 2107,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b757aa5235dd7179921628d2"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-sc_200.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-SC 200",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "SC-200"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-sc_200.md",
+      "content_hash": "df68387cfe781660aafc6a3a6b1a6a3f0ea0314402603e66945af35c74e96c0b",
+      "byte_size": 1898,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "86eabcc26d8b42016c97dff8"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-sc_300.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-SC 300",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "SC-300"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-sc_300.md",
+      "content_hash": "b44cbfe3ad81711e14e0a4f4d8db4606cba9c74af6f24c4562b709a1c3a02ffe",
+      "byte_size": 2176,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c172a61ebe5f566908362e47"
+      },
+      "doc_id": "course-guidance/doc-guidance/DOC-sc_900.md",
+      "source_type": "grounding_doc",
+      "title": "DOC-SC 900",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "SC-900"
+      ],
+      "related_skills": [],
+      "uri": "course-guidance/doc-guidance/DOC-sc_900.md",
+      "content_hash": "bca8e113f4a95f7434e73ca2be3bc3a5ebc5da4cdb8cb03c787f834e071d5ef5",
+      "byte_size": 2405,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "29546ccb6a101780d308ffe8"
+      },
+      "doc_id": "course-guidance/policies/DOC-CERT-GUIDE.md",
+      "source_type": "grounding_doc",
+      "title": "Doc-Cert-Guide",
+      "vendor": null,
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "course-guidance/policies/DOC-CERT-GUIDE.md",
+      "content_hash": "c3dcb5c66d4c6823546362030709041595b547fe965e335c4a672335070e8188",
+      "byte_size": 4117,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "399b1784966bc9d88e121223"
+      },
+      "doc_id": "course-guidance/policies/DOC-EXAM-RUBRIC.md",
+      "source_type": "grounding_doc",
+      "title": "Doc-Exam-Rubric",
+      "vendor": null,
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "course-guidance/policies/DOC-EXAM-RUBRIC.md",
+      "content_hash": "a6848b46a0e808a2e04095cec1351788b08c26510dac5ef76082f9f028c19327",
+      "byte_size": 3338,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "25ffb97ba531e242a491510d"
+      },
+      "doc_id": "course-guidance/policies/DOC-PREREQ-GRAPH.md",
+      "source_type": "grounding_doc",
+      "title": "Doc-Prereq-Graph",
+      "vendor": null,
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "course-guidance/policies/DOC-PREREQ-GRAPH.md",
+      "content_hash": "3ec196bae4106ca68d6b461e258b9f99612a1be2320b03d7b4f8ba48a6d61527",
+      "byte_size": 3958,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "8e1295c973fb157f135abc8e"
+      },
+      "doc_id": "course-guidance/policies/DOC-RAI-GUIDE.md",
+      "source_type": "grounding_doc",
+      "title": "Doc-Rai-Guide",
+      "vendor": null,
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "course-guidance/policies/DOC-RAI-GUIDE.md",
+      "content_hash": "ee76dcc851e893d9b5f506879c54581680b902fa953ea81c15248dcd6880420a",
+      "byte_size": 4847,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "97b180aaa2ad22323bd72184"
+      },
+      "doc_id": "course-guidance/policies/DOC-TEAM-REPORT.md",
+      "source_type": "grounding_doc",
+      "title": "Doc-Team-Report",
+      "vendor": null,
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "course-guidance/policies/DOC-TEAM-REPORT.md",
+      "content_hash": "3ca5cd12f91e5c0a749f3cfab16f8be71d3d82c21931b1878e7b7fe2ce3a3aee",
+      "byte_size": 4879,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f51f658ad89748f67bf3d0a8"
+      },
+      "doc_id": "course-guidance/policies/DOC-WORKLOAD.md",
+      "source_type": "grounding_doc",
+      "title": "Doc-Workload",
+      "vendor": null,
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "course-guidance/policies/DOC-WORKLOAD.md",
+      "content_hash": "f710c890ec14efa54bdcf2be0643bd5d0c5cb8dfef4304488e8f36af851caaa0",
+      "byte_size": 4031,
+      "indexed_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-04T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "30dc17d4c393e664b4c8b021"
+      },
+      "doc_id": "https://learn.microsoft.com/en-us/azure/architecture/framework/",
+      "source_type": "ms_learn_mcp",
+      "title": "Azure Well-Architected Framework",
+      "vendor": "Microsoft",
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "https://learn.microsoft.com/en-us/azure/architecture/framework/",
+      "content_hash": "8214edcb5cf4b5a239fbf4f8ab76ecee62bf9243ef2e5caeb2622e788196bb81",
+      "byte_size": 0,
+      "indexed_at": {
+        "$date": "2026-06-08T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-05-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-08T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "fb82d063d5f0f128b2a112c3"
+      },
+      "doc_id": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+      "source_type": "ms_learn_mcp",
+      "title": "Azure Cloud Design Patterns",
+      "vendor": "Microsoft",
+      "related_certs": [],
+      "related_skills": [],
+      "uri": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+      "content_hash": "2da035768373c5ab5b593ae81be3398af0b02d8bf14a66893bf7ee79753fad52",
+      "byte_size": 0,
+      "indexed_at": {
+        "$date": "2026-06-08T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-05-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-08T10:00:00Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "fce11db2e07ae6e321192266"
+      },
+      "doc_id": "https://learn.microsoft.com/en-us/azure/openai/concepts/prompt-engineering",
+      "source_type": "ms_learn_mcp",
+      "title": "Prompt Engineering Concepts",
+      "vendor": "Microsoft",
+      "related_certs": [
+        "AI-102"
+      ],
+      "related_skills": [],
+      "uri": "https://learn.microsoft.com/en-us/azure/openai/concepts/prompt-engineering",
+      "content_hash": "8befdf9f0020610347f09a89782794a029c1dbd6cc1baec3f3bcdadfd17586f1",
+      "byte_size": 0,
+      "indexed_at": {
+        "$date": "2026-06-08T10:00:00Z"
+      },
+      "index_version": 1,
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-05-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-06-08T10:00:00Z"
+      }
+    }
+  ]
+}

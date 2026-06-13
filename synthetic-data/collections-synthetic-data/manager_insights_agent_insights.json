@@ -1,0 +1,139 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "manager_insights_agent_insights",
+  "count": 1,
+  "data": [
+    {
+      "_id": {
+        "$oid": "6065debbbc2ae75b1d4feb73"
+      },
+      "manager_id": {
+        "$oid": "81f51c49d11629b57091d448"
+      },
+      "generated_at": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "expires_at": {
+        "$date": "2026-06-13T10:00:00Z"
+      },
+      "inputs_hash": "df088159cf84092409a3fe44f872ee41661069523873379eef99138b66ec42bc",
+      "schema_version": 1,
+      "team_summary": {
+        "headcount": 10,
+        "avg_engagement": 70.1,
+        "on_track_count": 7,
+        "at_risk_count": 3
+      },
+      "reports": [
+        {
+          "user_id": {
+            "$oid": "b3d7c66a150cdc7e3c845510"
+          },
+          "full_name": "Priya Sharma",
+          "status": "on_track",
+          "headline": "Priya Sharma is progressing steadily and trending toward certification.",
+          "blockers": []
+        },
+        {
+          "user_id": {
+            "$oid": "739eab894c11536d39b8a460"
+          },
+          "full_name": "James Lee",
+          "status": "at_risk",
+          "headline": "James Lee is at risk — multiple recent assessments below the 70% bar.",
+          "blockers": [
+            "Below pass threshold on recent assessments",
+            "Multiple weak topics across the learning path"
+          ]
+        },
+        {
+          "user_id": {
+            "$oid": "d698f22ba476e4b9ef84c82e"
+          },
+          "full_name": "Fatima Ali",
+          "status": "at_risk",
+          "headline": "Fatima Ali is at risk — multiple recent assessments below the 70% bar.",
+          "blockers": [
+            "Below pass threshold on recent assessments",
+            "Multiple weak topics across the learning path"
+          ]
+        },
+        {
+          "user_id": {
+            "$oid": "c4691eda956d95a1aa6f1f39"
+          },
+          "full_name": "Marcus Johnson",
+          "status": "on_track",
+          "headline": "Marcus Johnson is borderline — close to ready but has a few weak topics.",
+          "blockers": [
+            "A small number of weak topics still pulling scores down"
+          ]
+        },
+        {
+          "user_id": {
+            "$oid": "8d0e3ef40439319e9f97a9e2"
+          },
+          "full_name": "Sofia Garcia",
+          "status": "on_track",
+          "headline": "Sofia Garcia has no completed assessments yet — onboarding in progress.",
+          "blockers": []
+        },
+        {
+          "user_id": {
+            "$oid": "4706f9a87691e4dec5c360a4"
+          },
+          "full_name": "Raj Patel",
+          "status": "on_track",
+          "headline": "Raj Patel is borderline — close to ready but has a few weak topics.",
+          "blockers": [
+            "A small number of weak topics still pulling scores down"
+          ]
+        },
+        {
+          "user_id": {
+            "$oid": "74dfb17d9f76a3d4c7546967"
+          },
+          "full_name": "Chen Wei",
+          "status": "on_track",
+          "headline": "Chen Wei is progressing steadily and trending toward certification.",
+          "blockers": []
+        },
+        {
+          "user_id": {
+            "$oid": "b1ab11f3c6ba565b43897770"
+          },
+          "full_name": "Emma Wilson",
+          "status": "on_track",
+          "headline": "Emma Wilson is progressing steadily and trending toward certification.",
+          "blockers": []
+        },
+        {
+          "user_id": {
+            "$oid": "993c1ec227f567d34ef36b65"
+          },
+          "full_name": "Omar Hassan",
+          "status": "at_risk",
+          "headline": "Omar Hassan is at risk — multiple recent assessments below the 70% bar.",
+          "blockers": [
+            "Below pass threshold on recent assessments",
+            "Multiple weak topics across the learning path"
+          ]
+        },
+        {
+          "user_id": {
+            "$oid": "486a4ac712abadc5be74e7bb"
+          },
+          "full_name": "Yuki Tanaka",
+          "status": "on_track",
+          "headline": "Yuki Tanaka is progressing steadily and trending toward certification.",
+          "blockers": []
+        }
+      ],
+      "recommendations": [
+        "Pair at-risk learners with a peer mentor for the next two weeks.",
+        "Reduce meeting load for two learners with >12 hours/week of meetings.",
+        "Run a team study session on the most common weak topic."
+      ]
+    }
+  ]
+}

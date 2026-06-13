@@ -1,0 +1,931 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "modules",
+  "count": 33,
+  "data": [
+    {
+      "_id": {
+        "$oid": "4f2ea8cb3ea614555c82b0f5"
+      },
+      "slug": "az-900-cloud-concepts",
+      "title": "Cloud Concepts",
+      "topics": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "afcff90fc08137ab95c24464"
+      },
+      "slug": "az-900-azure-architecture",
+      "title": "Azure Architecture",
+      "topics": [
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        },
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "fb2e1098dc8a61e01e136b1b"
+      },
+      "slug": "az-900-management-governance",
+      "title": "Management & Governance",
+      "topics": [
+        {
+          "$oid": "add42bf7220447ec5c23897b"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "dd63634f1f5a09a48898cfb4"
+      },
+      "slug": "dp-900-core-data-concepts",
+      "title": "Core Data Concepts",
+      "topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "12ca6aa2abb5616e3a43a8f1"
+      },
+      "slug": "dp-900-relational-data-on-azure",
+      "title": "Relational Data on Azure",
+      "topics": [
+        {
+          "$oid": "7f565712c28216b404b8afd3"
+        },
+        {
+          "$oid": "149920d8be2ea2da2d9bb5b3"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d094b8ba22e3baa83d71965f"
+      },
+      "slug": "dp-900-non-relational-data",
+      "title": "Non-relational Data",
+      "topics": [
+        {
+          "$oid": "9e1e0c13c76634b04a648745"
+        },
+        {
+          "$oid": "565f64f90b2adcfb70e2249b"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "863897c9279fac583687a2a3"
+      },
+      "slug": "dp-900-analytics-on-azure",
+      "title": "Analytics on Azure",
+      "topics": [
+        {
+          "$oid": "dc7cf10c7f60d7366c342a9f"
+        },
+        {
+          "$oid": "19dd1c920f51ef840e602bb8"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d621803edde2076534643685"
+      },
+      "slug": "ai-102-ai-solution-planning",
+      "title": "AI Solution Planning",
+      "topics": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7b574cba68a277b34ece3a82"
+      },
+      "slug": "ai-102-azure-openai",
+      "title": "Azure OpenAI",
+      "topics": [
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "9a6b7902f52cc441caf29d90"
+      },
+      "slug": "ai-102-knowledge-mining",
+      "title": "Knowledge Mining",
+      "topics": [
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        },
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7ca7edfebcee85c826e4567c"
+      },
+      "slug": "az-104-manage-identities",
+      "title": "Manage Identities",
+      "topics": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "09f2c01009e281beb41899a6"
+      },
+      "slug": "az-104-storage-and-compute",
+      "title": "Storage and Compute",
+      "topics": [
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "e3b241372d775f0b90536f51"
+      },
+      "slug": "az-104-networking",
+      "title": "Networking",
+      "topics": [
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "e30536196334e770873113b7"
+      },
+      "slug": "az-104-monitoring",
+      "title": "Monitoring",
+      "topics": [
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "0bf732c6ddd6be57065ca657"
+      },
+      "slug": "az-204-compute-solutions",
+      "title": "Compute Solutions",
+      "topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "38d30326c3489b02ec16c277"
+      },
+      "slug": "az-204-storage-and-data",
+      "title": "Storage and Data",
+      "topics": [
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c398326c2c74867becfce04d"
+      },
+      "slug": "az-204-integration",
+      "title": "Integration",
+      "topics": [
+        {
+          "$oid": "206ae9bf6201e157f75ee1fd"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d3f5f58cf92ddb977be5cd57"
+      },
+      "slug": "az-500-manage-identity-access",
+      "title": "Manage Identity & Access",
+      "topics": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "630ea57f60352c65a7a03cf9"
+      },
+      "slug": "az-500-platform-protection",
+      "title": "Platform Protection",
+      "topics": [
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        },
+        {
+          "$oid": "7eaf57640bbd7cf7d74b1a93"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "15bd8899e358daa21d05202b"
+      },
+      "slug": "az-500-data-and-apps",
+      "title": "Data and Apps",
+      "topics": [
+        {
+          "$oid": "a38f7b14dfdd150cf17afa06"
+        },
+        {
+          "$oid": "66f7c8a452f0cbdb5ec80f9c"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "554b2429c7dfcc26271c08bd"
+      },
+      "slug": "az-700-core-networking",
+      "title": "Core Networking",
+      "topics": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        },
+        {
+          "$oid": "0551f381ec39a60a822b563f"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "1fc6742a5865f0c1ac204b84"
+      },
+      "slug": "az-700-hybrid-connectivity",
+      "title": "Hybrid Connectivity",
+      "topics": [
+        {
+          "$oid": "5a7169c11a50dbee7aeb21fb"
+        },
+        {
+          "$oid": "48143e7137bd36a0812c8542"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c77307f3d8d03c1933a40608"
+      },
+      "slug": "az-700-application-delivery",
+      "title": "Application Delivery",
+      "topics": [
+        {
+          "$oid": "bbea280a0afb220372b31362"
+        },
+        {
+          "$oid": "dc116b1c438db49196687b29"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "993861e791080bf1766dd502"
+      },
+      "slug": "az-400-source-control-pipelines",
+      "title": "Source Control & Pipelines",
+      "topics": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "50f55e5d321f72c613a775e3"
+      },
+      "slug": "az-400-infrastructure-as-code",
+      "title": "Infrastructure as Code",
+      "topics": [
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        },
+        {
+          "$oid": "2631df7256dd5a24325b813b"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "51063dcdd027542433cdbc2c"
+      },
+      "slug": "az-400-release-strategy",
+      "title": "Release Strategy",
+      "topics": [
+        {
+          "$oid": "a4f5b4b446b8b8083e3e4da9"
+        },
+        {
+          "$oid": "f1e7900d81b1bdbdf85eac82"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d866bd684aa86243b31e6c95"
+      },
+      "slug": "az-305-identity-governance",
+      "title": "Identity & Governance",
+      "topics": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "8711e4bf280b9d908e966d09"
+      },
+      "slug": "az-305-data-and-storage-design",
+      "title": "Data and Storage Design",
+      "topics": [
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "4da807424ee9717c6446571a"
+      },
+      "slug": "az-305-application-architecture",
+      "title": "Application Architecture",
+      "topics": [
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "aeed73c3f48cc80c7710e185"
+      },
+      "slug": "az-305-reliability-and-cost",
+      "title": "Reliability and Cost",
+      "topics": [
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c07139c2a76f383f2f9911e6"
+      },
+      "slug": "dp-203-data-storage-design",
+      "title": "Data Storage Design",
+      "topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "720892a3d29ab531bde65c32"
+      },
+      "slug": "dp-203-data-processing",
+      "title": "Data Processing",
+      "topics": [
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d3eaf5aa29cb68fbbb2f41f6"
+      },
+      "slug": "dp-203-streaming-and-real-time",
+      "title": "Streaming and Real-Time",
+      "topics": [
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    }
+  ]
+}

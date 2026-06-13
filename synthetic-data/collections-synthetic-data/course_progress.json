@@ -1,0 +1,2181 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "course_progress",
+  "count": 61,
+  "data": [
+    {
+      "_id": {
+        "$oid": "3919ab025ddc361dca88dc8e"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 150,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9bf31cd336da6c6006bb7f17"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 176,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "cf263b5b4f8344e6e5211a95"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        },
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        },
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        },
+        {
+          "$oid": "add42bf7220447ec5c23897b"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-02T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "time_spent_minutes": 132,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2cfffd12cdbb91406ebaf165"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        },
+        {
+          "$oid": "0551f381ec39a60a822b563f"
+        },
+        {
+          "$oid": "5a7169c11a50dbee7aeb21fb"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 75,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "7698a85114d71179b40fc21d"
+      },
+      "user_id": {
+        "$oid": "b3d7c66a150cdc7e3c845510"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        },
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-08T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 75,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "3bfdc96b8099c1af08f71443"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        },
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 150,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "7ab91eed7b69d30e392e87e1"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 132,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "1f355ce8cc0973390e705ee5"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-03T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 60,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "67528b442daa60592d3f3721"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 75,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "32b60a156f819845f961e26a"
+      },
+      "user_id": {
+        "$oid": "739eab894c11536d39b8a460"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        },
+        {
+          "$oid": "0551f381ec39a60a822b563f"
+        },
+        {
+          "$oid": "5a7169c11a50dbee7aeb21fb"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 66,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f1124e852bf567bc2fe7fb56"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        },
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        },
+        {
+          "$oid": "1f2101dede022287e82a384a"
+        },
+        {
+          "$oid": "add42bf7220447ec5c23897b"
+        },
+        {
+          "$oid": "8cdd6e60956af209b8413ddd"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 150,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9932ee190892aba7a1a2a46f"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        },
+        {
+          "$oid": "0551f381ec39a60a822b563f"
+        }
+      ],
+      "percent_complete": 33.33,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-04-30T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 50,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b79a7b709addf4dc3ae00bd4"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-03T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 60,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "b0b08eee418588e28c3277e0"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        }
+      ],
+      "percent_complete": 12.5,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 25,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "74fb4fea042915548d788619"
+      },
+      "user_id": {
+        "$oid": "d698f22ba476e4b9ef84c82e"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        }
+      ],
+      "percent_complete": 33.33,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 44,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2781ef62cf00e6d9a69e8aa0"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        },
+        {
+          "$oid": "2631df7256dd5a24325b813b"
+        },
+        {
+          "$oid": "a4f5b4b446b8b8083e3e4da9"
+        },
+        {
+          "$oid": "f1e7900d81b1bdbdf85eac82"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 168,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "83d5459c7feb75d6d3f799f5"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        },
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        },
+        {
+          "$oid": "7eaf57640bbd7cf7d74b1a93"
+        },
+        {
+          "$oid": "a38f7b14dfdd150cf17afa06"
+        },
+        {
+          "$oid": "66f7c8a452f0cbdb5ec80f9c"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 132,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "79941ad1d5af9854dc30d65d"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        },
+        {
+          "$oid": "7f565712c28216b404b8afd3"
+        },
+        {
+          "$oid": "149920d8be2ea2da2d9bb5b3"
+        },
+        {
+          "$oid": "9e1e0c13c76634b04a648745"
+        },
+        {
+          "$oid": "565f64f90b2adcfb70e2249b"
+        },
+        {
+          "$oid": "dc7cf10c7f60d7366c342a9f"
+        },
+        {
+          "$oid": "19dd1c920f51ef840e602bb8"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-04-02T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "time_spent_minutes": 200,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "30073105de04cb033b7719d7"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        },
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-03-28T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-26T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-26T10:00:00Z"
+      },
+      "time_spent_minutes": 200,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "522d614457c03089be7f881f"
+      },
+      "user_id": {
+        "$oid": "c4691eda956d95a1aa6f1f39"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        },
+        {
+          "$oid": "195d60f1be22aa5d6a306c7e"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 66,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "092a56e77bb376f26b83e1b2"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        }
+      ],
+      "percent_complete": 12.5,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 25,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9109330c602067dc5f472405"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        }
+      ],
+      "percent_complete": 16.67,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-04-30T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 25,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "f548d9acc90aaca10e307074"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-03T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 66,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "89ed4f32598294d553677381"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        }
+      ],
+      "percent_complete": 12.5,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-09T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 22,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c65520760ec1f72feaeda8f0"
+      },
+      "user_id": {
+        "$oid": "8d0e3ef40439319e9f97a9e2"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        }
+      ],
+      "percent_complete": 33.33,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-08T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 40,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c8706f6c926cce0dbacf2d58"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        },
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 224,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "7bb34cdf5a8c2dfcbb26082c"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        },
+        {
+          "$oid": "34964e127223ee17d9fdb0f3"
+        },
+        {
+          "$oid": "c0d782f1638bea7891fcbe9d"
+        },
+        {
+          "$oid": "b79c21afa34b65bbcff9a0b2"
+        },
+        {
+          "$oid": "a1bd35a99bbfaf13cc4253b8"
+        },
+        {
+          "$oid": "5acd4be4622bb5731eacc588"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 168,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "baada81255df34eaf7ab8d2b"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-03T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 60,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c648511ff352720442146bd3"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        }
+      ],
+      "percent_complete": 16.67,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 22,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "cd121bc086106f5ebfbf5f80"
+      },
+      "user_id": {
+        "$oid": "4706f9a87691e4dec5c360a4"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        }
+      ],
+      "percent_complete": 25.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 44,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "5d7bfff4a21c42da9d0f98a6"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 176,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "be61e6ccdc5f48dffebeeac5"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "ad83eb075ea0c64896b1fc48"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "f0b7c25f3990ed7f5598c350"
+        },
+        {
+          "$oid": "f25cc5861e79d62f34c611d6"
+        },
+        {
+          "$oid": "22ef72280f78470b88e2a011"
+        },
+        {
+          "$oid": "7fe0737e7763918546023577"
+        },
+        {
+          "$oid": "6fa2c650ed85a3160395058b"
+        },
+        {
+          "$oid": "3ef0f79374af23b202d7f282"
+        },
+        {
+          "$oid": "81676bf40ef287c271dd09e9"
+        },
+        {
+          "$oid": "006caca67ccde4fccbf0f62c"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 224,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "ebf6b8bd131be7842744af78"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        },
+        {
+          "$oid": "206ae9bf6201e157f75ee1fd"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-02T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "time_spent_minutes": 168,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "d7d30767c58f3dba37300ea5"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        }
+      ],
+      "percent_complete": 16.67,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 22,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "83bc5e8a6c610b8cb363a314"
+      },
+      "user_id": {
+        "$oid": "74dfb17d9f76a3d4c7546967"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-11T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 60,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "8ac5c14766fe7d2e2358320a"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        },
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 150,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "1f2f748217f605efdc8190cc"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        },
+        {
+          "$oid": "7f565712c28216b404b8afd3"
+        },
+        {
+          "$oid": "149920d8be2ea2da2d9bb5b3"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 2,
+      "enrolled_at": {
+        "$date": "2026-04-30T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 80,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "fafeaa6a671a1caab65ea307"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "ab7c0f3deef463fa66b51c1d"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "00cdf4bfe3c14c85dba6fd50"
+        },
+        {
+          "$oid": "b0dfb59342e202595101daa5"
+        }
+      ],
+      "percent_complete": 33.33,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-03T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 40,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "83c3e3e07a4be0813bd628a8"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        }
+      ],
+      "percent_complete": 16.67,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-06T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 22,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6c57f7303ffdba3ab5192fd2"
+      },
+      "user_id": {
+        "$oid": "b1ab11f3c6ba565b43897770"
+      },
+      "course_id": {
+        "$oid": "c464392922933da89ad8ff81"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "a939777f947e5b93dd217713"
+        }
+      ],
+      "percent_complete": 16.67,
+      "completed_module_count": 0,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 20,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "9dd4f21e4e1fd6b8f72f9338"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "221cfb656a3c21f1aa3de6e3"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "7383d93dcfb684fa1a4827d0"
+        },
+        {
+          "$oid": "d1d52a1bdfc8c42fa2cce27d"
+        },
+        {
+          "$oid": "c2afcf201e59cdbafa9fa60f"
+        },
+        {
+          "$oid": "2631df7256dd5a24325b813b"
+        },
+        {
+          "$oid": "a4f5b4b446b8b8083e3e4da9"
+        },
+        {
+          "$oid": "f1e7900d81b1bdbdf85eac82"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 132,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "6c8fd16dbe0db2b20bdfa27d"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "91e9ceb83b80f633bbb6dd63"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "a00fd5b75c347e4d0f553abf"
+        },
+        {
+          "$oid": "3c2a0c356ee74101e07bcae6"
+        },
+        {
+          "$oid": "813149c22417ea81f0fc95f2"
+        },
+        {
+          "$oid": "ebdd2f35e8a531ba6e6c125e"
+        },
+        {
+          "$oid": "206ae9bf6201e157f75ee1fd"
+        },
+        {
+          "$oid": "c352550be8d13ee774a9610a"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 168,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "a148a8238eaa4b09d9d3ef84"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        },
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-03T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 60,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "8e2962146b2cbba47266dc9b"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 2,
+      "enrolled_at": {
+        "$date": "2026-05-06T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-07T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 100,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "c6dea6a787d7d8237a731cb0"
+      },
+      "user_id": {
+        "$oid": "993c1ec227f567d34ef36b65"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        }
+      ],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": {
+        "$date": "2026-05-09T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-10T10:00:00Z"
+      },
+      "completed_at": null,
+      "time_spent_minutes": 75,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "77fd3c9d2921dd637c33c66d"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "a7660cb1580a794205e97aea"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "c2716ab8260c51a521362181"
+        },
+        {
+          "$oid": "0551f381ec39a60a822b563f"
+        },
+        {
+          "$oid": "5a7169c11a50dbee7aeb21fb"
+        },
+        {
+          "$oid": "48143e7137bd36a0812c8542"
+        },
+        {
+          "$oid": "bbea280a0afb220372b31362"
+        },
+        {
+          "$oid": "dc116b1c438db49196687b29"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-12T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-06-01T10:00:00Z"
+      },
+      "time_spent_minutes": 168,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "63c4d5694feed53d7f8fc3cf"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "9f485a97ab08e33213e77abd"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "27dbfb592a5c731642fe99c8"
+        },
+        {
+          "$oid": "f6d61973ab48163f46e3c3f6"
+        },
+        {
+          "$oid": "d64becd01ee19285e46f8692"
+        },
+        {
+          "$oid": "7eaf57640bbd7cf7d74b1a93"
+        },
+        {
+          "$oid": "a38f7b14dfdd150cf17afa06"
+        },
+        {
+          "$oid": "66f7c8a452f0cbdb5ec80f9c"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-07T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-30T10:00:00Z"
+      },
+      "time_spent_minutes": 168,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "19bde5c50109626074e46dfe"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "f55927eff6ac02cacd5684a8"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "b2fef1f68803dd2a0d48e6e9"
+        },
+        {
+          "$oid": "c6bc109bc92e690d720f4884"
+        },
+        {
+          "$oid": "be1a871d9c66873de2e83365"
+        },
+        {
+          "$oid": "0094e50339b05da210aeeef4"
+        },
+        {
+          "$oid": "63768a76afef3d9b92be7859"
+        },
+        {
+          "$oid": "b05c0e2957af86c0637b5743"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": {
+        "$date": "2026-04-02T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-28T10:00:00Z"
+      },
+      "time_spent_minutes": 132,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "42575e809b71ee07b1773527"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "7b2ead0d4076b7d2d90913db"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "ec7c8abc45a1adeb0eb95509"
+        },
+        {
+          "$oid": "f69e96107111dc2317a9d6b3"
+        },
+        {
+          "$oid": "7f565712c28216b404b8afd3"
+        },
+        {
+          "$oid": "149920d8be2ea2da2d9bb5b3"
+        },
+        {
+          "$oid": "9e1e0c13c76634b04a648745"
+        },
+        {
+          "$oid": "565f64f90b2adcfb70e2249b"
+        },
+        {
+          "$oid": "dc7cf10c7f60d7366c342a9f"
+        },
+        {
+          "$oid": "19dd1c920f51ef840e602bb8"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-03-28T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-26T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-26T10:00:00Z"
+      },
+      "time_spent_minutes": 224,
+      "schema_version": 1
+    },
+    {
+      "_id": {
+        "$oid": "2185b76195abf46f0ddfb827"
+      },
+      "user_id": {
+        "$oid": "486a4ac712abadc5be74e7bb"
+      },
+      "course_id": {
+        "$oid": "d5eac68042d454232144476e"
+      },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        {
+          "$oid": "3f750960fe794b0ba16e2e37"
+        },
+        {
+          "$oid": "9836bb4d6bb5a8ceeb17fded"
+        },
+        {
+          "$oid": "e12ae71f4f86c3de2950546a"
+        },
+        {
+          "$oid": "2ed780f6aa9979e3dbdb715d"
+        },
+        {
+          "$oid": "28a0fc7cb966cb43f5280e75"
+        },
+        {
+          "$oid": "096e5c3cd09f651f2b202eda"
+        },
+        {
+          "$oid": "fa3c7f6c0ad26e04bf54eee4"
+        },
+        {
+          "$oid": "16aefb692d7047e1f01f6afb"
+        }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": {
+        "$date": "2026-03-23T10:00:00Z"
+      },
+      "last_activity": {
+        "$date": "2026-05-24T10:00:00Z"
+      },
+      "completed_at": {
+        "$date": "2026-05-24T10:00:00Z"
+      },
+      "time_spent_minutes": 200,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a1b2c3d4e5f600000000a001" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ab7c0f3deef463fa66b51c1d" },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        { "$oid": "00cdf4bfe3c14c85dba6fd50" },
+        { "$oid": "b0dfb59342e202595101daa5" },
+        { "$oid": "195d60f1be22aa5d6a306c7e" },
+        { "$oid": "1f2101dede022287e82a384a" }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 3,
+      "enrolled_at": { "$date": "2026-04-15T10:00:00Z" },
+      "last_activity": { "$date": "2026-05-22T14:30:00Z" },
+      "completed_at": { "$date": "2026-05-22T14:30:00Z" },
+      "time_spent_minutes": 240,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a1b2c3d4e5f600000000a002" },
+      "user_id": { "$oid": "c4691eda956d95a1aa6f1f39" },
+      "course_id": { "$oid": "f55927eff6ac02cacd5684a8" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 33.33,
+      "completed_module_count": 1,
+      "enrolled_at": { "$date": "2026-04-08T10:00:00Z" },
+      "last_activity": { "$date": "2026-05-04T10:00:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 90,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a1b2c3d4e5f600000000a003" },
+      "user_id": { "$oid": "74dfb17d9f76a3d4c7546967" },
+      "course_id": { "$oid": "a7660cb1580a794205e97aea" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 25.0,
+      "completed_module_count": 0,
+      "enrolled_at": { "$date": "2026-04-20T10:00:00Z" },
+      "last_activity": { "$date": "2026-05-19T10:00:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 60,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a1b2c3d4e5f600000000a004" },
+      "user_id": { "$oid": "993c1ec227f567d34ef36b65" },
+      "course_id": { "$oid": "ad83eb075ea0c64896b1fc48" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": { "$date": "2026-03-30T10:00:00Z" },
+      "last_activity": { "$date": "2026-04-26T10:00:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 120,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a1b2c3d4e5f600000000a005" },
+      "user_id": { "$oid": "486a4ac712abadc5be74e7bb" },
+      "course_id": { "$oid": "91e9ceb83b80f633bbb6dd63" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 41.67,
+      "completed_module_count": 1,
+      "enrolled_at": { "$date": "2026-04-02T10:00:00Z" },
+      "last_activity": { "$date": "2026-05-09T10:00:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 105,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce0000000000c0ad17104" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "ad83eb075ea0c64896b1fc48" },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        { "$oid": "f0b7c25f3990ed7f5598c350" },
+        { "$oid": "f25cc5861e79d62f34c611d6" },
+        { "$oid": "22ef72280f78470b88e2a011" },
+        { "$oid": "7fe0737e7763918546023577" }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": { "$date": "2026-04-20T10:00:00Z" },
+      "last_activity": { "$date": "2026-06-01T15:20:00Z" },
+      "completed_at": { "$date": "2026-06-01T15:20:00Z" },
+      "time_spent_minutes": 480,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce0000000000c0ad17305" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "d5eac68042d454232144476e" },
+      "course_version": 1,
+      "status": "completed",
+      "completed_topics": [
+        { "$oid": "3f750960fe794b0ba16e2e37" },
+        { "$oid": "9836bb4d6bb5a8ceeb17fded" },
+        { "$oid": "e12ae71f4f86c3de2950546a" },
+        { "$oid": "2ed780f6aa9979e3dbdb715d" }
+      ],
+      "percent_complete": 100.0,
+      "completed_module_count": 4,
+      "enrolled_at": { "$date": "2026-04-28T10:00:00Z" },
+      "last_activity": { "$date": "2026-06-08T11:05:00Z" },
+      "completed_at": { "$date": "2026-06-08T11:05:00Z" },
+      "time_spent_minutes": 600,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce0000000000c0ad17400" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "221cfb656a3c21f1aa3de6e3" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 42.0,
+      "completed_module_count": 1,
+      "enrolled_at": { "$date": "2026-05-25T10:00:00Z" },
+      "last_activity": { "$date": "2026-06-11T09:15:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 175,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce0000000000c0ad17500" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "9f485a97ab08e33213e77abd" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 65.0,
+      "completed_module_count": 2,
+      "enrolled_at": { "$date": "2026-05-10T10:00:00Z" },
+      "last_activity": { "$date": "2026-06-12T16:40:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 290,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce0000000000c0ad17204" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "91e9ceb83b80f633bbb6dd63" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 78.0,
+      "completed_module_count": 3,
+      "enrolled_at": { "$date": "2026-04-22T10:00:00Z" },
+      "last_activity": { "$date": "2026-06-09T14:00:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 360,
+      "schema_version": 1
+    },
+    {
+      "_id": { "$oid": "a11ce0000000000c0ad17900" },
+      "user_id": { "$oid": "81f51c49d11629b57091d448" },
+      "course_id": { "$oid": "7b2ead0d4076b7d2d90913db" },
+      "course_version": 1,
+      "status": "in_progress",
+      "completed_topics": [],
+      "percent_complete": 50.0,
+      "completed_module_count": 1,
+      "enrolled_at": { "$date": "2026-05-30T10:00:00Z" },
+      "last_activity": { "$date": "2026-06-10T19:20:00Z" },
+      "completed_at": null,
+      "time_spent_minutes": 130,
+      "schema_version": 1
+    }
+  ]
+}

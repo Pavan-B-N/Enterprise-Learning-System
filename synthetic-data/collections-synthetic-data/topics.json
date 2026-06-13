@@ -1,0 +1,2251 @@
+{
+  "schema_version": "5.0.0",
+  "collection": "topics",
+  "count": 66,
+  "data": [
+    {
+      "_id": {
+        "$oid": "00cdf4bfe3c14c85dba6fd50"
+      },
+      "slug": "az-900-iaas-paas-and-saas",
+      "topic_name": "IaaS, PaaS, and SaaS",
+      "estimated_minutes": 15,
+      "content_md": "## IaaS, PaaS, and SaaS\n\nAzure offers three primary service-model categories. The split is defined by **who manages what** between you and Microsoft.\n\n### IaaS — Infrastructure as a Service\nYou rent virtualised compute, storage, and networking. You manage the OS, runtime, middleware and apps; Azure manages the hypervisor and physical hardware. Typical services: **Azure Virtual Machines**, **Azure Disk Storage**, **Virtual Networks**. Best for lift-and-shift workloads where you need full OS control.\n\n### PaaS — Platform as a Service\nAzure manages the OS and runtime; you bring code or data. Typical services: **Azure App Service**, **Azure SQL Database**, **Azure Functions**. Best for new application development where you want to skip server patching and focus on the app.\n\n### SaaS — Software as a Service\nAzure (or a vendor) manages everything; you consume a finished product. Typical examples: **Microsoft 365**, **Dynamics 365**. You configure usage and identity but never see the underlying servers.\n\n### Decision rule\nMove up the stack (IaaS → PaaS → SaaS) for **less operational burden**; move down for **more control and customisation**. The shared-responsibility split shifts left as you move up.\n",
+      "word_count": 184,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/",
+          "title": "Microsoft Learn — AZ-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "IaaS gives full OS control; PaaS abstracts the runtime; SaaS abstracts everything.",
+        "Choose PaaS when you want to ship code without managing patches or VMs.",
+        "Shared responsibility shifts toward Microsoft as you move IaaS → PaaS → SaaS."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b0dfb59342e202595101daa5"
+      },
+      "slug": "az-900-shared-responsibility-model",
+      "topic_name": "Shared Responsibility Model",
+      "estimated_minutes": 30,
+      "content_md": "## Shared Responsibility Model\n\nCloud security is a **shared responsibility** between the customer and the cloud provider. The split depends on which service model you use.\n\n### Always the customer's responsibility\n- **Data classification and accountability** — you decide what's sensitive\n- **Identity and access management** — who can sign in and what they can do\n- **Endpoint protection** — devices that connect to the service\n\n### Always Microsoft's responsibility\n- **Physical hosts, network, and datacenter** — buildings, racks, cabling\n\n### Varies by service model\n| Layer | On-prem | IaaS | PaaS | SaaS |\n|---|---|---|---|---|\n| Application | You | You | You | Microsoft |\n| OS / runtime | You | You | Microsoft | Microsoft |\n| Virtualisation | You | Microsoft | Microsoft | Microsoft |\n| Physical hosts | You | Microsoft | Microsoft | Microsoft |\n\n### Common misconception\nMoving to SaaS does **not** remove your responsibility for identity, data classification, or end-user device hygiene. Microsoft secures the platform; you still secure your accounts and your data.\n",
+      "word_count": 175,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/",
+          "title": "Microsoft Learn — AZ-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Identity, data, and endpoints are always the customer's responsibility, even in SaaS.",
+        "Microsoft always owns the physical hosts and the datacentre.",
+        "The OS layer is yours in IaaS but shifts to Microsoft in PaaS and SaaS."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "195d60f1be22aa5d6a306c7e"
+      },
+      "slug": "az-900-regions-and-availability-zones",
+      "topic_name": "Regions and Availability Zones",
+      "estimated_minutes": 15,
+      "content_md": "## Regions and Availability Zones\n\nAn **Azure region** is a set of datacentres deployed within a latency-defined perimeter (typically <2 ms internal). Regions are paired across geographies (e.g., `eastus` ↔ `westus`) for disaster recovery.\n\n### Availability Zones (AZ)\nWithin a region, **Availability Zones** are physically separate datacentres with independent power, cooling, and networking. Most production regions have **3 zones**.\n\n- **Zonal services** — you pin a resource to a specific zone (e.g., `Zone 1`). Example: a zonal VM.\n- **Zone-redundant services** — Azure replicates the resource across zones automatically. Example: ZRS storage, zone-redundant Standard Load Balancer.\n\n### SLA implications\n| Configuration | VM SLA |\n|---|---|\n| Single VM with Premium SSD | 99.9% |\n| Availability Set (2+ VMs) | 99.95% |\n| Availability Zones (across 2+ zones) | 99.99% |\n\n### Region pairs\nMost regions are paired with another region in the same geography. Pairs receive **sequential updates** (never simultaneously) and are the default target for **Geo-redundant Storage (GRS)** replication.\n",
+      "word_count": 162,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/",
+          "title": "Microsoft Learn — AZ-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Availability Zones are physically separate datacentres inside one region with independent power and networking.",
+        "Spreading a workload across two or more zones unlocks the 99.99% VM SLA.",
+        "Region pairs are the default target for Geo-redundant Storage and receive non-simultaneous updates."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "1f2101dede022287e82a384a"
+      },
+      "slug": "az-900-resource-groups-and-subscriptions",
+      "topic_name": "Resource Groups and Subscriptions",
+      "estimated_minutes": 15,
+      "content_md": "## Resource Groups and Subscriptions\n\nAzure organises resources in a four-level hierarchy: **Management Group → Subscription → Resource Group → Resource**. Each level is a scope for policy, RBAC, and billing.\n\n### Subscription\n- A logical billing and access boundary linked to one **Microsoft Entra tenant**.\n- Soft and hard quotas apply per subscription (e.g., vCPU per region).\n- A single resource cannot span subscriptions, but resources in different subscriptions can communicate via VNet peering or Private Link.\n\n### Resource Group\n- A logical container for resources that **share lifecycle, RBAC, or location tagging**.\n- A resource exists in exactly one resource group; you can move it (with caveats).\n- The resource group has a region, but resources inside it can live in any region.\n- Deleting a resource group deletes **everything inside it** — irreversibly.\n\n### Tags\nTags are name/value pairs (e.g., `env=prod`, `costCenter=1234`) for cross-cutting reporting. They flow through Cost Management and Azure Policy.\n\n### Best practice\nGroup by **lifecycle**, not by service type. A web app and its SQL database belong in the same resource group because they're deployed and retired together.\n",
+      "word_count": 185,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/",
+          "title": "Microsoft Learn — AZ-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Resource groups are lifecycle containers; group what's deployed and retired together.",
+        "Deleting a resource group deletes every resource inside it irreversibly.",
+        "Subscriptions are billing and access boundaries linked to a single Microsoft Entra tenant."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "add42bf7220447ec5c23897b"
+      },
+      "slug": "az-900-azure-policy-and-rbac",
+      "topic_name": "Azure Policy and RBAC",
+      "estimated_minutes": 15,
+      "content_md": "## Azure Policy and RBAC\n\nAzure has two complementary control planes: **RBAC** (who can do what) and **Azure Policy** (what is allowed to be created or how it must be configured).\n\n### Role-Based Access Control (RBAC)\n- **Identity-centric** — assigns roles to users, groups, service principals, or managed identities.\n- Built-in roles: `Reader`, `Contributor`, `Owner`, plus 250+ scoped roles.\n- Assigned at a **scope**: management group, subscription, resource group, or single resource. Permissions inherit downward.\n- Use **custom roles** when built-in roles are too broad.\n\n### Azure Policy\n- **Resource-centric** — declares rules like *\"VMs must use approved SKUs\"* or *\"Storage accounts must require HTTPS\"*.\n- Effects: `Deny` (block creation), `Audit` (record violations), `DeployIfNotExists` (auto-remediate), `Modify` (mutate the request), `Append` (add tags/properties).\n- Group related policies into **initiatives** (e.g., the built-in *Azure Security Benchmark*).\n\n### When to use which\n- Use **RBAC** to control *who* can act.\n- Use **Policy** to control *what* the action can produce.\n- Both are required for a sound governance posture: a Contributor can still create non-compliant resources unless Policy blocks them.\n",
+      "word_count": 177,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/",
+          "title": "Microsoft Learn — AZ-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "RBAC controls who can act; Azure Policy controls what configurations are allowed.",
+        "Both inherit downward through the management-group → subscription → resource-group hierarchy.",
+        "A Contributor with no policy guardrails can still create non-compliant resources."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "8cdd6e60956af209b8413ddd"
+      },
+      "slug": "az-900-cost-management-tools",
+      "topic_name": "Cost Management Tools",
+      "estimated_minutes": 20,
+      "content_md": "## Cost Management Tools\n\nAzure provides several tools for **forecasting**, **monitoring**, and **optimising** spend.\n\n### Pricing & TCO Calculators\n- **Azure Pricing Calculator** — estimate the monthly cost of a new architecture before you deploy.\n- **Total Cost of Ownership (TCO) Calculator** — compare on-prem cost vs Azure for migration scenarios.\n\n### Microsoft Cost Management\n- **Cost Analysis** — slice spend by resource group, service, tag, or location; export to CSV or Power BI.\n- **Budgets** — set monthly thresholds with alerts (50%, 80%, 100%).\n- **Advisor recommendations** — flag idle VMs, oversized SKUs, unused public IPs.\n\n### Cost-saving levers\n- **Azure Reservations** — 1- or 3-year commitment for predictable workloads, up to ~72% discount.\n- **Azure Hybrid Benefit** — bring eligible Windows Server / SQL Server licenses to reduce VM cost.\n- **Spot VMs** — opportunistic capacity at up to 90% off, evictable with 30 s notice.\n- **Auto-shutdown / scale-down** — turn off dev/test resources outside working hours.\n\n### Tagging discipline\nCost reports are only as useful as your tags. Apply policy to enforce **`costCenter`**, **`env`**, and **`owner`** tags at creation time so chargeback works without manual reconciliation.\n",
+      "word_count": 190,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals/",
+          "title": "Microsoft Learn — AZ-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Use Pricing Calculator before deploying; use Cost Management after to track and forecast.",
+        "Reservations and Hybrid Benefit are the two largest commitment-based discounts.",
+        "Tag enforcement via Azure Policy is what makes chargeback reporting actually accurate."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "ec7c8abc45a1adeb0eb95509"
+      },
+      "slug": "dp-900-relational-vs-non-relational-data",
+      "topic_name": "Relational vs Non-relational Data",
+      "estimated_minutes": 20,
+      "content_md": "## Relational vs Non-relational Data\n\n### Relational data\nStructured rows and columns enforced by a fixed schema. ACID transactions, joins, normalisation, and SQL are the defining traits.\n- **Use when** the schema is well known and integrity matters: financials, inventory, HR.\n- **Azure services**: Azure SQL Database, SQL Managed Instance, Azure Database for PostgreSQL / MySQL.\n\n### Non-relational (NoSQL)\nSchema-flexible storage optimised for scale, latency, or specific access patterns.\n- **Document** (JSON-like): Cosmos DB for NoSQL, Cosmos DB for MongoDB.\n- **Key-Value**: Azure Cache for Redis, Cosmos DB for Table.\n- **Column-family**: Cosmos DB for Apache Cassandra.\n- **Graph**: Cosmos DB for Apache Gremlin.\n\n### Choosing between them\n| Concern | Relational | Non-relational |\n|---|---|---|\n| Schema flexibility | Low | High |\n| Multi-row transactions | Strong | Limited |\n| Horizontal scale | Harder | Easier |\n| Joins across entities | Native | Application-side |\n\nModern apps often use **polyglot persistence** — relational for orders, document for product catalog, graph for recommendations.\n",
+      "word_count": 166,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Pick relational when integrity, joins, and ACID transactions matter most.",
+        "Pick non-relational when schema flexibility or horizontal scale dominates.",
+        "Polyglot persistence — using both — is common in production applications."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f69e96107111dc2317a9d6b3"
+      },
+      "slug": "dp-900-data-workloads-oltp-olap",
+      "topic_name": "Data Workloads (OLTP / OLAP)",
+      "estimated_minutes": 15,
+      "content_md": "## Data Workloads (OLTP / OLAP)\n\n### OLTP — Online Transaction Processing\nShort, write-heavy transactions — orders, payments, account updates. Optimised for **low-latency, high-concurrency** writes with strong consistency.\n- Row-store engines, normalised schemas, indexed point lookups.\n- **Azure services**: Azure SQL Database, SQL Managed Instance, Cosmos DB.\n\n### OLAP — Online Analytical Processing\nLong-running, read-heavy queries that aggregate millions of rows for business intelligence — *\"sales per region per quarter\"*. Optimised for **scan throughput**.\n- Column-store engines, denormalised star/snowflake schemas, partitioning.\n- **Azure services**: Azure Synapse Analytics (dedicated SQL pool), Microsoft Fabric Warehouse, Databricks.\n\n### Hybrid (HTAP)\nHybrid Transactional / Analytical Processing combines both. **Azure Synapse Link** for Cosmos DB and **Microsoft Fabric Mirroring** allow analytics over operational data without ETL.\n\n### Anti-pattern\nRunning heavy analytical queries against an OLTP database starves transactional workloads. Replicate data to an analytical store (or use HTAP) instead.\n",
+      "word_count": 144,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "OLTP optimises for many small writes; OLAP optimises for few huge reads.",
+        "Synapse Link and Fabric Mirroring deliver HTAP without traditional ETL.",
+        "Running BI queries against an OLTP database is a classic performance anti-pattern."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7f565712c28216b404b8afd3"
+      },
+      "slug": "dp-900-azure-sql-family",
+      "topic_name": "Azure SQL Family",
+      "estimated_minutes": 20,
+      "content_md": "## Azure SQL Family\n\nThree managed deployment options based on the Microsoft SQL Server engine — pick based on **how much instance-level control you need**.\n\n### Azure SQL Database\n- Fully managed, single database or elastic pool.\n- No SQL Agent, no cross-database queries by default — you operate at the **database** level.\n- Service tiers: **DTU** (bundled) or **vCore** (Provisioned / Serverless / Hyperscale).\n- Best for new cloud-first apps that don't need instance-level features.\n\n### SQL Managed Instance\n- Fully managed, but exposes a near-100% SQL Server instance surface.\n- SQL Agent, cross-database queries, CLR, Service Broker, linked servers — all supported.\n- Best for **lift-and-shift** of existing SQL Server workloads.\n\n### SQL Server on Azure VMs\n- IaaS — you install and patch SQL Server on a VM.\n- 100% feature parity, full OS control. Use when you need features Managed Instance lacks (e.g., FILESTREAM, replication topology you fully own).\n\n### Decision quick-reference\n| Need | Choice |\n|---|---|\n| Cloud-native dev, single DB | SQL Database |\n| Migrate existing on-prem SQL with minimal change | Managed Instance |\n| Full OS / SQL feature parity | SQL on VM |\n",
+      "word_count": 195,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "SQL Database is database-level PaaS; Managed Instance is instance-level PaaS; SQL on VM is IaaS.",
+        "Managed Instance is the best lift-and-shift target for existing SQL Server workloads.",
+        "Hyperscale tier scales storage to 100 TB+ with fast geo-replicas."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "149920d8be2ea2da2d9bb5b3"
+      },
+      "slug": "dp-900-managed-postgresql-and-mysql",
+      "topic_name": "Managed PostgreSQL and MySQL",
+      "estimated_minutes": 30,
+      "content_md": "## Managed PostgreSQL and MySQL\n\nAzure offers **Azure Database for PostgreSQL** and **Azure Database for MySQL** as managed open-source engines. Both run on the **Flexible Server** deployment model in current preferred deployments.\n\n### Flexible Server highlights\n- Zone-redundant **HA** with synchronous standby in another AZ.\n- **Stop / start** to save cost on dev workloads.\n- **Burstable**, **General Purpose**, and **Memory Optimised** SKUs.\n- VNet integration via private DNS zone (no public endpoint required).\n- Server parameters tunable through the portal or `az` CLI.\n\n### Backup and PITR\nAutomated backups with **point-in-time restore** up to 35 days. Geo-redundant backup is opt-in.\n\n### Read replicas\nUp to 5 async read replicas per primary; useful for offloading reporting queries.\n\n### Common pitfalls\n- Forgetting to enable HA at create time — adding it later requires downtime.\n- Choosing Burstable for production — fine for dev, but it credits-throttles under sustained load.\n- Public endpoint left open with `0.0.0.0/0` firewall rule — always prefer VNet integration.\n",
+      "word_count": 163,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Flexible Server is the current preferred deployment for both PostgreSQL and MySQL on Azure.",
+        "Enable HA at create time — adding it later forces a redeploy with downtime.",
+        "Burstable SKUs are for dev/test; production should use General Purpose or Memory Optimised."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "9e1e0c13c76634b04a648745"
+      },
+      "slug": "dp-900-cosmos-db-overview",
+      "topic_name": "Cosmos DB Overview",
+      "estimated_minutes": 20,
+      "content_md": "## Cosmos DB Overview\n\nAzure Cosmos DB is a **globally distributed, multi-model** NoSQL database with a 99.999% read SLA and single-digit-millisecond latency at the 99th percentile.\n\n### APIs\nCosmos DB exposes the same engine through five APIs:\n- **NoSQL** (native, JSON document model — preferred for new apps)\n- **MongoDB** (wire-compatible)\n- **Cassandra** (column-family)\n- **Gremlin** (graph)\n- **Table** (key-value, Azure Table compatible)\n\n### Throughput\nProvisioned in **Request Units per second (RU/s)**. Two modes:\n- **Provisioned** — fixed RU/s, optionally **autoscale** between 10% and 100%.\n- **Serverless** — pay per request, capped at 1 M RU per container.\n\n### Consistency levels (5)\nStrong → Bounded Staleness → **Session (default)** → Consistent Prefix → Eventual. Trade-off: stronger consistency = higher latency and lower availability for writes.\n\n### Partitioning\nPick a **partition key** with high cardinality and even access — e.g., `tenantId` or `userId`. A poorly chosen key creates **hot partitions** that throttle (HTTP 429).\n",
+      "word_count": 153,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "RU/s is the unit of throughput — undersizing causes 429 throttling.",
+        "Session consistency is the default and a good balance for most apps.",
+        "Partition-key choice is the single biggest performance decision in Cosmos DB."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "565f64f90b2adcfb70e2249b"
+      },
+      "slug": "dp-900-azure-table-and-blob-storage",
+      "topic_name": "Azure Table and Blob Storage",
+      "estimated_minutes": 30,
+      "content_md": "## Azure Table and Blob Storage\n\nBoth are services inside an **Azure Storage account** but solve very different problems.\n\n### Blob Storage\nObject storage for unstructured data — images, videos, backups, logs, telemetry, IaaS VHDs.\n- **Tiers**: Hot, Cool, Cold, Archive — based on access frequency and cost.\n- **Replication**: LRS, ZRS, GRS, GZRS, RA-GRS.\n- **Access**: REST, SDKs, AzCopy, NFS 3.0 / SFTP for compatible scenarios.\n- **Lifecycle policies** automatically tier or delete blobs by age.\n\n### Table Storage\nA flat **NoSQL key-value store** keyed by `(PartitionKey, RowKey)`. Cheap, simple, schema-less rows up to 1 MB. Modern guidance: prefer **Cosmos DB for Table** for new workloads — same API, far better SLA and global distribution.\n\n### When to use which\n| Need | Service |\n|---|---|\n| Unstructured files / media / backups | Blob |\n| Flat key-value rows, low cost, no global needs | Table Storage |\n| Same key-value model with global SLA | Cosmos DB for Table |\n",
+      "word_count": 163,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Blob is for objects; Table Storage is for cheap key-value rows.",
+        "Blob lifecycle policies move data Hot → Cool → Cold → Archive automatically by age.",
+        "New key-value workloads should prefer Cosmos DB for Table over classic Table Storage."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "dc7cf10c7f60d7366c342a9f"
+      },
+      "slug": "dp-900-synapse-analytics-basics",
+      "topic_name": "Synapse Analytics Basics",
+      "estimated_minutes": 25,
+      "content_md": "## Synapse Analytics Basics\n\nAzure Synapse Analytics is an integrated analytics platform combining **data integration**, **data warehousing**, and **big-data analytics** in a single workspace. (For green-field projects, evaluate **Microsoft Fabric** as the successor experience.)\n\n### Compute options inside a workspace\n- **Dedicated SQL pool** — MPP T-SQL warehouse measured in DWUs. Best for established BI workloads.\n- **Serverless SQL pool** — pay-per-TB-scanned T-SQL over data-lake files. No warehouse to manage.\n- **Apache Spark pool** — managed Spark for notebooks, ETL, and ML.\n\n### Synapse Pipelines\nSame engine and authoring as Azure Data Factory — copy activities, data flows, scheduling, triggers.\n\n### Synapse Link\n**HTAP** capability that mirrors operational data from Cosmos DB or Dataverse into the analytical store — no ETL required, near-real-time analytics.\n\n### Storage\nWorkspaces are paired with an **ADLS Gen2** account; tables can be Delta or Parquet over the lake.\n",
+      "word_count": 143,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "A single Synapse workspace exposes Dedicated SQL, Serverless SQL, and Spark pools side by side.",
+        "Synapse Link delivers HTAP from Cosmos DB / Dataverse without ETL pipelines.",
+        "Microsoft Fabric is the successor experience for new analytics projects."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "19dd1c920f51ef840e602bb8"
+      },
+      "slug": "dp-900-power-bi-integration",
+      "topic_name": "Power BI Integration",
+      "estimated_minutes": 15,
+      "content_md": "## Power BI Integration\n\nPower BI is the BI presentation layer for Azure data. Three storage modes determine how data is queried at report time.\n\n### Storage modes\n- **Import** — model is loaded into Power BI's in-memory engine (VertiPaq). Fastest queries, periodic refresh, capped by capacity memory.\n- **DirectQuery** — every visual issues a live query to the source. Always fresh, slower, more load on the source.\n- **Composite / Hybrid** — mix Import for hot dimensions with DirectQuery for cold facts.\n\n### Connecting to Azure\nNative connectors for Azure SQL Database, Synapse SQL pools, Databricks, Cosmos DB, ADLS Gen2, and Microsoft Fabric. **Power Query** transforms data on ingest.\n\n### Row-Level Security (RLS)\nDefine DAX filter expressions on roles so Sales East users see only East rows. RLS lives in the model, not the source — it follows the user identity (`USERPRINCIPALNAME()`) into reports.\n\n### Refresh and gateways\nOn-prem sources require an **on-premises data gateway**. Cloud sources refresh natively. Capacity tier (Pro / PPU / Premium / Fabric) gates dataset size and refresh frequency.\n",
+      "word_count": 175,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/",
+          "title": "Microsoft Learn — DP-900 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Import mode is fastest at query time but stale until refresh; DirectQuery is always fresh but slower.",
+        "Row-Level Security is enforced in the dataset using DAX, not at the data source.",
+        "On-premises sources require an on-prem data gateway for scheduled refresh."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b2fef1f68803dd2a0d48e6e9"
+      },
+      "slug": "ai-102-choosing-cognitive-services",
+      "topic_name": "Choosing Cognitive Services",
+      "estimated_minutes": 20,
+      "content_md": "## Choosing Cognitive Services\n\n**Azure AI Services** (formerly *Cognitive Services*) bundle pre-built APIs for vision, speech, language, and decision making.\n\n### Categories\n- **Vision** — Computer Vision, Custom Vision, Face, AI Document Intelligence.\n- **Speech** — speech-to-text, text-to-speech, speaker recognition, real-time translation.\n- **Language** — Azure AI Language (sentiment, NER, summarisation), Azure AI Translator.\n- **Generative** — Azure OpenAI Service (GPT, embeddings, DALL·E, Whisper).\n- **Decision** — Personaliser, Anomaly Detector, Content Safety.\n\n### Multi-service vs single-service resources\n- **Multi-service** — one key + endpoint that unlocks several services. Simpler billing, suited to small projects.\n- **Single-service** — dedicated resource per service. Required for production workloads needing regional pinning, custom domain, or data-residency separation.\n\n### Build vs buy\n- **Pre-built model** (e.g., generic OCR) — fastest to deploy.\n- **Custom model** (Custom Vision, Custom Speech, Document Intelligence custom) — when domain accuracy matters more than time-to-ship.\n- **Train your own** (Azure ML) — only when no Azure AI service covers the scenario.\n",
+      "word_count": 161,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/ai-102t00",
+          "title": "Microsoft Learn — AI-102 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Prefer pre-built Azure AI services before training a custom model.",
+        "Use single-service resources in production for regional pinning and data-residency control.",
+        "Azure OpenAI is part of Azure AI Services and inherits its security and identity story."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c6bc109bc92e690d720f4884"
+      },
+      "slug": "ai-102-responsible-ai-considerations",
+      "topic_name": "Responsible AI Considerations",
+      "estimated_minutes": 30,
+      "content_md": "## Responsible AI Considerations\n\nMicrosoft's **Responsible AI Standard** has six principles. Building on Azure AI services means engineering for them concretely.\n\n### The six principles\n1. **Fairness** — minimise harms from biased outputs across demographic groups.\n2. **Reliability & safety** — degrade gracefully; test edge cases.\n3. **Privacy & security** — keep training and runtime data protected and minimal.\n4. **Inclusiveness** — design for users with diverse abilities and contexts.\n5. **Transparency** — explain capabilities and limits; surface citations and confidence.\n6. **Accountability** — human oversight on impactful decisions.\n\n### Engineering controls on Azure\n- **Azure AI Content Safety** — text and image moderation for hate, violence, sexual content, and self-harm; works on input and output.\n- **Prompt shields** — protect against jailbreaks and indirect prompt-injection from grounded data.\n- **Groundedness detection** — flag responses unsupported by retrieved sources.\n- **Customer Copyright Commitment** — Microsoft defends eligible Azure OpenAI customers in IP claims, provided guardrails are configured.\n- **Transparency notes** — published per service describing intended use, limits, and harms to mitigate.\n",
+      "word_count": 172,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/ai-102t00",
+          "title": "Microsoft Learn — AI-102 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Apply Content Safety and prompt shields on both input and output, not just one side.",
+        "Groundedness detection flags hallucinations against retrieved knowledge.",
+        "Transparency notes are the published statements of intended use and limitations per service."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "be1a871d9c66873de2e83365"
+      },
+      "slug": "ai-102-deploying-models",
+      "topic_name": "Deploying Models",
+      "estimated_minutes": 25,
+      "content_md": "## Deploying Models\n\nAzure offers three deployment surfaces for AI models, each with different trade-offs.\n\n### Azure OpenAI deployments\nInside an Azure OpenAI resource you create one or more **deployments** that pin a model version (e.g., `gpt-4o-2024-11-20`) to a name. Two billing modes:\n- **Standard** — pay-per-token, regional capacity shared.\n- **Provisioned Throughput Units (PTUs)** — reserved capacity, predictable latency, monthly commitment.\n\n### Azure AI Foundry endpoints\nFoundry catalogues models from Microsoft, OpenAI, Meta, Mistral, Hugging Face. **Serverless API** or **Managed compute** options. Serverless is pay-per-token; Managed runs on dedicated VMs you size.\n\n### Azure Machine Learning online endpoints\nFor your own custom models. **Managed online endpoint** (Azure-managed VM cluster, blue/green slots) or **Kubernetes online endpoint** (deploy to AKS).\n\n### Choosing\n- **OpenAI standard** — variable workloads, fastest to start.\n- **PTU** — predictable high-volume, latency-sensitive workloads.\n- **Foundry serverless** — third-party catalog models without infra.\n- **AML managed endpoint** — your own model, your own dependencies.\n",
+      "word_count": 157,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/ai-102t00",
+          "title": "Microsoft Learn — AI-102 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "OpenAI deployments pin a specific model version; Standard is per-token, PTU is reserved capacity.",
+        "Provisioned Throughput is the option for predictable latency at high volume.",
+        "Use Azure Machine Learning online endpoints for custom in-house models."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "0094e50339b05da210aeeef4"
+      },
+      "slug": "ai-102-prompt-engineering-patterns",
+      "topic_name": "Prompt Engineering Patterns",
+      "estimated_minutes": 25,
+      "content_md": "## Prompt Engineering Patterns\n\nEffective prompts are **structured**, **grounded**, and **constrained**.\n\n### Core patterns\n1. **System prompt + user prompt** — set persona, tone, and refusal rules in the system message.\n2. **Few-shot examples** — show 2-5 input/output pairs to anchor the format.\n3. **Chain-of-thought / reasoning** — for complex tasks, ask for step-by-step reasoning before the final answer (or use a reasoning-tuned model like `o1`).\n4. **ReAct (Reason + Act)** — the model reasons, calls a tool, observes the result, then reasons again. Underpins agent frameworks.\n5. **Retrieval-Augmented Generation (RAG)** — retrieve relevant chunks from a vector store and embed them in the prompt for grounded answers with citations.\n\n### Output discipline\n- Ask for **structured output** (JSON schema, OpenAI structured outputs, or `response_format`).\n- Set a **token budget** (`max_tokens`) and a **temperature** (0–0.3 for factual tasks).\n- Add a **refusal clause** for off-scope requests.\n\n### Anti-patterns\n- Single mega-prompt that mixes persona, examples, and user data — split into roles.\n- Relying on the model to remember earlier turns at high context lengths — re-anchor critical constraints in the system prompt.\n",
+      "word_count": 183,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/ai-102t00",
+          "title": "Microsoft Learn — AI-102 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Put persona, format, and refusals in the system prompt; user data in the user prompt.",
+        "RAG grounds answers in retrieved sources and unlocks citations.",
+        "Use temperature 0–0.3 and structured output for factual or downstream-machine-readable tasks."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "63768a76afef3d9b92be7859"
+      },
+      "slug": "ai-102-azure-ai-search-indexes",
+      "topic_name": "Azure AI Search Indexes",
+      "estimated_minutes": 20,
+      "content_md": "## Azure AI Search Indexes\n\nAzure AI Search is the retrieval engine behind most Azure-native RAG patterns.\n\n### Index components\n- **Fields** — typed (string, int, collection, geography). Each field has flags: `searchable`, `filterable`, `facetable`, `sortable`, `retrievable`.\n- **Analyzers** — break text into tokens. Language analyzers (e.g., `en.microsoft`) handle stemming and stopwords.\n- **Vector fields** — store embeddings (typically 1536-d for text-embedding-3-small). Searched with **HNSW** or **exhaustive KNN** algorithms.\n\n### Search modes\n- **Keyword (BM25)** — classic full-text relevance.\n- **Vector** — embedding similarity.\n- **Hybrid** — keyword + vector with **Reciprocal Rank Fusion** (RRF). Usually beats either alone.\n- **Semantic ranking** — re-rank top results with a deep model for better relevance on natural-language queries.\n\n### Building the index\nUse **indexers** to pull from data sources (Blob, ADLS, Cosmos DB, SQL) and **skillsets** to enrich documents (OCR, key-phrase extraction, embeddings) before storage.\n",
+      "word_count": 143,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/ai-102t00",
+          "title": "Microsoft Learn — AI-102 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Hybrid search (keyword + vector) with semantic re-ranking is usually the strongest baseline.",
+        "Vector fields require an embedding model; dimensions must match the embedding output exactly.",
+        "Indexers + skillsets ingest and enrich documents; queries hit the resulting index."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b05c0e2957af86c0637b5743"
+      },
+      "slug": "ai-102-skillsets-and-enrichment",
+      "topic_name": "Skillsets and Enrichment",
+      "estimated_minutes": 20,
+      "content_md": "## Skillsets and Enrichment\n\nA **skillset** is a pipeline of cognitive skills attached to an indexer. It enriches documents *as they are ingested*, producing structured fields the index can search.\n\n### Built-in skills\n- **Optical Character Recognition (OCR)** — extract text from images/PDF.\n- **Image analysis** — tags, captions, objects.\n- **Language detection / translation**.\n- **Entity recognition / linking** — pull people, orgs, locations.\n- **Key-phrase extraction** — surface salient terms.\n- **Text-split** — break long documents into chunks.\n- **Embedding** — call Azure OpenAI to vectorise text.\n\n### Custom skills\nWrap an Azure Function or Web API behind a **WebApiSkill** to apply your own logic — for example a domain-specific entity extractor.\n\n### Knowledge store (optional)\nIn addition to writing fields back to the search index, a skillset can persist enriched documents into **Azure Storage** (table / blob) as a *knowledge store*, useful for downstream BI or batch processing.\n\n### Cost note\nSkill executions count against the daily transaction quota of the linked **AI multi-service** resource. Plan ingestion runs accordingly for large corpora.\n",
+      "word_count": 175,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/ai-102t00",
+          "title": "Microsoft Learn — AI-102 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Skillsets transform raw documents into structured search-ready fields at ingest time.",
+        "Custom skills (WebApiSkill) plug arbitrary Azure Function logic into the pipeline.",
+        "A knowledge store persists enriched output to Storage for non-search use cases."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f0b7c25f3990ed7f5598c350"
+      },
+      "slug": "az-104-microsoft-entra-basics",
+      "topic_name": "Microsoft Entra Basics",
+      "estimated_minutes": 25,
+      "content_md": "## Microsoft Entra Basics\n\n**Microsoft Entra ID** (formerly Azure Active Directory) is Microsoft's cloud identity and access service. Every Azure subscription is bound to exactly one Entra **tenant**.\n\n### Core objects\n- **User** — human or service identity. Can be **Member**, **Guest** (B2B), or **External**.\n- **Group** — security or Microsoft 365 group; assignable to roles when *Role-assignable* is enabled at creation.\n- **Application / Service principal** — workload identity. The **Service principal** is the local instance of an app registration in your tenant.\n- **Managed identity** — service principal whose secret is rotated by Azure (system-assigned or user-assigned).\n\n### Editions\n- **Free** — basic directory, B2B collaboration.\n- **P1** — Conditional Access, group-based licensing, Microsoft Entra Connect Health.\n- **P2** — Identity Protection (risk policies), Privileged Identity Management (PIM).\n\n### Hybrid identity\nSync on-prem AD users with **Microsoft Entra Connect** (current name) using one of: password-hash sync (default), pass-through authentication, or federation (AD FS). PHS is the preferred option for most organisations.\n",
+      "word_count": 163,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Every Azure subscription is bound to exactly one Microsoft Entra tenant.",
+        "Conditional Access requires Entra ID P1; Identity Protection and PIM require P2.",
+        "Password-hash sync is the recommended hybrid identity model for most organisations."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f25cc5861e79d62f34c611d6"
+      },
+      "slug": "az-104-rbac-assignments",
+      "topic_name": "RBAC Assignments",
+      "estimated_minutes": 15,
+      "content_md": "## RBAC Assignments\n\nAn **RBAC assignment** is a tuple of **(security principal, role definition, scope)**.\n\n### Security principals\nUser, group, service principal, or managed identity. Prefer **groups** so role membership scales.\n\n### Role definitions\n- **Built-in** — `Owner` (full + manage access), `Contributor` (full minus access), `Reader` (read-only), and 250+ scoped roles like `Storage Blob Data Reader`, `Key Vault Secrets User`.\n- **Custom** — JSON definition with `actions`, `notActions`, `dataActions`, `assignableScopes`. Use when no built-in role fits and a Contributor is too broad.\n\n### Scope hierarchy\n`Management Group → Subscription → Resource Group → Resource`. A role granted at a higher scope **inherits down**. The effective permissions are the **union** of all assignments — there is no explicit deny in classic RBAC (use **Deny assignments** through Azure Blueprints / managed apps for that).\n\n### Best practices\n- Apply **least privilege** — smallest scope, smallest role.\n- Use **just-in-time** elevation through **Microsoft Entra PIM** for sensitive roles.\n- Audit assignments with `az role assignment list` or Microsoft Entra access reviews.\n",
+      "word_count": 169,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "An RBAC assignment is always (principal, role definition, scope).",
+        "Permissions inherit downward and are the union of all assignments.",
+        "Use PIM for just-in-time elevation rather than permanent Owner role."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "22ef72280f78470b88e2a011"
+      },
+      "slug": "az-104-storage-account-tiers",
+      "topic_name": "Storage Account Tiers",
+      "estimated_minutes": 15,
+      "content_md": "## Storage Account Tiers\n\nStorage account configuration has two independent dimensions: **performance tier** and **access tier**.\n\n### Performance tier (account level)\n- **Standard** — backed by HDD; supports all services (Blob, File, Queue, Table, ADLS Gen2).\n- **Premium** — SSD-backed; specialised account kinds: **BlockBlobStorage**, **FileStorage**, **PageBlobStorage**.\n\n### Access tier (Blob only)\nSet per blob (or default at account level for some kinds):\n| Tier | Min retention | Per-GB price | Read price | Use case |\n|---|---|---|---|---|\n| Hot | None | High | Low | Active data |\n| Cool | 30 days | Medium | Medium | Infrequent access |\n| Cold | 90 days | Low | Higher | Quarterly access |\n| Archive | 180 days | Lowest | Rehydrate (hours) | Long-term retention |\n\n### Replication options\n- **LRS** — 3 copies in one zone.\n- **ZRS** — 3 copies across 3 AZs.\n- **GRS** — LRS + async copy in paired region.\n- **GZRS** — ZRS + async copy in paired region.\n- **RA-GRS / RA-GZRS** — adds read access on the secondary.\n\n### Lifecycle management\nDefine rules to transition or delete blobs by age and tier — e.g., move to Cool after 30 days, Archive after 180, delete after 7 years.\n",
+      "word_count": 209,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Performance tier (Standard/Premium) is set on the account; access tier (Hot/Cool/Cold/Archive) is per blob.",
+        "Archive is cheapest to store but must be rehydrated (hours) before reading.",
+        "GZRS combines AZ redundancy in the primary region with async geo-replication."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7fe0737e7763918546023577"
+      },
+      "slug": "az-104-vm-lifecycle-management",
+      "topic_name": "VM Lifecycle Management",
+      "estimated_minutes": 30,
+      "content_md": "## VM Lifecycle Management\n\nAn Azure VM is composed of several resources — VM, NIC, disks, public IP, NSG. Understanding the lifecycle of each prevents surprise bills.\n\n### Power states\n- **Running** — billed for compute and storage.\n- **Stopped (in portal **without** *deallocate*)** — still billed for compute.\n- **Stopped (deallocated)** — billed for storage only; dynamic public IP may change on next start.\n\n### Resizing\nMost resizes require deallocation. Some SKU families share a hardware cluster and can be resized online; others move the VM to new hardware on next start.\n\n### Disk types\n- **Premium SSD v2** — single-digit ms latency, granular IOPS/throughput.\n- **Premium SSD** — provisioned IOPS by SKU.\n- **Standard SSD / HDD** — cheaper, batch and dev workloads.\n- **Ultra Disk** — sub-ms latency, OLTP and SAP HANA.\n\n### Maintenance\n- **Planned maintenance** — Azure notifies in advance; users can self-trigger the move during the window to reduce surprise downtime.\n- **Unplanned hardware events** — handled by **Service Healing** for VMs in Availability Sets / Zones.\n\n### Auto-shutdown\nDev/test VMs can use **Auto-shutdown** policy (DevTest Labs or VM extension) to deallocate on a schedule.\n",
+      "word_count": 191,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "A 'stopped' VM is still billed for compute; only 'stopped (deallocated)' frees compute charges.",
+        "Premium SSD v2 and Ultra Disk give granular IOPS/throughput dials decoupled from disk size.",
+        "Use auto-shutdown on dev VMs to avoid paying for idle compute overnight."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6fa2c650ed85a3160395058b"
+      },
+      "slug": "az-104-virtual-networks-and-subnets",
+      "topic_name": "Virtual Networks and Subnets",
+      "estimated_minutes": 15,
+      "content_md": "## Virtual Networks and Subnets\n\nA **VNet** is a private network in Azure with a CIDR range you define. **Subnets** carve that range into segments for placement and policy.\n\n### Address planning\n- Use **non-overlapping RFC 1918** ranges across VNets that may peer or connect on-prem.\n- Reserve room — VNet ranges are hard to expand cleanly when peered.\n- Azure reserves **5 IPs** per subnet (network, default gateway, two for Azure DNS, broadcast).\n\n### Subnet rules\n- One **NSG** per subnet (and optionally one per NIC); rules combine.\n- One **route table** per subnet.\n- Some services require **dedicated subnets** with a specific minimum size: AzureFirewallSubnet (/26), GatewaySubnet (/27 or larger), AzureBastionSubnet (/26 or larger).\n\n### VNet peering\nConnect two VNets at private-IP latency. Properties: `Allow forwarded traffic`, `Allow gateway transit`, `Use remote gateways` — all explicit, none transitive. **Hub-and-spoke** topologies use gateway transit so spokes share the hub's gateway.\n\n### Service Endpoints vs Private Endpoints\n- **Service Endpoint** — keeps PaaS traffic on the Microsoft backbone but the resource keeps a public DNS.\n- **Private Endpoint** — assigns a private IP from your subnet to the PaaS resource. Preferred for tight network isolation.\n",
+      "word_count": 195,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Azure reserves 5 IPs in every subnet; size accordingly.",
+        "Some services require dedicated subnets with minimum sizes (Bastion /26, Gateway /27).",
+        "Private Endpoints give a private IP to PaaS; Service Endpoints don't."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "3ef0f79374af23b202d7f282"
+      },
+      "slug": "az-104-load-balancers-and-dns",
+      "topic_name": "Load Balancers and DNS",
+      "estimated_minutes": 25,
+      "content_md": "## Load Balancers and DNS\n\nAzure has multiple load-balancing services. Picking the right one depends on **OSI layer**, **scope**, and **protocol**.\n\n### Load balancers\n| Service | Layer | Scope | Notes |\n|---|---|---|---|\n| **Standard Load Balancer** | L4 (TCP/UDP) | Regional or zonal | High throughput, zero-trust, NSG-aware |\n| **Application Gateway** | L7 (HTTP/HTTPS) | Regional | Path/host routing, WAF, SSL offload |\n| **Front Door** | L7 | Global | Anycast edge, WAF, caching |\n| **Traffic Manager** | DNS-based | Global | Routing methods: priority, weighted, performance, geo |\n\n### Decision rule\n- **HTTP/HTTPS, regional, with WAF** → Application Gateway.\n- **HTTP/HTTPS, global, edge optimisation** → Front Door.\n- **TCP/UDP** (e.g., game servers, VoIP) → Standard Load Balancer.\n- **DNS-only failover between regions** → Traffic Manager.\n\n### Azure DNS\n- **Public zones** — host internet-facing records.\n- **Private zones** — internal name resolution; link to one or more VNets.\n- **Auto-registration** — when enabled, VM names register automatically into a linked private zone.\n",
+      "word_count": 168,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Application Gateway is regional L7 with WAF; Front Door is global L7 with edge caching.",
+        "Standard Load Balancer is the answer for non-HTTP TCP/UDP workloads.",
+        "Azure DNS Private Zones with VNet links replace custom DNS servers for internal resolution."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "81676bf40ef287c271dd09e9"
+      },
+      "slug": "az-104-azure-monitor-metrics",
+      "topic_name": "Azure Monitor Metrics",
+      "estimated_minutes": 25,
+      "content_md": "## Azure Monitor Metrics\n\n**Metrics** in Azure Monitor are time-series numerical values emitted by every Azure resource — CPU%, IOPS, request count, latency. They're **near real-time** (1-min granularity standard) and stored for **93 days** by default.\n\n### Where metrics live\n- **Platform metrics** — emitted automatically by Azure. No setup, no cost.\n- **Custom metrics** — emitted by your app via Application Insights or the Azure Monitor REST API.\n- **Guest OS metrics** — require the **Azure Monitor Agent** with a Data Collection Rule.\n\n### Metric Explorer & alerts\n- Visualise with Metrics Explorer; pin to dashboards.\n- **Metric alerts** — fire when a threshold or dynamic baseline is breached. Multi-resource and multi-dimension alerts scale across many resources with one rule.\n- **Action groups** — what happens when an alert fires (email, SMS, webhook, ITSM, Logic App, Functions).\n\n### Metrics vs Logs\n- **Metrics** — numeric, fast, fixed schema, 93-day retention.\n- **Logs** — flexible schema (KQL), longer retention, slower to query. Use **Log Alerts** for complex correlations across tables.\n",
+      "word_count": 170,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Platform metrics are free, automatic, and retained for 93 days.",
+        "Multi-resource/multi-dimension metric alerts let one rule cover many targets.",
+        "Use metric alerts for fast threshold checks; use log alerts for complex KQL correlations."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "006caca67ccde4fccbf0f62c"
+      },
+      "slug": "az-104-log-analytics-workspaces",
+      "topic_name": "Log Analytics Workspaces",
+      "estimated_minutes": 25,
+      "content_md": "## Log Analytics Workspaces\n\nA **Log Analytics workspace** is the storage and query backend for log data in Azure Monitor and Microsoft Sentinel. Data is stored as **tables** queried in **Kusto Query Language (KQL)**.\n\n### Common tables\n- `Heartbeat` — agent connectivity.\n- `Perf` — performance counters.\n- `AzureActivity` — subscription-level control-plane events.\n- `AzureDiagnostics` / resource-specific tables — diagnostic settings output.\n- `SecurityEvent` (Sentinel) — Windows security log.\n\n### Pricing tiers\n- **Pay-as-you-go** — per-GB ingest, default.\n- **Commitment tiers** — flat monthly cost for predictable volume (100 GB/day, 200 GB/day, ...).\n- **Basic logs** — cheaper ingest, limited query, intended for high-volume verbose logs.\n\n### Retention\nDefault 30 days; extend per-table up to 730 days (interactive) and beyond with **Archive** at lower cost. Archived data must be **rehydrated** to search.\n\n### Query patterns\n```kql\nAzureActivity\n| where TimeGenerated > ago(1d)\n| where ActivityStatusValue == \"Failed\"\n| summarize count() by OperationNameValue\n| top 10 by count_ desc\n```\n",
+      "word_count": 159,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-104t00",
+          "title": "Microsoft Learn — AZ-104 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "KQL is the query language for Log Analytics, App Insights, Sentinel, and Defender for Cloud.",
+        "Use commitment tiers when ingest is predictable; Basic logs for verbose / chatty sources.",
+        "Per-table retention overrides workspace defaults — set verbose tables shorter to save cost."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a00fd5b75c347e4d0f553abf"
+      },
+      "slug": "az-204-app-service-web-apps",
+      "topic_name": "App Service Web Apps",
+      "estimated_minutes": 15,
+      "content_md": "## App Service Web Apps\n\n**Azure App Service** is a fully managed PaaS for web apps and APIs. You bring code, container, or Windows/Linux runtime; Azure handles patching, load balancing, and certificates.\n\n### Plans (SKU tiers)\n- **Free / Shared** — sandboxed, dev only.\n- **Basic** — dedicated VMs, no autoscale.\n- **Standard / Premium v3** — autoscale, deployment slots, VNet integration.\n- **Isolated v2** — App Service Environment (ASE), runs in your VNet with full isolation.\n\n### Deployment slots (Standard+)\nCreate extra instances of the app (e.g., `staging`) and **swap** with production. Swap is near-zero-downtime: traffic shifts after warm-up succeeds. Slot-specific app settings and connection strings stay with the slot when swapping.\n\n### App settings\nEnvironment variables surfaced at runtime. Mark **Slot setting** to keep value with the slot. Use **Key Vault references** (`@Microsoft.KeyVault(SecretUri=...)`) to avoid storing secrets directly.\n\n### Authentication\n**Easy Auth** (`/.auth/...`) handles OIDC sign-in with Microsoft Entra, Google, Facebook, etc., without code. Token validation and user info injection happen at the platform layer.\n\n### Networking\n**VNet Integration** for outbound; **Private Endpoint** for inbound. App Service in an ASE is fully private by default.\n",
+      "word_count": 187,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-204t00",
+          "title": "Microsoft Learn — AZ-204 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Deployment slots provide blue/green swaps with warm-up; slot settings stay with the slot.",
+        "Reference Key Vault secrets in app settings to avoid storing them in plain text.",
+        "Easy Auth wires up OIDC sign-in without writing authentication code."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "3c2a0c356ee74101e07bcae6"
+      },
+      "slug": "az-204-azure-functions-triggers",
+      "topic_name": "Azure Functions Triggers",
+      "estimated_minutes": 30,
+      "content_md": "## Azure Functions Triggers\n\nAn Azure Function is **triggered** by exactly one event source. **Bindings** declaratively connect the function to additional inputs/outputs.\n\n### Common triggers\n- **HTTP** — request/response.\n- **Timer** — CRON expression.\n- **Queue / Service Bus** — message received.\n- **Event Grid / Event Hubs** — pub/sub or stream events.\n- **Blob** — when a blob is created or updated (uses Event Grid for low-latency in modern setups).\n- **Cosmos DB change feed** — document insert/update.\n\n### Hosting plans\n- **Consumption** — true serverless, pay-per-execution, **5-min default timeout** (10 max). Cold starts.\n- **Premium / Flex Consumption** — pre-warmed instances, VNet, longer runs.\n- **App Service plan** — share with web apps; predictable cost.\n- **Container Apps hosting** — for Docker-packaged Functions.\n\n### Durable Functions\nBuild stateful workflows with the same Functions runtime: **chaining**, **fan-out / fan-in**, **async HTTP API**, **monitor**, **human interaction** patterns. State is persisted to Azure Storage (or MSSQL provider).\n",
+      "word_count": 156,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-204t00",
+          "title": "Microsoft Learn — AZ-204 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "A function has exactly one trigger; bindings are additional inputs/outputs.",
+        "Consumption plan caps default at 5 min — pick Premium/Flex for longer runs or pre-warmed instances.",
+        "Durable Functions add stateful orchestration patterns on top of the Functions runtime."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "813149c22417ea81f0fc95f2"
+      },
+      "slug": "az-204-blob-storage-sdks",
+      "topic_name": "Blob Storage SDKs",
+      "estimated_minutes": 15,
+      "content_md": "## Blob Storage SDKs\n\nAll Azure SDK languages expose a common pattern for blob access: **Service Client → Container Client → Blob Client**.\n\n### Authentication\n- **DefaultAzureCredential** (recommended) — chains environment variables, managed identity, developer credentials. No secret in code.\n- **Connection string / SAS** — only for legacy or short-lived scenarios.\n\n### Common operations\n```python\nfrom azure.identity import DefaultAzureCredential\nfrom azure.storage.blob import BlobServiceClient\n\nclient = BlobServiceClient(\n    account_url=\"https://mystg.blob.core.windows.net\",\n    credential=DefaultAzureCredential(),\n)\ncontainer = client.get_container_client(\"reports\")\ncontainer.upload_blob(name=\"q4.csv\", data=open(\"q4.csv\", \"rb\"), overwrite=True)\n```\n\n### Tier and metadata\n- Set the **access tier** (`Hot/Cool/Cold/Archive`) at upload or update later.\n- Attach **metadata** (key/value strings) for downstream filtering.\n\n### Performance tips\n- For uploads >256 MB use **block uploads** with parallelism (the SDK does this by default).\n- Use **stored access policies** with SAS to revoke without rotating the account key.\n- Prefer **AAD/RBAC** (`Storage Blob Data Contributor`) over account keys.\n",
+      "word_count": 144,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-204t00",
+          "title": "Microsoft Learn — AZ-204 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "DefaultAzureCredential is the recommended auth path — no secrets in code.",
+        "Service → Container → Blob client hierarchy is the SDK's universal entry point.",
+        "Granting Storage Blob Data Contributor via RBAC is preferred over connection strings."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "ebdd2f35e8a531ba6e6c125e"
+      },
+      "slug": "az-204-cosmos-db-querying",
+      "topic_name": "Cosmos DB Querying",
+      "estimated_minutes": 30,
+      "content_md": "## Cosmos DB Querying\n\nCosmos DB for NoSQL exposes a SQL-like dialect over JSON documents.\n\n### Query basics\n```sql\nSELECT c.id, c.customer.name\nFROM c\nWHERE c.partitionKey = @tenant\n  AND c.status = 'active'\nORDER BY c.createdAt DESC\n```\n- `c` is the document alias.\n- Always include the **partition key** in the predicate for in-partition queries (cheap).\n- Without it, Cosmos performs a **cross-partition (fan-out) query** — supported but more expensive.\n\n### Indexing policy\nDefault policy indexes every property. For high-write workloads, switch to a **custom indexing policy** that includes only fields you query and excludes write-heavy properties to reduce RU cost.\n\n### RU cost controls\n- **Continuation tokens** stream large results in pages.\n- `EnableScanInQuery` is off by default — Cosmos refuses to scan if no eligible index exists.\n- Use **stored procedures / triggers** sparingly — they cost RU and run server-side.\n\n### Change feed\nA **persistent, ordered stream** of all inserts and updates per logical partition. Read it from Functions, Stream Analytics, or the Change Feed processor library to build event-driven flows without polling.\n",
+      "word_count": 176,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-204t00",
+          "title": "Microsoft Learn — AZ-204 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Always filter by the partition key when possible — cross-partition queries cost more RUs.",
+        "A custom indexing policy reduces write RU cost by skipping fields you don't query.",
+        "Use the Cosmos change feed for event-driven downstream processing without polling."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "206ae9bf6201e157f75ee1fd"
+      },
+      "slug": "az-204-service-bus-and-event-grid",
+      "topic_name": "Service Bus and Event Grid",
+      "estimated_minutes": 15,
+      "content_md": "## Service Bus and Event Grid\n\nBoth are messaging services on Azure but solve different problems.\n\n### Service Bus\n**Enterprise message broker** with queues and topics/subscriptions. Designed for **high-value business messages**.\n- **At-least-once** delivery, optional **duplicate detection**.\n- **Sessions** — FIFO ordering by `SessionId`.\n- **Dead-letter queue** for poison messages.\n- **Transactions** spanning multiple sends + receives.\n- **Scheduled messages**, **deferred** messages.\n- Latency: tens of ms.\n\n### Event Grid\n**Reactive event distribution** — small JSON event objects pushed to subscribers via webhook, Function, or Event Hubs.\n- **At-least-once** delivery with retries and dead-letter to a storage blob.\n- **Event Schema** or **CloudEvents v1.0** envelopes.\n- **System topics** — emitted by Azure services (Storage Blob created, Resource changed, ...).\n- Designed for **millions of events / sec**, very low cost per event.\n\n### Decision rule\n- Carrying business **state / commands** (e.g., 'place order')? → **Service Bus**.\n- Reacting to discrete **events / notifications** (e.g., 'blob uploaded')? → **Event Grid**.\n- Streaming high-volume **telemetry / time-series**? → **Event Hubs** (separate service).\n",
+      "word_count": 171,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-204t00",
+          "title": "Microsoft Learn — AZ-204 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Service Bus is for transactional business messages; Event Grid is for reactive event notifications.",
+        "Service Bus supports sessions (FIFO), transactions, and dead-letter — Event Grid does not.",
+        "For high-volume telemetry streams, choose Event Hubs over either."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c352550be8d13ee774a9610a"
+      },
+      "slug": "az-204-api-management-basics",
+      "topic_name": "API Management Basics",
+      "estimated_minutes": 25,
+      "content_md": "## API Management Basics\n\n**Azure API Management (APIM)** is a managed API gateway, developer portal, and analytics surface in front of your backend services.\n\n### Building blocks\n- **API** — definition imported from OpenAPI, WSDL, or built manually.\n- **Operation** — single endpoint inside an API.\n- **Product** — a curated bundle of APIs with subscription requirements.\n- **Policy** — XML snippet that runs on inbound, backend, outbound, or on-error scopes.\n\n### Common policies\n- **`<rate-limit>`** / **`<quota>`** — protect backends from spikes and over-use.\n- **`<validate-jwt>`** — verify a Microsoft Entra token before forwarding.\n- **`<set-header>`**, **`<rewrite-uri>`** — adapt requests/responses.\n- **`<cache-lookup>`** / **`<cache-store>`** — built-in response caching.\n- **`<send-request>`** — call a sidecar service from the gateway pipeline.\n\n### Tiers\n- **Consumption** — serverless, per-call billing, no VNet.\n- **Developer** — single instance, no SLA, dev only.\n- **Basic v2 / Standard v2** — production VNet-aware tiers (modern).\n- **Premium** — multi-region, full VNet integration, self-hosted gateway.\n\n### Versioning\nUse **versions** for breaking changes (e.g., `v1`, `v2`) and **revisions** for non-breaking fixes (no client URL change).\n",
+      "word_count": 178,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-204t00",
+          "title": "Microsoft Learn — AZ-204 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Policies run in inbound, backend, outbound, and on-error scopes and can be combined freely.",
+        "validate-jwt is the canonical way to authenticate Entra tokens at the gateway edge.",
+        "Use versions for breaking changes and revisions for non-breaking iteration."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "27dbfb592a5c731642fe99c8"
+      },
+      "slug": "az-500-conditional-access-policies",
+      "topic_name": "Conditional Access Policies",
+      "estimated_minutes": 25,
+      "content_md": "## Conditional Access Policies\n\n**Microsoft Entra Conditional Access** (CA) is the policy engine that evaluates **signals** at sign-in time and **enforces** access decisions.\n\n### Policy structure (if/then)\n**If** the assignment matches:\n- Users / groups / roles\n- Cloud apps or actions\n- Conditions: sign-in risk, device platform, location, client app, device state\n\n**Then** apply controls:\n- **Grant** — block, require MFA, require compliant device, require Hybrid AAD-joined, require approved client app, require Terms of Use.\n- **Session** — app-enforced restrictions, sign-in frequency, persistent browser, Microsoft Defender for Cloud Apps.\n\n### Recommended baseline\nModern Microsoft guidance is the **Zero Trust** baseline:\n1. Block legacy authentication.\n2. Require MFA for all users.\n3. Require MFA for admins (PIM-eligible).\n4. Block sign-ins from countries you don't operate in.\n5. Require compliant or hybrid-joined devices for sensitive apps.\n\n### Report-only and What-If\nAlways test new policies in **report-only** before turning them on. The **What-If** tool simulates a sign-in to predict which policies would apply.\n",
+      "word_count": 161,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-500t00",
+          "title": "Microsoft Learn — AZ-500 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Conditional Access is the if/then policy engine; assignments + conditions decide grant/session controls.",
+        "Block legacy authentication first — it's the highest-leverage CA policy.",
+        "Use report-only mode and the What-If tool to validate before enforcing."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f6d61973ab48163f46e3c3f6"
+      },
+      "slug": "az-500-privileged-identity-management",
+      "topic_name": "Privileged Identity Management",
+      "estimated_minutes": 20,
+      "content_md": "## Privileged Identity Management\n\n**Microsoft Entra Privileged Identity Management (PIM)** turns standing admin access into **just-in-time, time-bound, approval-gated** access.\n\n### Key concepts\n- **Eligible** — the user can activate the role when needed.\n- **Active** — the user holds the role right now.\n- **Activation** — eligible → active for a bounded duration (e.g., 4 h).\n- **Justification + approval + MFA** can be required at activation time.\n- **Access reviews** — recurring review of who is eligible.\n\n### Scope\n- **Microsoft Entra roles** — Global Admin, Privileged Role Admin, etc.\n- **Azure resource roles** — Owner, Contributor, custom roles at MG/sub/RG/resource scope.\n- **Microsoft Entra groups** — assignable groups can be PIM-managed.\n\n### Why it matters\nStanding Global Admin = standing risk. PIM:\n- Reduces attacker dwell time on compromised accounts.\n- Provides audit logs of every activation with justification.\n- Supports **Zero Trust** least-privilege patterns at the identity layer.\n",
+      "word_count": 151,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-500t00",
+          "title": "Microsoft Learn — AZ-500 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "PIM converts standing roles into eligible-then-activated, time-bound access.",
+        "Activation can require justification, approval, and MFA for high-risk roles.",
+        "Use access reviews to keep eligibility lists small and current."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d64becd01ee19285e46f8692"
+      },
+      "slug": "az-500-network-security-groups",
+      "topic_name": "Network Security Groups",
+      "estimated_minutes": 15,
+      "content_md": "## Network Security Groups\n\nAn **NSG** is a stateful packet filter applied at the **subnet** or **NIC** level. Rules are processed in **priority order** (low-to-high); the first match wins.\n\n### Rule properties\n- **Priority** — 100–4096; lower = evaluated first.\n- **Source / Destination** — IP, CIDR, **service tag** (e.g., `AzureMonitor`, `Internet`, `VirtualNetwork`), or **Application Security Group**.\n- **Protocol** — TCP, UDP, ICMP, Any.\n- **Action** — Allow or Deny.\n\n### Default rules\nAzure adds three implicit **inbound** rules (allow VNet, allow Azure LB, deny all others) and three outbound rules — all at priority 65000+ so they run last.\n\n### Application Security Groups (ASGs)\nLogical names that group NICs (e.g., `web-asg`, `db-asg`). Use them as source/destination instead of IPs so rules survive IP changes.\n\n### Diagnostics\nEnable **NSG flow logs** to a storage account; integrate with **Traffic Analytics** in Log Analytics to visualise denied vs allowed flows.\n\n### Common pitfalls\n- Confusing direction — NSGs are stateful, so reply traffic is automatically allowed.\n- Putting NSGs on the **GatewaySubnet** — Microsoft explicitly does not recommend it.\n",
+      "word_count": 177,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-500t00",
+          "title": "Microsoft Learn — AZ-500 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "NSGs are stateful — return traffic is allowed automatically; only one direction needs an Allow rule.",
+        "Use service tags and ASGs instead of literal IPs so rules age well.",
+        "Enable NSG flow logs and Traffic Analytics for visibility into allowed vs denied flows."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7eaf57640bbd7cf7d74b1a93"
+      },
+      "slug": "az-500-azure-firewall-and-ddos",
+      "topic_name": "Azure Firewall and DDoS",
+      "estimated_minutes": 15,
+      "content_md": "## Azure Firewall and DDoS\n\n### Azure Firewall\nA **stateful, cloud-native, fully managed L3-L7 firewall** for hub VNets.\n\n- **SKUs**: Standard, Premium, Basic.\n- **Premium** adds TLS inspection, IDPS (signature-based intrusion detection), URL filtering, web categories.\n- **Forced tunnelling** — send all egress through the firewall by overriding the default route.\n- **Threat intelligence** mode: Alert, or Alert and Deny on known-malicious IPs/domains.\n- **Firewall Policy** — central rule store sharable across many firewalls (great for hub-and-spoke at scale).\n\n### Azure DDoS Protection\n- **Network** (formerly Standard) — full L3/L4 always-on protection per-VNet for **all public IPs in the VNet**, with adaptive tuning, attack analytics, and a cost-protection guarantee.\n- **IP Protection** — same engine but billed per public IP, suitable for single-VIP scenarios.\n- **Basic** — free, automatic L3/L4 mitigation built into the platform; no analytics, no SLA.\n\n### Defence in depth\nPair Azure Firewall (egress + east-west) with DDoS Network/IP (ingress L3/L4) and a WAF on Application Gateway or Front Door (L7) for full coverage.\n",
+      "word_count": 167,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-500t00",
+          "title": "Microsoft Learn — AZ-500 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Azure Firewall Premium adds TLS inspection, IDPS, and URL filtering on top of Standard.",
+        "DDoS Network protects all public IPs in a VNet; DDoS IP Protection is per-IP billing.",
+        "Combine Azure Firewall (L3-L7), DDoS, and WAF for defence in depth."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a38f7b14dfdd150cf17afa06"
+      },
+      "slug": "az-500-key-vault-and-secrets",
+      "topic_name": "Key Vault and Secrets",
+      "estimated_minutes": 20,
+      "content_md": "## Key Vault and Secrets\n\n**Azure Key Vault** is the managed store for secrets, keys, and certificates. Three object types:\n\n- **Secrets** — strings (e.g., DB passwords, API keys).\n- **Keys** — cryptographic keys for envelope encryption / signing. Backed by **HSMs** in the Premium SKU.\n- **Certificates** — TLS certs with auto-renewal via Key Vault's integration with public CAs (DigiCert, GlobalSign) or your own provider.\n\n### Access models\n- **Azure RBAC (recommended)** — `Key Vault Secrets User`, `Key Vault Crypto Officer`, etc., assigned to identities at vault scope.\n- **Vault access policies (legacy)** — per-vault ACL list. Plan to migrate to RBAC.\n\n### Networking\n- Default: public endpoint with firewall allow-list.\n- Recommended: **Private Endpoint** + disable public access for production.\n\n### Soft delete & purge protection\n**Soft delete** is enabled by default — deleted objects are recoverable for 7-90 days. **Purge protection** prevents permanent deletion until the retention period elapses, even by an Owner. Required for many compliance frameworks.\n\n### Reference patterns\n- App Service / Functions: `@Microsoft.KeyVault(SecretUri=...)` in app settings.\n- AKS: **Secrets Store CSI driver** mounts secrets as files.\n- ARM/Bicep: `keyVault.getSecret('name')` reference at deployment time.\n",
+      "word_count": 190,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-500t00",
+          "title": "Microsoft Learn — AZ-500 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Prefer Azure RBAC over legacy vault access policies for new deployments.",
+        "Enable purge protection for production vaults — many compliance frameworks require it.",
+        "Use Key Vault references in App Service settings to avoid embedding secrets in config."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66f7c8a452f0cbdb5ec80f9c"
+      },
+      "slug": "az-500-defender-for-cloud-recommendations",
+      "topic_name": "Defender for Cloud Recommendations",
+      "estimated_minutes": 25,
+      "content_md": "## Defender for Cloud Recommendations\n\n**Microsoft Defender for Cloud** combines **CSPM** (Cloud Security Posture Management) and **CWPP** (Cloud Workload Protection Platform) into one product.\n\n### Free vs paid\n- **Foundational CSPM** — free; provides Secure Score and a base set of recommendations from Microsoft Cloud Security Benchmark (MCSB).\n- **Defender plans** — paid per-resource (Defender for Servers, Storage, SQL, Containers, App Service, Key Vault, ...). Add CWPP, threat detection, vulnerability assessment.\n- **Defender CSPM** — paid; adds attack-path analysis, agentless scanning, governance rules.\n\n### Secure Score\nA weighted percentage of how many security controls you've satisfied across subscriptions. Each **recommendation** maps to controls; remediating a recommendation raises the score.\n\n### Lifecycle of a recommendation\n1. Evaluated continuously against MCSB.\n2. Surfaces in **Recommendations** with severity (High/Medium/Low) and affected resources.\n3. **Quick fix** — one-click remediation when available.\n4. **Exemption** — explicit accept-risk with expiry and justification (audit trail).\n\n### Regulatory dashboards\nMap findings to **PCI DSS**, **ISO 27001**, **NIST 800-53**, **CIS**, custom standards. Useful evidence during audits.\n",
+      "word_count": 167,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-500t00",
+          "title": "Microsoft Learn — AZ-500 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Foundational CSPM is free and gives Secure Score plus MCSB recommendations out of the box.",
+        "Defender plans add workload protection (threat detection, agentless scanning) on top.",
+        "Use exemptions with expiry and justification rather than ignoring recommendations silently."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c2716ab8260c51a521362181"
+      },
+      "slug": "az-700-vnet-peering-and-hub-spoke",
+      "topic_name": "VNet Peering and Hub-Spoke",
+      "estimated_minutes": 15,
+      "content_md": "## VNet Peering and Hub-Spoke\n\n**VNet peering** connects two Azure VNets so resources communicate at private-IP latency over the Microsoft backbone. Peering is **non-transitive** by default — A peered to B and B peered to C does not give A access to C.\n\n### Peering properties\n- **Allow virtual network access** — basic IP-level connectivity (always on for peering to work).\n- **Allow forwarded traffic** — accept traffic that didn't originate in the peer.\n- **Allow gateway transit** — let the peer use *this* VNet's VPN/ExpressRoute gateway.\n- **Use remote gateways** — *this* VNet uses the peer's gateway (only one peering can have this).\n\n### Hub-and-spoke topology\nSingle **hub VNet** holds shared services: Azure Firewall, VPN/ExpressRoute gateway, Bastion, DNS forwarders. **Spoke VNets** peer to the hub for workloads.\n- Spokes set `Use remote gateways` so they share the hub gateway.\n- Hub sets `Allow gateway transit`.\n- Egress from spokes routed through Azure Firewall via UDR (`0.0.0.0/0` → firewall private IP).\n- Spoke-to-spoke traffic transits the hub firewall (gives east-west inspection).\n\n### Azure Virtual WAN\nManaged alternative to hand-built hub-and-spoke — fully managed hubs, global transit, integrated SD-WAN partners. Best for many regions or many branches.\n",
+      "word_count": 196,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-700t00",
+          "title": "Microsoft Learn — AZ-700 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "VNet peering is non-transitive — two-hop traffic must be routed through a hub.",
+        "Hub-and-spoke centralises gateway, firewall, and DNS so spokes stay simple.",
+        "Use Azure Virtual WAN when the topology spans many regions or branches."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "0551f381ec39a60a822b563f"
+      },
+      "slug": "az-700-private-endpoints",
+      "topic_name": "Private Endpoints",
+      "estimated_minutes": 20,
+      "content_md": "## Private Endpoints\n\nA **Private Endpoint (PE)** projects a PaaS service (Storage, SQL, Cosmos, Key Vault, App Service, etc.) into your VNet by giving it a **private IP** from a subnet you choose. The PaaS resource then looks like any other VM on that VNet.\n\n### Components\n- **Private Endpoint** resource in your subnet.\n- A **NIC** Azure auto-creates that holds the private IP.\n- A **Private Link service** on the PaaS side that the PE connects to.\n- A **Private DNS zone** (e.g., `privatelink.blob.core.windows.net`) that overrides public DNS so clients resolve to the private IP.\n\n### Why DNS is the part everyone misses\nIf the private DNS zone is not linked to the consuming VNet, clients still resolve to the public IP and traffic egresses to the Internet — connection succeeds but defeats the purpose. Always link `privatelink.<service>.azure.net` zones to every VNet that uses the service.\n\n### Disabling public access\nAfter verifying private connectivity, set the PaaS resource's `publicNetworkAccess = Disabled`. The service is now reachable only through the private endpoint.\n\n### Service Endpoint vs Private Endpoint\nService Endpoint keeps the public IP on the resource and just routes the egress traffic on the Microsoft backbone. Private Endpoint replaces the public IP with a private one — much stronger isolation, recommended for new deployments.\n",
+      "word_count": 215,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-700t00",
+          "title": "Microsoft Learn — AZ-700 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Private Endpoints assign a private IP from your subnet to a PaaS resource.",
+        "Private DNS zone linkage is the most common failure point; link to every consuming VNet.",
+        "After enabling PE, set publicNetworkAccess=Disabled on the PaaS resource for full isolation."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "5a7169c11a50dbee7aeb21fb"
+      },
+      "slug": "az-700-vpn-gateway",
+      "topic_name": "VPN Gateway",
+      "estimated_minutes": 15,
+      "content_md": "## VPN Gateway\n\nAn **Azure VPN Gateway** establishes encrypted IPsec tunnels between Azure VNets and remote sites or individual clients. Deployed into the **GatewaySubnet** (`/27` or larger) of the VNet.\n\n### Connection types\n- **Site-to-Site (S2S)** — IPsec/IKE tunnel from on-prem device to Azure.\n- **Point-to-Site (P2S)** — individual users connect with OpenVPN, IKEv2, or SSTP. Authentication via **Microsoft Entra ID**, certificates, or RADIUS.\n- **VNet-to-VNet** — same engine but between two Azure VNets (peering is usually preferred today).\n\n### SKUs\nModern recommendation: **VpnGw2 / VpnGw2AZ** and above for production. **AZ** SKUs are zone-redundant. Throughput grows with SKU (e.g., VpnGw1 ≈ 650 Mbps, VpnGw5 ≈ 10 Gbps) and S2S tunnel count cap also grows with SKU.\n\n### Active-active\nTwo gateway instances in different AZs each terminating their own public IP and BGP session. Provides tunnel-level HA without failover delay.\n\n### Forced tunnelling\nOverride default routes so all egress goes back on-prem (regulatory) — usually combined with a UDR and Azure Firewall.\n",
+      "word_count": 161,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-700t00",
+          "title": "Microsoft Learn — AZ-700 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "VPN Gateway lives in the dedicated GatewaySubnet (/27 minimum).",
+        "Use AZ-suffixed SKUs (VpnGw1AZ+) for zone-redundant deployments.",
+        "Active-active configuration removes single-instance failover delay."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "48143e7137bd36a0812c8542"
+      },
+      "slug": "az-700-expressroute-basics",
+      "topic_name": "ExpressRoute Basics",
+      "estimated_minutes": 30,
+      "content_md": "## ExpressRoute Basics\n\n**ExpressRoute** is a private, dedicated layer-3 connection from on-premises to Microsoft via a connectivity provider (or **ExpressRoute Direct** for 10/100 Gbps direct ports). Traffic does **not** traverse the public Internet.\n\n### Peerings\n- **Private peering** — connect to your VNets (most common).\n- **Microsoft peering** — reach Microsoft public services (Microsoft 365, Azure PaaS public endpoints) without the internet path.\n\n### Bandwidth and SKUs\nCircuits range from 50 Mbps to 10 Gbps (Direct goes to 100 Gbps). Three pricing types:\n- **Metered** — pay per outbound GB.\n- **Unlimited** — flat fee, no egress charge.\n- **Local** — discounted, restricted to circuits in the same metro as the target Azure region.\n\n### High availability\nEach circuit terminates on **two redundant** customer routers at the peering location. Pair with a second circuit in another peering location for true site-level HA. Use **ExpressRoute Global Reach** to connect on-prem sites to each other through Microsoft's backbone.\n\n### When to choose what\n- **VPN** — quick to stand up, lower bandwidth, internet path.\n- **ExpressRoute** — predictable bandwidth and latency, regulated workloads, 1 Gbps+ requirements.\n- Many enterprises run **ExpressRoute + VPN failover** so the VPN takes over if ER fails.\n",
+      "word_count": 200,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-700t00",
+          "title": "Microsoft Learn — AZ-700 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "ExpressRoute is a private L3 link via a partner; traffic skips the public Internet.",
+        "Pair two circuits in different peering locations for site-level high availability.",
+        "Global Reach links on-prem sites to each other through Microsoft's backbone."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "bbea280a0afb220372b31362"
+      },
+      "slug": "az-700-application-gateway",
+      "topic_name": "Application Gateway",
+      "estimated_minutes": 25,
+      "content_md": "## Application Gateway\n\n**Azure Application Gateway** is a regional **L7** load balancer for HTTP/HTTPS traffic with optional **Web Application Firewall (WAF)**.\n\n### Routing capabilities\n- **Path-based routing** — `/api/*` → API backend, `/img/*` → image backend.\n- **Host-based routing** — `app1.contoso.com` vs `app2.contoso.com` to different pools.\n- **TLS termination** at the gateway with re-encryption to the backend optional.\n- **Cookie-based session affinity**.\n- **Rewrite rules** for URL and headers.\n\n### Web Application Firewall\nBuilt-in WAF based on **OWASP CRS** rule sets (3.x) or the **Microsoft Default Rule Set**. Modes:\n- **Detection** — log only.\n- **Prevention** — block matched requests.\n\nCustom rules add geo-blocking, IP allow/deny, rate limiting, and signature exclusions.\n\n### Components\n- **Frontend IP** — public or private.\n- **Listeners** — bind frontend IP + port + protocol (and optional host).\n- **Backend pools** — VMs, VMSS, App Service, IPs.\n- **HTTP settings** — backend port, timeout, probe.\n- **Rules** — wire listener → routing decision → backend pool.\n\n### v2 SKU\nProduction deployments should use **Application Gateway v2** (Standard_v2 or WAF_v2) — autoscaling, zone-redundant, faster provisioning, header rewrites.\n",
+      "word_count": 181,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-700t00",
+          "title": "Microsoft Learn — AZ-700 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Application Gateway is regional L7 with path/host routing, TLS termination, and WAF.",
+        "WAF_v2 supports OWASP CRS or Microsoft Default Rule Set, plus custom rules.",
+        "Always pick the v2 SKU for new deployments — autoscaling and zone-redundant."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "dc116b1c438db49196687b29"
+      },
+      "slug": "az-700-front-door-and-cdn",
+      "topic_name": "Front Door and CDN",
+      "estimated_minutes": 30,
+      "content_md": "## Front Door and CDN\n\n**Azure Front Door** is Microsoft's global, anycast L7 entry point with edge caching, WAF, and instant origin failover. It is now the unified service that replaces both classic Front Door and Azure CDN Standard from Microsoft.\n\n### Tiers\n- **Standard** — global routing, caching, WAF Standard.\n- **Premium** — adds private link to origins, Managed Rules + bot protection, Microsoft-managed WAF rule sets.\n\n### Capabilities\n- **Anycast** — clients hit the closest of 192+ edge POPs.\n- **Health probes** — fail an unhealthy origin within seconds; traffic shifts to the next.\n- **Caching** — set TTL per route; purge by path or wildcard.\n- **Compression** — automatic gzip/Brotli on cacheable text content.\n- **Rules engine** — match request attributes (path, header, query) and rewrite, redirect, or set cache behaviour.\n\n### When to choose what\n- **Application Gateway** — regional L7, deep WAF + private origins inside one region.\n- **Front Door** — global L7, multi-region failover, edge caching, public origins.\n- Combine both for a *global edge → regional gateway → private origins* defence-in-depth pattern.\n\n### Migration\nClassic Azure CDN (Microsoft, Standard from Akamai/Verizon) is being retired. New deployments should target Azure Front Door directly.\n",
+      "word_count": 200,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-700t00",
+          "title": "Microsoft Learn — AZ-700 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Front Door is global L7 with edge caching, WAF, and rapid origin failover.",
+        "Premium tier adds private link to origins and managed bot/WAF rule sets.",
+        "Combine Front Door + Application Gateway for global edge plus regional WAF + private origins."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "7383d93dcfb684fa1a4827d0"
+      },
+      "slug": "az-400-branching-strategies",
+      "topic_name": "Branching Strategies",
+      "estimated_minutes": 25,
+      "content_md": "## Branching Strategies\n\nA branching strategy defines how engineers integrate work and ship releases. The main contenders:\n\n### Trunk-based development\n- A single long-lived branch (`main`).\n- Short-lived feature branches (hours-to-days), merged via PR.\n- **Feature flags** hide unfinished work in production.\n- High commit frequency, very short PR review cycles.\n- Strong fit for **continuous deployment** and **DORA elite** metrics.\n\n### GitHub Flow\n- `main` is always deployable.\n- Branch → commit → PR → review → merge → deploy.\n- Minimal ceremony; suits SaaS where ship-as-soon-as-merged is the default.\n\n### Release flow / Release branches\n- Trunk-based + a short-lived branch per release for hot-fixes.\n- Hot-fix lands on the release branch and forward-merges to `main`.\n- Used by Microsoft for Azure DevOps itself.\n\n### GitFlow\n- Long-lived `develop`, `main`, plus `feature/*`, `release/*`, `hotfix/*`.\n- Heavy ceremony; rarely the right choice for cloud-native SaaS today.\n- Still valid for **versioned shipped products** (e.g., installer-based desktop apps) where multiple shipped versions are supported in parallel.\n\n### Choosing\nDefault to **trunk-based + feature flags** unless you ship multiple supported versions of a product in parallel.\n",
+      "word_count": 185,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-400t00",
+          "title": "Microsoft Learn — AZ-400 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Trunk-based development with feature flags is the default for cloud-native CI/CD.",
+        "Release flow adds short-lived release branches for hot-fixes that forward-merge to main.",
+        "GitFlow's overhead pays off only for products that ship multiple supported versions in parallel."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "d1d52a1bdfc8c42fa2cce27d"
+      },
+      "slug": "az-400-yaml-pipelines",
+      "topic_name": "YAML Pipelines",
+      "estimated_minutes": 20,
+      "content_md": "## YAML Pipelines\n\n**Azure Pipelines** and **GitHub Actions** both use YAML files committed alongside the code. The pipeline-as-code approach makes CI/CD reviewable, versioned, and reusable.\n\n### Azure Pipelines structure\n```yaml\ntrigger:\n  - main\nstages:\n  - stage: Build\n    jobs:\n      - job: build\n        pool: { vmImage: ubuntu-latest }\n        steps:\n          - task: UseDotNet@2\n            inputs: { version: '8.x' }\n          - script: dotnet test --logger trx\n          - task: PublishTestResults@2\n  - stage: Deploy\n    dependsOn: Build\n    jobs:\n      - deployment: prod\n        environment: production\n        strategy: { runOnce: { deploy: { steps: [...] } } }\n```\n\n### Reuse mechanisms\n- **Templates** — share steps, jobs, stages, or variables across pipelines.\n- **Variable groups** + **Library secrets** — link Azure Key Vault for secrets.\n- **Service connections** — federated identity (workload identity federation) is the modern best practice — no static secret on the pipeline side.\n\n### Quality gates\n- **Branch policies** — required reviewers, build validation, status checks.\n- **Environments + approvals** — gated deploys with manual approval and pre-deploy automated checks (e.g., Azure Monitor alerts must be quiet).\n",
+      "word_count": 170,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-400t00",
+          "title": "Microsoft Learn — AZ-400 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Pipelines-as-code (YAML in the repo) makes CI/CD reviewable and versioned.",
+        "Use workload identity federation for service connections — no stored secrets on the pipeline side.",
+        "Environments + approvals enforce manual gates and pre-deploy automated checks before prod release."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c2afcf201e59cdbafa9fa60f"
+      },
+      "slug": "az-400-bicep-fundamentals",
+      "topic_name": "Bicep Fundamentals",
+      "estimated_minutes": 25,
+      "content_md": "## Bicep Fundamentals\n\n**Bicep** is Microsoft's declarative DSL that compiles to ARM JSON. It is the recommended Azure-native infrastructure-as-code language for new deployments.\n\n### Core syntax\n```bicep\nparam location string = resourceGroup().location\nparam storageAccountName string\n\nresource stg 'Microsoft.Storage/storageAccounts@2023-05-01' = {\n  name: storageAccountName\n  location: location\n  sku: { name: 'Standard_LRS' }\n  kind: 'StorageV2'\n  properties: {\n    minimumTlsVersion: 'TLS1_2'\n    allowBlobPublicAccess: false\n  }\n}\n\noutput endpoint string = stg.properties.primaryEndpoints.blob\n```\n\n### Key features\n- **Modules** — reusable Bicep files; consume via `module mod 'storage.bicep' = { ... }`.\n- **What-if** — `az deployment group what-if` previews changes before apply.\n- **Parameter files** — `.bicepparam` brings strongly-typed params per environment.\n- **Decompile** — `bicep decompile` converts existing ARM JSON to Bicep.\n\n### Bicep vs Terraform\n- **Bicep** — Azure-only, first-party, no remote state to manage.\n- **Terraform** — multi-cloud, larger ecosystem, requires state-file management.\nPick Bicep when 100% of the workload is on Azure and you don't already have a Terraform footprint; pick Terraform when multi-cloud or existing Terraform skill is the norm.\n",
+      "word_count": 167,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-400t00",
+          "title": "Microsoft Learn — AZ-400 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Bicep compiles to ARM JSON — same engine, far more readable syntax.",
+        "Use `what-if` to preview changes; use modules to share patterns; use .bicepparam for typed parameters.",
+        "Pick Bicep for Azure-only IaC; pick Terraform for multi-cloud or existing Terraform investments."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "2631df7256dd5a24325b813b"
+      },
+      "slug": "az-400-terraform-on-azure",
+      "topic_name": "Terraform on Azure",
+      "estimated_minutes": 25,
+      "content_md": "## Terraform on Azure\n\nTerraform uses **HCL** to declare infrastructure across many providers. On Azure, the **AzureRM** provider covers the management plane; **AzAPI** fills gaps for very new resources.\n\n### Workflow\n1. **`terraform init`** — download providers and configure the backend.\n2. **`terraform plan`** — produce a diff between desired and current state.\n3. **`terraform apply`** — execute the plan, updating state.\n4. **`terraform destroy`** — tear down everything tracked in state.\n\n### Remote state\nUse an **Azure Storage backend** with **state locking** via blob lease so concurrent runs don't corrupt the state file. Enable storage account versioning and soft delete for state recovery.\n\n```hcl\nterraform {\n  backend \"azurerm\" {\n    resource_group_name  = \"tfstate-rg\"\n    storage_account_name = \"tfstateprod123\"\n    container_name       = \"state\"\n    key                  = \"prod.tfstate\"\n  }\n}\n```\n\n### Authentication\nProduction pipelines use **OIDC / workload identity federation** to obtain a short-lived Azure token; no secret stored on the runner. For local dev, `azurerm` picks up `az login` credentials.\n\n### Module strategy\nTreat Terraform modules like libraries — versioned, semantically released, consumed by environment code (`environments/prod/main.tf`). The **CAF Terraform modules** are a Microsoft-curated baseline.\n",
+      "word_count": 181,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-400t00",
+          "title": "Microsoft Learn — AZ-400 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Use Azure Storage as the remote backend with state locking via blob lease.",
+        "Authenticate pipelines with OIDC / workload identity federation, not stored secrets.",
+        "Treat modules as versioned libraries; environments consume them rather than copying HCL."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a4f5b4b446b8b8083e3e4da9"
+      },
+      "slug": "az-400-blue-green-and-canary",
+      "topic_name": "Blue/Green and Canary",
+      "estimated_minutes": 20,
+      "content_md": "## Blue/Green and Canary\n\nBoth are progressive-delivery patterns that minimise blast radius for releases.\n\n### Blue/Green\nRun **two identical environments**. *Blue* serves production; *Green* hosts the new version. After smoke tests pass, **switch traffic 0% → 100%** in a single step (DNS, traffic manager, App Service slot swap, AKS Service selector). Rollback = switch back.\n\n**Strengths**\n- Instant cut-over and instant rollback.\n- Works well with deployment slots and managed traffic stores.\n\n**Trade-offs**\n- Doubles infrastructure during the cut-over.\n- All-or-nothing exposure to the new build.\n\n### Canary\nRoute a **small percentage** of real traffic (1% → 5% → 25% → 100%) to the new version while monitoring KPIs. Promote on success, roll back on regression.\n\n**Strengths**\n- Real-user signal before full rollout.\n- Limited blast radius if the new build is broken.\n\n**Trade-offs**\n- Two versions running concurrently → schema/contract compatibility required.\n- Harder to reproduce intermittent issues affecting only a fraction of users.\n\n### Azure mappings\n- **App Service** — deployment slots + traffic % routing.\n- **AKS** — service mesh (Istio, Linkerd) or Argo Rollouts.\n- **Front Door / Application Gateway** — weighted backend pools.\n",
+      "word_count": 188,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-400t00",
+          "title": "Microsoft Learn — AZ-400 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Blue/Green offers instant cut-over and rollback at the cost of doubled infra during the swap.",
+        "Canary trades small blast radius for the need to support two versions concurrently.",
+        "Both patterns map to App Service slots, weighted Front Door pools, or service-mesh traffic shifting."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "f1e7900d81b1bdbdf85eac82"
+      },
+      "slug": "az-400-feature-flags-and-rollback",
+      "topic_name": "Feature Flags and Rollback",
+      "estimated_minutes": 25,
+      "content_md": "## Feature Flags and Rollback\n\n**Feature flags** decouple **deploy** (push code to production) from **release** (turn the code path on for users). The build is shipped dark; the flag controls exposure.\n\n### Flag types\n- **Release toggle** — short-lived; flip to enable a feature, then remove.\n- **Experiment toggle** — A/B testing.\n- **Ops toggle** — kill switch for runtime risk (e.g., disable a misbehaving integration).\n- **Permission toggle** — long-lived per-user/tenant gating.\n\n### Azure App Configuration\nBuilt-in feature-flag store with:\n- **Targeting filter** — enable per user or group.\n- **Time-window filter** — enable between two timestamps.\n- **Percentage filter** — gradual rollout to N% of traffic.\nCombine with **dynamic configuration refresh** so flags update at runtime without a redeploy.\n\n### Rollback\nTwo complementary safety nets:\n1. **Flip the flag off** — fastest, no redeploy. Works for code-level rollback.\n2. **Redeploy the previous build** — for infra/runtime regressions a flag cannot revert.\n\n### Hygiene\nTrack flag age. Stale flags accumulate technical debt and create surprising code paths. A common rule is **delete release flags within 30-60 days** of full rollout.\n",
+      "word_count": 181,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-400t00",
+          "title": "Microsoft Learn — AZ-400 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Feature flags decouple deployment from user-visible release.",
+        "Azure App Configuration provides percentage, targeting, and time-window filters for rollout.",
+        "Treat release flags as short-lived — clean them up to avoid technical debt."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "3f750960fe794b0ba16e2e37"
+      },
+      "slug": "az-305-tenant-and-subscription-design",
+      "topic_name": "Tenant and Subscription Design",
+      "estimated_minutes": 15,
+      "content_md": "## Tenant and Subscription Design\n\nAzure has a four-level management hierarchy. Designing it well is the foundation of every other governance decision.\n\n### Levels\n1. **Microsoft Entra Tenant** — identity and licensing boundary. Most enterprises run a **single tenant** unless legal entities require strict separation.\n2. **Management Groups** — apply policy and RBAC across many subscriptions. Build a tree (e.g., `Root → Platform / Landing Zones / Sandbox / Decommissioned`).\n3. **Subscriptions** — billing, quota, and isolation boundary. One subscription per environment per workload group is a common pattern (`prod-app1`, `nonprod-app1`).\n4. **Resource Groups** — lifecycle containers within a subscription.\n\n### Subscription archetypes (CAF)\n- **Connectivity** — shared hub VNet, ExpressRoute, Firewall, DNS.\n- **Identity** — Entra Connect / domain controllers if needed.\n- **Management** — Log Analytics, Automation, Monitor.\n- **Landing zones** — workload subscriptions, one per app/team.\n- **Sandbox** — wide-open dev space governed by spend policies, not access policies.\n\n### Why subscription splits matter\nSubscriptions are also the **scale unit** for Azure quotas (vCPUs per region, etc.). One giant subscription quickly hits soft limits; many small ones are easier to grow and audit. Split between **prod** and **non-prod** at minimum so production policy stays strict.\n",
+      "word_count": 198,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Most enterprises run a single Entra tenant; multiple tenants only when legally required.",
+        "Use Management Groups to apply policy and RBAC at scale across many subscriptions.",
+        "Split prod and non-prod into separate subscriptions for blast-radius and quota independence."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "9836bb4d6bb5a8ceeb17fded"
+      },
+      "slug": "az-305-landing-zone-patterns",
+      "topic_name": "Landing Zone Patterns",
+      "estimated_minutes": 20,
+      "content_md": "## Landing Zone Patterns\n\nAn **Azure Landing Zone (ALZ)** is the pre-baked, opinionated environment a workload lands into — platform services, networking, identity, security, and policy already in place. The **Cloud Adoption Framework (CAF)** ships a reference implementation.\n\n### Anatomy\n- **Platform landing zones** — connectivity, identity, management, security. Run by the platform team.\n- **Application landing zones** — workload subscriptions consuming platform services. Owned by app teams within guardrails.\n- **Sandbox landing zones** — wide-open exploration with budget-only guardrails.\n\n### Implementation kits\n- **CAF Bicep enterprise-scale ALZ** — Microsoft-curated Bicep modules.\n- **Azure Verified Modules (AVM)** — versioned, supported building blocks for both Bicep and Terraform.\n- **Azure Landing Zones accelerator** — portal-driven deployment for the most common topology.\n\n### Day-2 considerations\n- **Drift management** — periodic re-deploy of platform IaC to catch manual changes.\n- **Policy as code** — every guardrail expressed in Bicep/Terraform, never clicked in the portal.\n- **Subscription vending** — automated provisioning of new app landing zones from a request form.\n",
+      "word_count": 166,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Landing zones are pre-baked environments — platform services, policies, and networking ready before workloads arrive.",
+        "Use Azure Verified Modules (AVM) as the supported building blocks for ALZ deployments.",
+        "Subscription vending automates the creation of new application landing zones at scale."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "e12ae71f4f86c3de2950546a"
+      },
+      "slug": "az-305-choosing-the-right-database",
+      "topic_name": "Choosing the Right Database",
+      "estimated_minutes": 20,
+      "content_md": "## Choosing the Right Database\n\nMatch the data store to the **access pattern**, not to a team preference.\n\n### Decision dimensions\n1. **Schema** — fixed (relational) vs flexible (NoSQL document)?\n2. **Consistency** — ACID transactions across rows vs eventual?\n3. **Scale** — single-region OLTP vs global low-latency reads/writes?\n4. **Throughput** — predictable vs spiky?\n5. **Query model** — joins, full-text, vector, graph, time-series?\n\n### Azure mappings\n| Pattern | Service |\n|---|---|\n| Relational OLTP, regional | Azure SQL Database |\n| Relational lift-and-shift | SQL Managed Instance |\n| OSS relational | Azure Database for PostgreSQL / MySQL Flexible |\n| Global, multi-region writes, JSON | Cosmos DB for NoSQL |\n| Wire-compat MongoDB | Cosmos DB for MongoDB (vCore preferred for new) |\n| Graph | Cosmos DB for Apache Gremlin |\n| Time-series + telemetry | Azure Data Explorer (Kusto) |\n| Cache layer | Azure Cache for Redis |\n| Analytics warehouse | Microsoft Fabric Warehouse / Synapse dedicated SQL |\n| Vector / semantic search | Azure AI Search, Cosmos DB vector, PostgreSQL `pgvector` |\n\n### Common anti-patterns\n- Using a relational DB as a system of record *and* an analytics store. Add a warehouse instead.\n- Treating a cache as a primary store. Caches assume the source of truth lives elsewhere.\n- Picking Cosmos DB by default; if you don't need global writes or document flexibility, Azure SQL is cheaper and simpler.\n",
+      "word_count": 238,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Match the data store to the access pattern — schema flexibility, scale, and consistency drive the choice.",
+        "Cosmos DB shines for global writes and flexible JSON; Azure SQL is usually cheaper for regional OLTP.",
+        "For time-series telemetry and high-cardinality logs, Azure Data Explorer is purpose-built."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "2ed780f6aa9979e3dbdb715d"
+      },
+      "slug": "az-305-data-migration-strategies",
+      "topic_name": "Data Migration Strategies",
+      "estimated_minutes": 20,
+      "content_md": "## Data Migration Strategies\n\nWorkload migrations are best framed as one of the **6 R's**: Rehost, Refactor, Rearchitect, Rebuild, Replace, Retire. Database migrations follow the same playbook.\n\n### Migration tooling\n- **Azure Database Migration Service (DMS)** — assess and migrate SQL, PostgreSQL, MySQL, MongoDB to their Azure-managed counterparts. Online and offline modes.\n- **Azure Migrate** — discovery + assessment for VMs, databases, web apps; orchestration of move plans.\n- **Data Migration Assistant (DMA)** — pre-migration compatibility checks for SQL Server.\n- **azcopy / AzureDataFactory copy** — for blob/file payload migration.\n\n### Cutover patterns\n- **Offline** — quiesce writes, copy, switch. Lowest complexity, requires a maintenance window.\n- **Online (minimal downtime)** — initial bulk load + ongoing change-data-capture (CDC) replay until cut-over. Use DMS continuous mode or Fivetran/Attunity for this.\n- **Dual-write** — application writes to both old and new during transition; cleanest user-visible experience but higher app complexity.\n\n### Risk reduction\n- **Run a pilot** with one realistic dataset before the bulk migration.\n- Validate row counts and **checksum samples** post-migration.\n- Plan rollback: snapshot the source pre-cutover so you can revert traffic.\n",
+      "word_count": 183,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Frame migrations as the 6 R's; database migrations follow the same options.",
+        "Online migrations rely on continuous CDC to keep the target in sync until cut-over.",
+        "Always validate row counts and checksums post-migration and keep a rollback snapshot."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "28a0fc7cb966cb43f5280e75"
+      },
+      "slug": "az-305-microservices-vs-monolith",
+      "topic_name": "Microservices vs Monolith",
+      "estimated_minutes": 30,
+      "content_md": "## Microservices vs Monolith\n\nMicroservices are often presented as a strict upgrade. They are not. Use the **decomposition that matches your team and operational maturity**.\n\n### Monolith\n- One deployable, one process, often one database.\n- **Pros**: simple deploy, simple debugging, in-process refactors are easy, lowest infra cost.\n- **Cons**: scale is all-or-nothing, large teams step on each other, technology choices are global.\n\n### Microservices\n- Many small services, each with its own data store and lifecycle.\n- **Pros**: independent deploy + scale per service; team autonomy; polyglot persistence; isolated failure domains.\n- **Cons**: network = failure surface; distributed transactions hard; observability cost; ops complexity. Without **good CI/CD and platform tooling**, the cure is worse than the disease.\n\n### Modular monolith — the underrated middle\nOne deployable, many internal modules with strict boundaries. You get monolith simplicity now; you can extract a hot module into a service later when scale truly demands it. Often the pragmatic starting point.\n\n### Azure tooling\n- **Azure Container Apps** — opinionated microservices platform with Dapr, KEDA scale, ingress.\n- **AKS** — Kubernetes when you need full control or service mesh.\n- **App Service** — perfectly fine for a monolith or modular monolith.\n",
+      "word_count": 198,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Microservices add operational complexity that only pays off above a certain scale and maturity.",
+        "Modular monoliths give monolith simplicity with boundaries you can extract from later.",
+        "Azure Container Apps is the lowest-effort microservices runtime; AKS gives full control."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "096e5c3cd09f651f2b202eda"
+      },
+      "slug": "az-305-event-driven-designs",
+      "topic_name": "Event-Driven Designs",
+      "estimated_minutes": 30,
+      "content_md": "## Event-Driven Designs\n\nEvent-driven architectures decouple producers from consumers via messages or events. Three flavours, often used together.\n\n### 1. Discrete events (notification)\nSmall, fact-of-occurrence payloads. Many subscribers, fan-out, retry.\n- **Azure service**: Event Grid (system topics, custom topics, MQTT broker for IoT).\n\n### 2. Event streaming\nOrdered, replayable streams; consumers manage their offset.\n- **Azure service**: Event Hubs (also Kafka-compatible endpoint).\n- Use for telemetry, change feeds, log aggregation, Kappa-style analytics.\n\n### 3. Command/business messages\nTransactional unit of work — orders, payments, fulfilment.\n- **Azure service**: Service Bus (queues, topics, sessions, transactions, dead-letter).\n\n### Patterns\n- **CQRS** — separate read and write models, with events propagating writes to read replicas.\n- **Event sourcing** — store the event log as the source of truth; rebuild state by replay.\n- **Saga** — choreograph long-running multi-service workflows with compensating actions instead of distributed transactions.\n- **Outbox** — atomically persist business state and the outbound event; a dispatcher publishes them, guaranteeing at-least-once delivery without distributed transactions.\n",
+      "word_count": 163,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Pick Event Grid for discrete events, Event Hubs for streams, Service Bus for transactional messages.",
+        "Sagas replace distributed transactions with compensating actions across services.",
+        "The outbox pattern guarantees at-least-once event publishing without 2PC."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "fa3c7f6c0ad26e04bf54eee4"
+      },
+      "slug": "az-305-high-availability-patterns",
+      "topic_name": "High Availability Patterns",
+      "estimated_minutes": 25,
+      "content_md": "## High Availability Patterns\n\nHA is layered. Each layer multiplies the previous: a 99.99% datacentre with a 99.9% app gives the **lower** of the two end-to-end.\n\n### Layered HA\n1. **Resource** — replicas of the same SKU.\n2. **Availability Zone** — spread replicas across AZs in one region (99.99% VM SLA).\n3. **Region** — active/passive or active/active in a paired region.\n4. **Application** — graceful degradation, retry with backoff, circuit breakers.\n\n### Common patterns\n- **Active/passive** — primary serves all traffic; secondary is warm standby. Simpler; used by default with **Azure Site Recovery**.\n- **Active/active** — both regions serve users; lower RTO/RPO. Requires conflict resolution at the data layer (Cosmos DB multi-write, Azure SQL Hyperscale named replicas, etc.).\n- **Pilot light** — minimal infra in DR region (DNS, IaC ready); scaled up only on failover.\n\n### Application-level resilience\n- **Retry with exponential backoff and jitter** — `Polly` or built-in SDK retries.\n- **Circuit breaker** — stop hammering a failing dependency; fail fast.\n- **Bulkhead** — isolate threads/connections per dependency so one bad upstream doesn't sink the app.\n- **Timeouts everywhere** — never wait forever on the network.\n\n### RTO and RPO\n**RTO** = how long to recover. **RPO** = how much data you can afford to lose. Drive design choices: active/active aims for near-zero on both; pilot light trades minutes/hours of RTO for cost.\n",
+      "word_count": 224,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "End-to-end SLA is the product of all layers — the weakest link drags the rest down.",
+        "Active/active multi-region needs explicit conflict resolution at the data layer.",
+        "Retry-with-backoff, circuit breakers, and timeouts are mandatory at the application layer."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "16aefb692d7047e1f01f6afb"
+      },
+      "slug": "az-305-cost-modelling",
+      "topic_name": "Cost Modelling",
+      "estimated_minutes": 20,
+      "content_md": "## Cost Modelling\n\nArchitects design systems that work; great architects design systems that work **and** are predictably affordable.\n\n### Cost levers\n1. **SKU and scale** — right-size compute and storage; remove idle capacity.\n2. **Commitment discounts** — Reservations (1y/3y), Savings Plans, Hybrid Benefit.\n3. **Spot capacity** — up to 90% off, evictable; great for batch.\n4. **Tiered storage** — Hot/Cool/Cold/Archive with lifecycle automation.\n5. **Auto-shutdown / serverless** — only pay when in use (Functions Consumption, App Service Auto-stop, Cosmos serverless, Aurora-style scale-to-zero).\n\n### FinOps practices\n- **Tagging discipline** — `costCenter`, `env`, `owner` enforced by Azure Policy.\n- **Cost Management dashboards** — by tag, by RG, by service.\n- **Budgets and alerts** at 50/80/100%.\n- **Showback/chargeback** — make the bill visible to the team that drives it.\n\n### Architectural cost smells\n- 24/7 production-sized non-prod environments.\n- Premium-tier storage on cold backup data.\n- Large pre-provisioned databases supporting traffic-tiny workloads.\n- Untouched experiments running for months in dev subs.\n\n### Reservations math\nReservations are usage-based, not resource-bound. A 1-year reservation typically pays back inside 8-9 months at full utilisation; the break-even depends on consumption pattern.\n",
+      "word_count": 184,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+          "title": "Microsoft Learn — AZ-305 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Tagging + budgets + dashboards are the FinOps minimum; without them you cannot do showback.",
+        "Reservations and Savings Plans are leverage; Spot is leverage with evictability.",
+        "Production-sized non-prod environments running 24/7 are the most common cost smell."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a939777f947e5b93dd217713"
+      },
+      "slug": "dp-203-data-lake-gen2-layout",
+      "topic_name": "Data Lake Gen2 Layout",
+      "estimated_minutes": 25,
+      "content_md": "## Data Lake Gen2 Layout\n\n**Azure Data Lake Storage Gen2 (ADLS Gen2)** is Blob Storage with a **hierarchical namespace** enabled. Folders are real, atomic, and renameable — critical for big-data engines.\n\n### Standard zone layout (medallion)\nIndustry-standard layout:\n- **bronze/** — raw landing, source-fidelity copy, partitioned by ingest date.\n- **silver/** — cleansed and conformed, joined dimensions, deduplicated.\n- **gold/** — business-aggregate, BI-ready facts.\n\nEach layer typically uses **Delta Lake** or **Parquet** with consistent schemas.\n\n### Folder & file conventions\n- One **root container per environment** (`prod`, `dev`).\n- Path convention: `bronze/<source>/<entity>/year=2026/month=06/day=11/`.\n- File sizes ~128 MB-1 GB for analytic engines (avoids the small-files problem).\n- Avoid mixing schemas in the same folder — partition by entity, not by tenant inside an entity.\n\n### Security\n- **POSIX-style ACLs** on directories (rwx) plus **RBAC** at container scope.\n- Use **Azure RBAC + Defender for Storage** as the default; ACLs only when finer granularity is required.\n- Enable **soft delete**, **versioning**, and **change feed** on containers holding bronze data.\n",
+      "word_count": 167,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/dp-203t00",
+          "title": "Microsoft Learn — DP-203 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Hierarchical namespace makes folders real and renameable — required for big-data tools.",
+        "Use a medallion layout (bronze → silver → gold) with consistent partition conventions.",
+        "Aim for 128 MB-1 GB files; many tiny files are a major performance anti-pattern."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "34964e127223ee17d9fdb0f3"
+      },
+      "slug": "dp-203-partitioning-and-file-formats",
+      "topic_name": "Partitioning and File Formats",
+      "estimated_minutes": 15,
+      "content_md": "## Partitioning and File Formats\n\nTwo decisions dominate big-data performance: **how you partition** and **what format you write**.\n\n### Partitioning\n- Choose columns that are **commonly filtered** in downstream queries — usually date or tenant.\n- Aim for **partitions of 1-10 GB** of data each. Tiny partitions are as bad as tiny files; huge partitions kill parallelism.\n- Avoid partitioning on **high-cardinality** columns (e.g., user ID).\n- Partition by the **most-restrictive frequent filter** first, then secondary columns.\n\n### File formats\n| Format | Type | Use case |\n|---|---|---|\n| CSV/JSON | Row, text | Human-readable, source ingest only |\n| Avro | Row, binary | Streaming ingest, schema evolution |\n| **Parquet** | Columnar, compressed | Default analytic format on Azure |\n| **Delta Lake** | Parquet + transaction log | ACID, time travel, MERGE, schema enforcement |\n| Iceberg | Table format | Cross-engine open-table format (growing in Fabric/AKS) |\n\n### Why columnar wins\nAnalytical queries read a **few columns** out of many. Columnar formats read only the requested columns from disk and apply efficient compression (`SNAPPY`, `ZSTD`). Row formats read the full row even for narrow projections.\n\n### Delta Lake wins on ADLS Gen2\nACID + time travel + merge upserts + schema enforcement. Microsoft Fabric and Synapse Spark default to Delta. Use Delta unless an upstream tool requires plain Parquet.\n",
+      "word_count": 224,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/dp-203t00",
+          "title": "Microsoft Learn — DP-203 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Partition by the columns most often used as filter predicates; aim for 1-10 GB per partition.",
+        "Parquet is the default analytic format; Delta adds ACID, time travel, and MERGE.",
+        "Avoid partitioning by high-cardinality columns — it creates millions of tiny partitions."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "c0d782f1638bea7891fcbe9d"
+      },
+      "slug": "dp-203-synapse-pipelines",
+      "topic_name": "Synapse Pipelines",
+      "estimated_minutes": 20,
+      "content_md": "## Synapse Pipelines\n\n**Synapse Pipelines** share their engine with **Azure Data Factory (ADF)**: same activities, same data flows, same triggers, same Integration Runtime. The difference is *where* you author them.\n\n### Activities\n- **Copy** — high-throughput data movement between 100+ connectors, using the Azure IR or Self-hosted IR.\n- **Data flow (mapping)** — visual ETL transformation that compiles to Spark.\n- **Notebook / Script** — invoke a Synapse notebook or stored procedure.\n- **If / ForEach / Until / Switch** — control flow.\n- **Web / Webhook** — call REST endpoints.\n\n### Triggers\n- **Schedule** — cron-style.\n- **Tumbling window** — chained, time-windowed runs ideal for incremental load.\n- **Event** — Storage events (blob created/deleted), Custom event via Event Grid.\n- **Manual** — operational ad-hoc runs.\n\n### Integration Runtime (IR)\n- **Azure IR** — fully managed, in-region; default for cloud-to-cloud.\n- **Self-hosted IR** — runs on a VM in your network for on-prem sources or VNet-private targets.\n- **Azure-SSIS IR** — lift-and-shift legacy SSIS packages.\n\n### Source control + CI/CD\nWire the workspace to **Git** so pipeline JSON lives in branches. **Azure DevOps Release pipelines** or **GitHub Actions** promote ARM templates from dev → test → prod workspaces.\n",
+      "word_count": 198,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/dp-203t00",
+          "title": "Microsoft Learn — DP-203 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Synapse Pipelines reuse the ADF engine — same activities, triggers, and IR options.",
+        "Tumbling-window triggers are the cleanest fit for incremental, chained loads.",
+        "Self-hosted IR is required when sources are on-prem or only reachable inside a private VNet."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "b79c21afa34b65bbcff9a0b2"
+      },
+      "slug": "dp-203-spark-notebooks",
+      "topic_name": "Spark Notebooks",
+      "estimated_minutes": 15,
+      "content_md": "## Spark Notebooks\n\nApache Spark notebooks (in Synapse, Microsoft Fabric, or Azure Databricks) are the workbench for ETL, data engineering, and ML on Azure.\n\n### Languages and kernels\n- **PySpark** — most common in Azure data work.\n- **Spark SQL** — declarative, often the cleanest expression.\n- **Scala** — when you need the Spark API at full fidelity.\n- **.NET for Spark / SparkR** — niche.\n\n### Execution model\nNotebooks attach to a **Spark pool** (cluster). Code runs in a JVM driver + executor processes; **actions** trigger DAG execution, **transformations** are lazy.\n\n### Performance levers\n- **Predicate pushdown** — use Parquet/Delta and filter early so the engine reads less data.\n- **Broadcast joins** for small dimension tables (set `spark.sql.autoBroadcastJoinThreshold`).\n- **Repartition / coalesce** to control output file count.\n- **Cache** intermediate DataFrames reused multiple times.\n- **Adaptive Query Execution (AQE)** — let Spark adjust at runtime; on by default in Spark 3.x.\n\n### Productionising\n- Move from notebooks to **packaged jobs** (Synapse pipelines, Fabric data pipelines, Databricks Workflows) for scheduled production loads.\n- Wire **Git integration** so notebooks are reviewable.\n- Capture **Spark history server** logs for diagnosing slow runs.\n",
+      "word_count": 190,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/dp-203t00",
+          "title": "Microsoft Learn — DP-203 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Use Parquet/Delta + filter pushdown so Spark reads as little data as possible.",
+        "Broadcast joins and AQE are the highest-leverage tuning settings for skewed/joined data.",
+        "Promote notebooks to scheduled jobs (pipelines / workflows) for production runs — never run prod from a notebook UI."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "a1bd35a99bbfaf13cc4253b8"
+      },
+      "slug": "dp-203-event-hubs-and-stream-analytics",
+      "topic_name": "Event Hubs and Stream Analytics",
+      "estimated_minutes": 25,
+      "content_md": "## Event Hubs and Stream Analytics\n\n**Azure Event Hubs** is a high-throughput streaming ingest service. **Azure Stream Analytics (ASA)** is a managed SQL-over-streams engine that can consume Event Hubs.\n\n### Event Hubs basics\n- **Partitions** — parallel ordered logs (1-32 standard tier, up to 1024 dedicated). Choose count at create time; you can grow but not shrink.\n- **Throughput Units (TUs)** or **Processing Units (PUs)** — capacity dials.\n- **Capture** — auto-archive events to ADLS Gen2 / Blob in Avro for downstream batch processing.\n- **Kafka endpoint** — wire-compatible with Kafka clients.\n\n### Stream Analytics queries\nSQL-like jobs operate on **windows**:\n```sql\nSELECT TumblingWindow(minute, 1) AS w, deviceId, AVG(temp) AS avgTemp\nFROM telemetry TIMESTAMP BY eventTime\nGROUP BY TumblingWindow(minute, 1), deviceId\n```\n- **Tumbling** — fixed, non-overlapping (e.g., per minute).\n- **Hopping** — fixed size, overlapping (every 30 s, 1 min wide).\n- **Sliding** — windows materialise on every event.\n- **Session** — gap-based (e.g., 5 min of inactivity ends a session).\n\n### Watermarks and out-of-order events\nASA buffers events to handle late arrivals up to a configurable **late arrival tolerance**. Choose this based on the worst-case clock skew of your sources.\n\n### Modern alternative\n**Microsoft Fabric Real-Time Intelligence** is the current Microsoft-recommended platform for new streaming workloads, with KQL-driven processing and tighter Lakehouse integration.\n",
+      "word_count": 215,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/dp-203t00",
+          "title": "Microsoft Learn — DP-203 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "Event Hubs partitions are fixed at create time — size for projected ingest growth.",
+        "Stream Analytics windows (tumbling, hopping, sliding, session) cover most stream aggregations.",
+        "For new streaming workloads, evaluate Fabric Real-Time Intelligence alongside Stream Analytics."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "5acd4be4622bb5731eacc588"
+      },
+      "slug": "dp-203-change-data-capture",
+      "topic_name": "Change Data Capture",
+      "estimated_minutes": 30,
+      "content_md": "## Change Data Capture\n\n**Change Data Capture (CDC)** turns row-level inserts/updates/deletes into an event stream that downstream systems can consume — the foundation of modern data integration.\n\n### Engine support\n- **Azure SQL DB / Managed Instance** — built-in CDC and *Change Tracking*; CDC gives full row data, Change Tracking gives only PK + change type.\n- **Cosmos DB** — **change feed**, durable per-partition stream of inserts/updates.\n- **PostgreSQL Flexible Server** — logical replication / `wal2json` / Debezium.\n- **MongoDB / Cosmos for MongoDB** — change streams.\n\n### Pipelines\nCommon architecture:\n1. Source DB emits CDC events.\n2. **Debezium / built-in CDC connector** publishes to **Event Hubs (Kafka endpoint)**.\n3. **Stream Analytics / Spark / Fabric** processes and lands them as **Delta** in the data lake.\n4. Lakehouse stays near-real-time mirror of OLTP without nightly batch ETL.\n\n### Idempotency\nCDC streams are **at-least-once**. Design downstream sinks to tolerate duplicates — typically by writing **MERGE / upsert** keyed on the source primary key.\n\n### When CDC is the right answer\n- You need **near-real-time analytics** without dual-writes.\n- Source workload cannot tolerate full-table extracts every night.\n- Target system needs to react to changes (event-driven downstream).\n",
+      "word_count": 195,
+      "reference_links": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/courses/dp-203t00",
+          "title": "Microsoft Learn — DP-203 learning path"
+        }
+      ],
+      "key_takeaways": [
+        "CDC turns OLTP row changes into a stream that downstream systems can consume.",
+        "Cosmos DB's change feed is its built-in CDC primitive; Azure SQL has CDC and Change Tracking.",
+        "Downstream sinks must be idempotent because CDC streams are at-least-once."
+      ],
+      "schema_version": 1,
+      "created_at": {
+        "$date": "2026-01-12T10:00:00Z"
+      },
+      "updated_at": {
+        "$date": "2026-04-27T10:00:00Z"
+      },
+      "created_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      },
+      "updated_by": {
+        "$oid": "7a2a9b239b2dc82cece5dec5"
+      }
+    }
+  ]
+}
