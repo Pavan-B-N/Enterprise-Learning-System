@@ -12,7 +12,11 @@ certification material through a **Foundry IQ** knowledge base.
 
 ### 📹 Demo Video
 
-▶️ [**Watch the full demo walkthrough**](ELS-VideoDemo.mp4)
+[![Watch the demo](https://img.youtube.com/vi/zq8fesZbrlU/maxresdefault.jpg)](https://youtu.be/zq8fesZbrlU?si=Y9T8zKn8AMurSxQ8&t=1)
+
+▶️ [**Watch on YouTube**](https://youtu.be/zq8fesZbrlU?si=Y9T8zKn8AMurSxQ8&t=1)
+
+📁 [**Local video**](ELS-VideoDemo.mp4)
 
 > More UI screenshots in [`preview-images/`](preview-images/).
 
